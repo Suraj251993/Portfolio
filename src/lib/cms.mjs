@@ -34,10 +34,6 @@ ${siteUrl ? `site_url: ${y(siteUrl)}\ndisplay_url: ${y(siteUrl)}\n` : ''}logo_ur
 locale: en
 media_folder: public/images/blog
 public_folder: /images/blog
-media_library:
-  name: default
-  config:
-    max_file_size: 1500000
 slug:
   encoding: ascii
   clean_accents: true
