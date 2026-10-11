@@ -90,3 +90,12 @@
   [headers.values]
     Cache-Control = "no-cache"
     X-Robots-Tag = "noindex"
+
+# The site's Netlify address (surajportfoliopm.netlify.app) serves the same
+# pages as the domain. Send it to the domain permanently, so search engines see
+# one site. Deploy previews have their own addresses and aren't affected.
+[[redirects]]
+  from = "https://surajportfoliopm.netlify.app/*"
+  to = "https://surajpmportfolio.com/:splat"
+  status = 301
+  force = true

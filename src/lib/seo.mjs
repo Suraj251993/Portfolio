@@ -14,6 +14,9 @@ export function personLd(ctx) {
     '@type': 'Person',
     '@id': ctx.siteUrl ? `${ctx.siteUrl}/#person` : undefined,
     name: site.name,
+    givenName: site.name.split(' ')[0],
+    familyName: site.name.split(' ').slice(1).join(' ') || undefined,
+    description: 'Product manager, AI platform builder and AdTech and MarTech researcher based in Kuala Lumpur.',
     jobTitle: site.jobTitle,
     address: { '@type': 'PostalAddress', addressLocality: 'Kuala Lumpur', addressCountry: 'MY' },
     email: `mailto:${site.email}`,
@@ -24,14 +27,29 @@ export function personLd(ctx) {
   }, '');
 }
 
+// The name Google shows for the site in results (home page only).
 export function websiteLd(ctx) {
+  const host = ctx.siteUrl ? new URL(ctx.siteUrl).hostname : '';
   return withUrl(ctx, {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: ctx.site.name,
+    alternateName: [`${ctx.site.name} portfolio`, host].filter(Boolean),
     description: ctx.site.description,
     inLanguage: 'en',
+    author: ctx.siteUrl ? { '@id': `${ctx.siteUrl}/#person` } : undefined,
   }, '');
+}
+
+// The About page is the profile page about the site's owner.
+export function profilePageLd(ctx) {
+  const { '@context': _, ...person } = personLd(ctx);
+  return withUrl(ctx, {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    name: `About ${ctx.site.name}`,
+    mainEntity: person,
+  }, 'about');
 }
 
 export function breadcrumbLd(ctx, items) {
@@ -52,7 +70,7 @@ export function paperLd(ctx, a) {
     description: a.summary,
     abstract: a.abstract || undefined,
     keywords: a.keywords?.length ? a.keywords.join(', ') : undefined,
-    author: { '@type': 'Person', name: ctx.site.name, url: ctx.siteUrl ? `${ctx.siteUrl}/` : undefined },
+    author: { '@type': 'Person', '@id': ctx.siteUrl ? `${ctx.siteUrl}/#person` : undefined, name: ctx.site.name, url: ctx.siteUrl ? `${ctx.siteUrl}/` : undefined },
     datePublished: a.date || undefined,
     sameAs: a.researchgate || undefined,
     inLanguage: 'en',

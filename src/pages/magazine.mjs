@@ -133,7 +133,7 @@ export default function magazine(ctx) {
     ogTitle: `Media Intelligence, edition ${ed.number}: ${ed.name}`,
     ogImage: 'og/magazine.jpg',
     canonical: 'magazine',
-    description: `Media Intelligence, edition ${ed.number}: ${ed.name}. A ${ed.pages}-page industry publication by Suraj Prakash on the technology that plans, buys, measures and proves advertising, built from sixteen research papers.`,
+    description: `Media Intelligence, edition ${ed.number}: ${ed.name}. A ${ed.pages}-page publication by Suraj Prakash on the technology that plans, buys and measures advertising.`,
     jsonLd: [magazineLd(ctx, ed), breadcrumbLd(ctx, [['Home', ''], ['Magazine', 'magazine']])].filter(Boolean),
     scripts: ['assets/js/reader.js'],
     body,

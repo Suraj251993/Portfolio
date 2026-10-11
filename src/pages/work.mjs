@@ -92,8 +92,9 @@ ${list.map((p, i) => html`<article class="band ${i % 2 ? 'band--paper-2' : 'band
     id: 'work',
     current: 'work',
     title: 'Work',
+    docTitle: 'Work by Suraj Prakash: AdTech, B2B SaaS and AI products',
     canonical: 'work',
-    description: 'Product work by Suraj Prakash across AdTech, enterprise applications and AI: a DSP platform revamp, programmatic DOOH roadmap ownership, Salesforce and ERP integration, and two AI-powered products built and deployed solo.',
+    description: 'Product work by Suraj Prakash: a DSP platform revamp, programmatic DOOH roadmaps, Salesforce and ERP integration, and two AI products built and deployed solo.',
     jsonLd: [breadcrumbLd(ctx, [['Home', ''], ['Work', 'work']])].filter(Boolean),
     body,
   };

@@ -89,6 +89,7 @@ export default function consulting(ctx) {
     id: 'consulting',
     current: 'consulting',
     title: 'Consulting',
+    docTitle: 'Consulting with Suraj Prakash: product and AdTech strategy',
     canonical: 'consulting',
     description: 'Product strategy, AdTech and MarTech product consulting, OOH and DOOH market intelligence, and AI product discovery from Suraj Prakash.',
     jsonLd: [breadcrumbLd(ctx, [['Home', ''], ['Consulting', 'consulting']])].filter(Boolean),

@@ -30,6 +30,7 @@ export default function contact(ctx) {
     id: 'contact',
     current: 'contact',
     title: 'Contact',
+    docTitle: 'Contact Suraj Prakash',
     canonical: 'contact',
     description: 'Contact Suraj Prakash about product roles, consulting, or research and editorial collaboration.',
     jsonLd: [breadcrumbLd(ctx, [['Home', ''], ['Contact', 'contact']])].filter(Boolean),

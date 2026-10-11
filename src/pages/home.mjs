@@ -273,7 +273,7 @@ export default function home(ctx) {
     title: '',
     docTitle: ctx.mode === 'artifact' ? site.name : '',
     canonical: '',
-    description: site.description,
+    description: 'Suraj Prakash: product manager, AI platform builder and AdTech researcher in Kuala Lumpur. Six years of B2B SaaS at Moving Walls and 20 research papers.',
     jsonLd: [personLd(ctx), websiteLd(ctx)],
     body,
   };

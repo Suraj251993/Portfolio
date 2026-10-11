@@ -1,6 +1,6 @@
 import { html } from '../lib/html.mjs';
 import { cutoutPortrait, icon } from '../lib/components.mjs';
-import { personLd, breadcrumbLd } from '../lib/seo.mjs';
+import { profilePageLd, breadcrumbLd } from '../lib/seo.mjs';
 
 export default function about(ctx) {
   const { site, data } = ctx;
@@ -142,9 +142,10 @@ export default function about(ctx) {
     id: 'about',
     current: 'about',
     title: 'About',
+    docTitle: 'About Suraj Prakash, product manager and AdTech researcher',
     canonical: 'about',
-    description: 'Suraj Prakash: product manager, AI platform builder, enterprise B2B SaaS professional and AdTech and MarTech researcher. Six years at Moving Walls, two AI products built solo, twenty research papers in 2026.',
-    jsonLd: [personLd(ctx), breadcrumbLd(ctx, [['Home', ''], ['About', 'about']])].filter(Boolean),
+    description: 'About Suraj Prakash: product manager, AI platform builder and AdTech and MarTech researcher. Six years at Moving Walls, two AI products built solo, 20 papers.',
+    jsonLd: [profilePageLd(ctx), breadcrumbLd(ctx, [['Home', ''], ['About', 'about']])].filter(Boolean),
     body,
   };
 }
