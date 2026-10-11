@@ -1,0 +1,457 @@
+{
+ "slug": "feed-to-street-tiktok-dooh",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 3667,
+ "figures": 3,
+ "tables": 2,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "The most consequential development in advertising technology in 2026 may not be a new social-media ad format. It may be the moment at which social content begins to migrate into physical space. TikTok's Out of Phone (OOP) program, first launched internationally in October 2023, allows TikTok content and campaigns to appear beyond the mobile application on billboards, cinema screens, retail displays, airports, restaurants, gas stations, automobiles, and other physical environments (TikTok, 2023)."
+  },
+  {
+   "t": "p",
+   "html": "This paper frames that development carefully. TikTok is not becoming an out-of-home (OOH) media owner. It is turning OOH and DOOH into an extension of its existing advertising and creator ecosystem. That distinction is central to the argument developed here, and it shapes how the rest of this paper reads TikTok's partnership-led expansion, the case-study evidence behind it, and its position relative to seven adjacent advertising-technology platforms."
+  },
+  {
+   "t": "p",
+   "html": "The timing is significant. The global OOH market is forecast by the World Out of Home Organization (WOO) to reach US$56.4 billion in 2026, following a 15% year-on-year rise to $54.2 billion in 2025. DOOH is forecast to reach approximately $28 billion in 2026, or about 49% of total OOH expenditure, and is on course to overtake static formats for the first time (World Out of Home Organization, 2026). Asia-Pacific accounted for roughly $29.7 billion of global OOH spend in 2025, about 55% of the world total (World Out of Home Organization, 2026). In the United States, OOH revenue reached a record $3.16 billion in the second quarter of 2026, up 10.7% year-on-year, with DOOH growing 18.5% year-on-year and representing 38.4% of quarterly OOH revenue (Out of Home Advertising Association of America, 2026). TikTok is therefore not entering a stagnant medium. It is entering one of advertising's fastest-changing physical media environments."
+  },
+  {
+   "t": "h2",
+   "text": "2. What Exactly Is TikTok Building?",
+   "id": "2-what-exactly-is-tiktok-building"
+  },
+  {
+   "t": "p",
+   "html": "The first misconception worth removing is that TikTok is building a competing billboard network. Its strategy is more precisely described as building a distribution layer between creator content, advertisers, and existing physical media infrastructure. TikTok's Out of Phone proposition allows brands to extend TikTok-native content into digital billboards, premium DOOH, retail screens, shopping malls, transit environments, cinemas, airports, fitness environments, taxis and vehicles, bars and restaurants, universities, and other place-based screens."
+  },
+  {
+   "t": "p",
+   "html": "TikTok's partner strategy has broadened considerably through 2026. In January 2026, Displayce announced a partnership to become the primary technical enabler of Out of Phone across Europe, connecting TikTok campaigns to premium DOOH inventory operated by JCDecaux, Ocean Outdoor, and Bauer Media (Displayce, 2026; SignLink, 2026). In May 2026, Vistar Media — which operates DOOH placements across more than 1.4 million venues globally and sits under T-Mobile Advertising Solutions — became an official Out of Phone partner, extending TikTok-first creative into its DOOH technology ecosystem, including Times Square inventory (Localogy, 2026). In late August 2026, TikTok announced six additional European partners — Alight Media, DooH it, Powerpill, Zoom Media, Next-Gen Media, and C-Screens — extending the program into the United Kingdom, France, Belgium, Spain, and Italy, with creator content appearing across wellness centres, shopping malls, outdoor TV screens, bars, supermarkets, and universities (MediaPost, 2026; Social Media Today, 2026)."
+  },
+  {
+   "t": "p",
+   "html": "Taken together, these partnerships indicate that TikTok is building an OOH distribution ecosystem rather than an OOH ownership model — a distinction developed further in Section 8."
+  },
+  {
+   "t": "h2",
+   "text": "3. Strategic Rationale: Five Reasons for the Move Into DOOH",
+   "id": "3-strategic-rationale-five-reasons-for-the-move-into-dooh"
+  },
+  {
+   "t": "h3",
+   "text": "3.1 The Mobile Feed Is Becoming Saturated",
+   "id": "3-1-the-mobile-feed-is-becoming-saturated"
+  },
+  {
+   "t": "p",
+   "html": "TikTok has built one of the world's strongest discovery and creator ecosystems, but every digital platform eventually encounters the same constraint: more content and more advertising compete for a fixed amount of human attention. Moving creator content into physical environments gives TikTok access to attention that is not competing inside the same feed — the user does not need to open the app; the content comes to the user instead."
+  },
+  {
+   "t": "h3",
+   "text": "3.2 OOH Provides Reach That Social Cannot Replicate",
+   "id": "3-2-ooh-provides-reach-that-social-cannot-replicate"
+  },
+  {
+   "t": "p",
+   "html": "A TikTok video is fundamentally consumed by an individual. A large DOOH screen can be consumed by many people simultaneously in a shared physical environment. This changes the underlying advertising dynamic from creator fi individual fi phone to creator fi digital ecosystem fi physical environment fi multiple people simultaneously."
+  },
+  {
+   "t": "h3",
+   "text": "3.3 – 3.5 Demonstrated Proof of Concept, Retail Convergence, and Regional Reach",
+   "id": "3-3-3-5-demonstrated-proof-of-concept-retail-convergence-and"
+  },
+  {
+   "t": "p",
+   "html": "The remaining three rationales are evidentiary rather than structural, and are developed at length in Sections 4 through 6: TikTok has already produced measurable case studies showing the model can work; it has begun connecting Out of Phone activations to retail media and in-store visitation; and Southeast Asia in particular offers a combination of TikTok scale and OOH infrastructure density that makes the model unusually testable in the region."
+  },
+  {
+   "t": "h2",
+   "text": "4. Case-Study Evidence: What Has Actually Been Measured",
+   "id": "4-case-study-evidence-what-has-actually-been-measured"
+  },
+  {
+   "t": "p",
+   "html": "TikTok and its brand partners have published a growing set of campaign-level results. These figures are platform- and brand-reported case studies and should be read as such — not as independently audited industry benchmarks. They are nonetheless the clearest available evidence of how the Out of Phone model performs in market."
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Brand / Campaign",
+     "Market(s)",
+     "Reported headline result(s)"
+    ],
+    [
+     "Cup Noodles (Nissin)",
+     "US — LA, Chicago, Philadelphia, NYC",
+     "19.9M impressions across 20 digital billboards; $17.61 CPM (25.2% below projection); +4.7% purchase-intent lift; +10.4% ad-recall lift"
+    ],
+    [
+     "Samsung Galaxy S24",
+     "Netherlands, Belgium",
+     "120M+ impressions over 3 months; +28% brand awareness; +18% ad recall; +18% consideration; up to 33% 15-second video view rate; +28.3% brand sentiment"
+    ],
+    [
+     "Dove Men+Care",
+     "Amsterdam, Rotterdam",
+     "+84% Total Brand Communication Awareness; +54% brand consideration; +3.1% sales lift in TikTok+OOP region vs. +2.1% TikTok-only; up to +7.7% on featured products (measured via Kantar and Circana Geolift)"
+    ],
+    [
+     "Ulta Beauty",
+     "New York (Times Square)",
+     "21M impressions over two weeks from one Times Square placement, within a broader campaign exceeding 300M total impressions that month"
+    ],
+    [
+     "Sephora (Retail)",
+     "Canada",
+     "60M video views; 3,000 incremental in-store visits attributed to the Out of Phone: Retail activation"
+    ],
+    [
+     "L'Oréal Paris / Maybelline",
+     "Indonesia, Thailand, Malaysia",
+     "64% of consumers reported learning something new about the brand; 60% described the campaign as more authentic (campaign-specific research, not a general OOH benchmark)"
+    ],
+    [
+     "Supercell (Squad Busters)",
+     "9 cities incl. NYC, LA, Las Vegas, Toronto, Paris, London, Berlin, Helsinki",
+     "Multi-city OOP activation used to support a global mobile-game launch"
+    ]
+   ],
+   "caption": "<em>Table 1. Platform- and brand-reported outcomes across published TikTok Out of Phone case studies, 2024–2026. Figures are as disclosed by TikTok or brand partners and have not been independently audited.</em>"
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/feed-to-street-tiktok-dooh-1.webp",
+   "w": 1280,
+   "h": 540,
+   "caption": "<em>Figure 1. Reported reach (1a) and reported lift metrics (1b) across the six case studies summarized in Table 1. Reach is shown in millions of impressions or video views; lift metrics are shown as percentages and are not on a common base across campaigns, so cross-campaign comparison should be read directionally, not as like-for-like effect sizes.</em>"
+  },
+  {
+   "t": "p",
+   "html": "The significance of these results is not simply the headline numbers. It is the underlying workflow: TikTok creative fi social activation fi DOOH placement fi physical audience fi measurement. The Dove Men+Care case in particular is instructive because it points beyond a binary choice between social and OOH toward a combined model — social, plus OOH, plus retail, plus formal measurement — that this paper argues is the more durable pattern (Section 9)."
+  },
+  {
+   "t": "h2",
+   "text": "5. Regional Significance: Southeast Asia as a Convergence Laboratory",
+   "id": "5-regional-significance-southeast-asia-as-a-convergence-labo"
+  },
+  {
+   "t": "p",
+   "html": "TikTok has reported more than 460 million monthly users across Southeast Asia, including more than 160 million in Indonesia, 70 million in Vietnam, and 50 million in Thailand, with the remainder distributed across other Southeast Asian markets. Combined with WOO's finding that APAC represents roughly 55% of global OOH expenditure (approximately $29.7 billion in 2025), the region combines a very large TikTok audience with strong and rapidly digitizing OOH infrastructure. This makes markets such as Indonesia, Thailand, Malaysia, and Singapore unusually interesting laboratories for social-to-DOOH convergence."
+  },
+  {
+   "t": "p",
+   "html": "TikTok has reported that its Out of Phone solution has been used across Singapore, Malaysia, the Philippines, Indonesia, Vietnam, and Thailand, with brands including L'Oréal Paris and Maybelline. A campaign reported in Campaign Asia, spanning Indonesia, Thailand, and Malaysia in late 2024, found that 64% of consumers said they learned something new about the brand and 60% described the campaign as more authentic — campaign-specific research findings that should not be generalized into universal OOH benchmarks. The broader implication, however, is that TikTok is treating Southeast Asia as a primary convergence market rather than a secondary one."
+  },
+  {
+   "t": "h2",
+   "text": "6. The Real Competitive Question: Distribution, Not Ownership",
+   "id": "6-the-real-competitive-question-distribution-not-ownership"
+  },
+  {
+   "t": "p",
+   "html": "TikTok's competitors in this space are not simply the traditional OOH media owners — JCDecaux, Ocean Outdoor, Clear Channel, Lamar — or the OOH technology vendors — Broadsign, Vistar, Magnite, Displayce. Those organizations operate different parts of the OOH value chain. The larger competitive question is who controls the cross-media audience, creative, data, buying interface, and measurement layer connecting digital and physical advertising. That contest already includes TikTok, Google, Meta, Amazon, The Trade Desk, Spotify, major demand-side platforms (DSPs), retail media networks, OOH supply-side platforms (SSPs), media owners, agencies, and commerce platforms."
+  },
+  {
+   "t": "p",
+   "html": "Three examples illustrate how far this convergence has already progressed. Google's DV360 already supports automated DOOH buying and real-time bidding (RTB) across digital billboards, signage, and place-based screens. Amazon offers OOH solutions including digital signage across more than 600 U.S. Whole Foods locations and more than 10,000 active screens, buyable through Amazon DSP. Spotify has demonstrated an audio-plus-DOOH model in Australia, combining Spotify audio with QMS DOOH inventory through programmatic activation. None of these three platforms is a TikTok Out of Phone partner; all three nonetheless compete for the same cross-media budget and, increasingly, the same physical screens."
+  },
+  {
+   "t": "h2",
+   "text": "7. Cross-Platform Comparison: Positioning TikTok Against Adjacent Players",
+   "id": "7-cross-platform-comparison-positioning-tiktok-against-adjac"
+  },
+  {
+   "t": "p",
+   "html": "To make this competitive landscape legible at a glance, Table 2 summarizes the primary role, core strength, and evidence of commercial or campaign impact for each platform discussed in this paper. Ratings in the final two columns reflect the author's qualitative assessment for the purposes of this analysis; they are not drawn from a standardized industry index."
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Platform",
+     "Primary role in the ecosystem",
+     "Core strength highlighted in this paper",
+     "Physical reach",
+     "AI / programmatic depth"
+    ],
+    [
+     "TikTok (Out of Phone)",
+     "Creative + cultural-signal originator; demand orchestrator",
+     "Creator content, trend velocity, and audience data extended into physical screens via partners rather than owned inventory",
+     "Medium–High (via partners)",
+     "Medium–High"
+    ],
+    [
+     "The Trade Desk",
+     "Independent demand-side platform (DSP)",
+     "Kokai Zuma (Aug. 2026) adds agentic AI (“Koa”) reporting an average 32% improvement in cost-per-acquisition across tested campaigns",
+     "Low (no owned screens)",
+     "Very High"
+    ],
+    [
+     "Google (DV360)",
+     "DSP with automated DOOH/RTB buying",
+     "Automated, programmatic buying across digital billboards, signage, and place-based screens integrated with Google's broader ad stack",
+     "Low–Medium",
+     "High"
+    ],
+    [
+     "Amazon (DSP + Retail Signage)",
+     "Retail media + DSP-based buying",
+     "600+ Whole Foods locations and 10,000+ active retail screens, buyable programmatically through Amazon DSP",
+     "Medium",
+     "Medium–High"
+    ],
+    [
+     "Spotify",
+     "Audio platform with DOOH activation",
+     "Demonstrated audio + DOOH programmatic model (with QMS, Australia), extending listener data into physical placements",
+     "Low",
+     "Medium"
+    ],
+    [
+     "Displayce",
+     "Programmatic DOOH technology / SSP",
+     "Primary technical enabler of TikTok Out of Phone across Europe since January 2026; connects to JCDecaux, Ocean Outdoor, Bauer Media",
+     "Medium–High",
+     "Medium–High"
+    ],
+    [
+     "Vistar Media",
+     "DOOH technology / SSP (T-Mobile Advertising Solutions)",
+     "Official TikTok Out of Phone partner since May 2026; over 1.4 million venues globally, including Times Square inventory",
+     "High",
+     "Medium–High"
+    ],
+    [
+     "JCDecaux / Ocean Outdoor",
+     "Traditional OOH media owner",
+     "Category-leading physical screen ownership and premium urban locations; reached indirectly by TikTok content via Displayce",
+     "Very High",
+     "Low–Medium"
+    ]
+   ],
+   "caption": "<em>Table 2. Cross-platform comparison of primary role, core strength, and qualitative positioning on physical reach and AI/programmatic depth, for the seven platforms discussed alongside TikTok in this paper. \"AI / programmatic depth\" reflects the extent of automated, data-driven, or agentic decisioning documented for each platform at the time of writing (Q3 2026).</em>"
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/feed-to-street-tiktok-dooh-2.webp",
+   "w": 1240,
+   "h": 980,
+   "caption": "<em>Figure 2. Qualitative positioning of TikTok's Out of Phone ecosystem and seven adjacent platforms on physical/distribution reach (x-axis) and programmatic/agentic intelligence depth (y-axis). Bubble size approximates each platform's relative role in the Out of Phone ecosystem specifically, not total company scale. Red-outlined bubbles are direct TikTok Out of Phone partners.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Two patterns stand out in Figure 2. First, TikTok itself sits in the upper-right quadrant not because it owns physical inventory, but because its partnerships with Displayce and Vistar Media supply that reach on its behalf, while its own creator and cultural-signal data supplies the intelligence layer. Second, the platforms with the deepest AI and programmatic capability — The Trade Desk and Google's DV360 — hold the least direct physical reach, while the platforms with the greatest physical reach — JCDecaux and Ocean Outdoor — currently show comparatively less AI-driven decisioning. No platform in this comparison combines maximum physical reach with maximum intelligence depth. That gap is, in this paper's assessment, the clearest single indicator of where the next phase of competition in this sector will be fought."
+  },
+  {
+   "t": "h2",
+   "text": "8. The Second Convergence: Agentic AI in Media Buying",
+   "id": "8-the-second-convergence-agentic-ai-in-media-buying"
+  },
+  {
+   "t": "p",
+   "html": "A second, concurrent transformation compounds the significance of TikTok's move. On August 27, 2026, The Trade Desk introduced Kokai Zuma, a new release of its Kokai platform adding agentic AI tools, simplified measurement, and an updated interface. The company reported that revised modelling and forecasting delivered an average 32% improvement in cost-per-acquisition performance across tested campaigns, and introduced \"Koa Assistant,\" a conversational interface that routes buyers to specialized agents for campaign creation, audience building, troubleshooting, and performance analysis (The Trade Desk, 2026; ppc.land, 2026). This 32% figure is a vendor-reported result from a limited set of tested campaigns and should be read as an indicative, not universal, benchmark."
+  },
+  {
+   "t": "p",
+   "html": "Two simultaneous shifts are therefore underway. The first is social becoming physical, illustrated by TikTok's Out of Phone expansion. The second is manual media buying becoming agentic, illustrated by The Trade Desk's Kokai Zuma release. Considered together, the more consequential long-run question is not whether TikTok content can appear on a billboard, but whether an AI system can understand an audience, select media across mobile, connected TV, DOOH, and retail simultaneously, generate or select appropriate creative, activate inventory, and measure the outcome — end to end."
+  },
+  {
+   "t": "h2",
+   "text": "9. Retail Media as the Bridge Between Social, Physical, and Commerce",
+   "id": "9-retail-media-as-the-bridge-between-social-physical-and-com"
+  },
+  {
+   "t": "p",
+   "html": "TikTok has already demonstrated an Out of Phone: Retail model through its Sephora Canada activation, which the company reports generated 60 million video views and 3,000 incremental in-store visits. This points toward a broader convergence of social commerce, retail media, and DOOH: a creator discovers or popularizes a product on TikTok; TikTok's systems identify rising product interest; DOOH placements reach consumers physically near relevant stores; in-store retail screens reinforce the message; the consumer enters the store; retail media continues the journey to purchase; and the resulting sales and engagement data feed back into campaign optimization. This is a materially different proposition from traditional OOH, which this paper characterizes as physical-world performance marketing rather than brand-awareness-only advertising."
+  },
+  {
+   "t": "h2",
+   "text": "10. New York and the Cultural Amplification Loop",
+   "id": "10-new-york-and-the-cultural-amplification-loop"
+  },
+  {
+   "t": "p",
+   "html": "New York recurs across TikTok's OOP case studies. Cup Noodles' billboard placements included Times Square; Ulta Beauty's Times Square digital billboard alone generated a reported 21 million impressions over two weeks within a campaign exceeding 300 million total monthly impressions; and Supercell's Squad Busters campaign used Out of Phone across nine cities including New York, Los Angeles, Las Vegas, Toronto, Vancouver, Paris, London, Berlin, and Helsinki. New York functions in these examples not merely as another location, but as a global cultural amplification node: a creator moment born on TikTok becomes a physical cultural moment in Times Square, which can itself be photographed, filmed, and returned to TikTok as new content — closing the loop described in Section 9."
+  },
+  {
+   "t": "h2",
+   "text": "11. The Growth Backdrop: Verified Market Expenditure Data",
+   "id": "11-the-growth-backdrop-verified-market-expenditure-data"
+  },
+  {
+   "t": "p",
+   "html": "TikTok's expansion into DOOH sits within a broader growth cycle. Global OOH expenditure reached $54.2 billion in 2025 (up 15% year-on-year) and is forecast to reach $56.4 billion in 2026, with DOOH rising from $25.5 billion (47% of OOH) to a forecast $28 billion (49% of OOH) over the same period — on course to overtake static formats for the first time (World Out of Home Organization, 2026). In the United States, OOH revenue rose from $2.12 billion in the first quarter of 2026 to a record $3.16 billion in the second quarter, a 10.7% year-on-year increase, with DOOH growing 18.5% year-on-year and reaching 38.4% of quarterly OOH revenue (Out of Home Advertising Association of America, 2026). Programmatically traded DOOH reached approximately $2.1 billion globally in 2025, representing about 8.4% of total DOOH revenue — a figure independently aggregated by PwC on behalf of WOO from data submitted by leading global supply-side platforms (World Out of Home Organization, 2026). This programmatic share, while still a minority of total DOOH spend, indicates substantial remaining infrastructure opportunity for the kind of automated, audience-driven buying this paper anticipates."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/feed-to-street-tiktok-dooh-3.webp",
+   "w": 1280,
+   "h": 540,
+   "caption": "<em>Figure 3. Verified global (3a) and U.S. (3b) OOH/DOOH expenditure figures underpinning this paper's growth argument. Sources: World Out of Home Organization, 2026 Global OOH Expenditure Report; Out of Home Advertising Association of America, Q1–Q2 2026 revenue reports.</em>"
+  },
+  {
+   "t": "h2",
+   "text": "12. Strategic Implications",
+   "id": "12-strategic-implications"
+  },
+  {
+   "t": "h3",
+   "text": "12.1 For OOH Media Owners",
+   "id": "12-1-for-ooh-media-owners"
+  },
+  {
+   "t": "p",
+   "html": "OOH companies should not treat TikTok primarily as a competitor. The more productive question is how to become part of TikTok's (and comparable platforms') distribution infrastructure — by building machine-readable APIs and feeds exposing inventory, locations, audiences, screen characteristics, availability, pricing, estimated impressions, contextual signals, creative specifications, measurement, and brand-safety rules. A billboard should increasingly be treated as a structured, queryable media asset rather than a static advertising product."
+  },
+  {
+   "t": "h3",
+   "text": "12.2 For Demand-Side Platforms",
+   "id": "12-2-for-demand-side-platforms"
+  },
+  {
+   "t": "p",
+   "html": "The next generation of DSPs should not simply add a DOOH checkbox to existing buying interfaces. They need to answer a fundamentally spatial question — where will my audience physically be — rather than only a device- or cookie-based targeting question. That requires integrating location intelligence, mobility data, audience data, inventory, time, weather, events, retail proximity, contextual signals, creative, and outcomes into a single decisioning layer."
+  },
+  {
+   "t": "h3",
+   "text": "12.3 For Agencies",
+   "id": "12-3-for-agencies"
+  },
+  {
+   "t": "p",
+   "html": "The channel-by-channel planning model — separate TikTok, Meta, Google, DOOH, and CTV budgets — is increasingly inefficient relative to a single audience, a single objective, and one campaign-intelligence layer allocating budget dynamically across TikTok, DOOH, retail, CTV, mobile, search, and commerce, rather than forcing the marketer to start from a fixed channel allocation."
+  },
+  {
+   "t": "h2",
+   "text": "13. Risks and Measurement Challenges",
+   "id": "13-risks-and-measurement-challenges"
+  },
+  {
+   "t": "p",
+   "html": "The industry should not confuse distribution with incremental impact. Placing the same TikTok creative on a billboard does not automatically create incremental reach. Sharper measurement questions include: did DOOH reach people who would not otherwise have been reached; did it increase frequency efficiently; did it change consideration; did it drive physical movement; did it create incremental sales; did it create incremental TikTok engagement; and did the physical exposure itself generate earned social content. These are materially more demanding questions than simply counting billboard impressions, and the next generation of OOH measurement will need to move beyond estimated exposure to answer them."
+  },
+  {
+   "t": "p",
+   "html": "A related structural constraint is that global programmatic DOOH, while growing, remains a minority of total DOOH spend (approximately 8.4% in 2025, per WOO/PwC), meaning a large share of the inventory this paper describes as a future \"machine-readable media asset\" is not yet transacted that way today."
+  },
+  {
+   "t": "h2",
+   "text": "14. Predictions for 2027 and Beyond",
+   "id": "14-predictions-for-2027-and-beyond"
+  },
+  {
+   "t": "p",
+   "html": "This paper does not predict that TikTok will replace OOH. It predicts a more specific and more consequential shift: TikTok will help accelerate the transformation of OOH from a standalone media channel into an extension of the digital advertising ecosystem. Five associated shifts follow: (1) social becomes physical; (2) creator content becomes OOH creative; (3) DOOH becomes a standard component of omnichannel planning rather than a separate line item; (4) physical media becomes increasingly programmatic and machine-readable; and (5) AI becomes the layer deciding how digital and physical media work together, rather than a bolt-on optimization feature."
+  },
+  {
+   "t": "p",
+   "html": "The central open question for the sector is therefore not whether social media will enter OOH — it already has — but who will own the decisioning layer connecting consumer intent, creative content, physical location, media inventory, and outcomes as social, creator intelligence, commerce, spatial data, programmatic DOOH, and agentic AI converge."
+  },
+  {
+   "t": "h2",
+   "text": "15. Limitations",
+   "id": "15-limitations"
+  },
+  {
+   "t": "list",
+   "items": [
+    "Campaign-level results (Cup Noodles, Samsung, Dove Men+Care, Ulta Beauty, Sephora, L'Oréal Paris) are platform- and brand-reported case studies, not independently audited figures, and are not directly comparable to one another given differing measurement partners, methodologies, and campaign objectives.",
+    "The cross-platform positioning in Table 2 and Figure 2 reflects the author's qualitative assessment for the purposes of this paper. It is not derived from a standardized, independently validated industry index, and readers should treat axis placements as directional rather than precise.",
+    "No public disclosure isolates TikTok Out of Phone revenue specifically; this paper therefore does not estimate or infer a TikTok DOOH revenue figure.",
+    "Programmatic DOOH figures (approximately $2.1 billion globally in 2025, 8.4% of DOOH revenue) are based on confidential data voluntarily submitted by a subset of global supply-side platforms to WOO/PwC, and may understate total programmatic activity not captured by that survey.",
+    "This paper was prepared in September 2026 and reflects publicly available information as of that date; given the pace of partnership announcements in this sector, some details may have changed by the time of publication or reading."
+   ]
+  },
+  {
+   "t": "h2",
+   "text": "16. Conclusion",
+   "id": "16-conclusion"
+  },
+  {
+   "t": "p",
+   "html": "TikTok's move into OOH and DOOH should not be read simply as “TikTok is putting videos on billboards.” The more accurate reading is that a social platform is beginning to treat the physical world as an extension of its digital advertising ecosystem, at precisely the moment OOH itself is becoming more digital, programmatic, measurable, and data-driven. The verified market data support this direction: global OOH is forecast at $56.4 billion in 2026, global DOOH at approximately $28 billion, U.S. Q2 2026 OOH revenue reached a record $3.16 billion with DOOH growing 18.5% year-on-year, and programmatic DOOH reached approximately $2.1 billion globally in 2025. TikTok's expanding Out of Phone partnerships across North America, Europe, and Southeast Asia — combined with the concurrent rise of agentic AI in media buying, illustrated by The Trade Desk's Kokai Zuma — suggest that the question for the advertising-technology sector is no longer whether social, creator, and physical media will converge, but who will own the operating system that coordinates them."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Displayce. (2026, January 29). Displayce partners with TikTok for 'Out of Phone' initiative. SignLink. <a href=\"https://www.signlink.co.uk/news/digital-signage/displayce-partners-with-tiktok-for-out-of-phone-initiative/\">https://www.signlink.co.uk/news/digital-signage/displayce-partners-with-tiktok-for-out-of-phone-initiative/</a>",
+    "Localogy. (2026, May 26). TikTok accelerates its 'Out of Phone' play with Vistar Media. <a href=\"https://www.localogy.com/2026/05/tiktok-accelerates-its-out-of-phone-play-with-vistar-media/\">https://www.localogy.com/2026/05/tiktok-accelerates-its-out-of-phone-play-with-vistar-media/</a>",
+    "MediaPost. (2026, August 27). TikTok focuses on U.K., Europe in off-platform ad expansion. <a href=\"https://www.mediapost.com/publications/article/417498/tiktok-focuses-on-uk-europe-in-off-platform-ad.html\">https://www.mediapost.com/publications/article/417498/tiktok-focuses-on-uk-europe-in-off-platform-ad.html</a>",
+    "Out of Home Advertising Association of America. (2026, August 18). From Coca-Cola to OpenAI, brands are betting bigger on OOH: OOH revenue surges 10.7% to $3.16 billion as digital, technology, and live events fuel growth [Press release]. <a href=\"https://oaaa.org/news/from-coca-cola-to-openai-brands-are-betting-bigger-on-ooh/\">https://oaaa.org/news/from-coca-cola-to-openai-brands-are-betting-bigger-on-ooh/</a>",
+    "ppc.land. (2026, September 5). US out-of-home revenue tops $3 billion for first time, up 10.7%. <a href=\"https://ppc.land/us-out-of-home-revenue-tops-3-billion-for-first-time-up-10-7/\">https://ppc.land/us-out-of-home-revenue-tops-3-billion-for-first-time-up-10-7/</a>",
+    "Social Media Today. (2026, August 27). TikTok expands public placement opportunities for advertisers. <a href=\"https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792/\">https://www.socialmediatoday.com/news/tiktok-expands-public-placement-opportunities-for-advertisers/828792/</a>",
+    "The Trade Desk. (2026, August 27). The Trade Desk introduces Kokai Zuma, the latest release of Kokai [Press release]. <a href=\"https://www.thetradedesk.com/press-room/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai\">https://www.thetradedesk.com/press-room/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai</a>",
+    "TikTok. (2023, October 17). Introducing Out of Phone: Bringing TikTok content beyond the app.",
+    "World Out of Home Organization. (2026). Global Out of Home Expenditure Report 2026. <a href=\"https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026\">https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026</a>"
+   ]
+  }
+ ]
+}

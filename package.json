@@ -1,0 +1,25 @@
+{
+  "name": "suraj-prakash-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site of Suraj Prakash: product work, research library and the Media Intelligence magazine.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:artifact": "node src/build.mjs --artifact",
+    "preview": "node scripts/serve.mjs dist",
+    "dev": "node src/build.mjs && node scripts/serve.mjs dist",
+    "check": "node scripts/check-links.mjs dist",
+    "og": "node scripts/make-social-images.mjs",
+    "assets": "node scripts/prepare-assets.mjs --src ./originals",
+    "check:live": "node scripts/check-live.mjs",
+    "test": "node --test scripts/check-live.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0",
+    "sharp": "^0.33.0"
+  }
+}

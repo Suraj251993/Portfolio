@@ -1,0 +1,351 @@
+{
+  "intro": "Three kinds of work sit on this page: platform work at Moving Walls, from 2020 to 2026, that I led with engineering, design and commercial teams; enterprise integrations that connected that platform to CRM and ERP systems; and AI-powered products I designed, built and deployed on my own with Claude Code and Replit. Each one says which it is.",
+  "note": "Descriptions stay at the level of detail in my CV. Client names, internal metrics and screenshots of internal tools are left out.",
+  "projects": [
+    {
+      "id": "dsp-revamp",
+      "kind": "team",
+      "featured": true,
+      "title": "DSP platform revamp",
+      "subtitle": "Order management and auction mechanics for a dual-sided programmatic DOOH platform",
+      "org": "Moving Walls",
+      "period": "2024 — 2026",
+      "status": "In build when I left",
+      "summary": "A full revamp of the demand-side platform across six product modules, covering how inventory, budgets and pricing behave on both the demand and supply sides.",
+      "problem": "A programmatic DOOH platform has to trade the same screens several ways at once, through private marketplaces, preferred deals and open auction, priced on CPS or CPM terms. Inventory, budgets and pricing have to stay consistent across every one of those paths, for advertisers on one side and media owners on the other.",
+      "users": "Enterprise advertisers and agencies buying DOOH across Asia, media owners selling through the platform, and the internal teams who run campaigns.",
+      "role": "I led the revamp end to end: scope, roadmap, requirements and delivery with engineering and design, across six product modules and a dual-sided demand and supply architecture.",
+      "decisions": [
+        "Inventory segregation logic, so the same screen can be offered through different deal types without conflict.",
+        "Budget integrity rules, so spend cannot drift from what an advertiser approved.",
+        "CPS and CPM transaction handling across PMP, Preferred and open-auction deals, on both sides of the market.",
+        "Discovery first: focus groups, user interviews and usability testing before engineering commits to a design."
+      ],
+      "outcome": "It was still in build when I left Moving Walls in 2026, so there are no results to report.",
+      "diagram": {
+        "type": "market",
+        "left": "Demand side",
+        "leftItems": [
+          "Advertisers",
+          "Agencies"
+        ],
+        "core": [
+          "Order management",
+          "Auction mechanism"
+        ],
+        "lanes": [
+          "PMP",
+          "Preferred",
+          "Open auction"
+        ],
+        "right": "Supply side",
+        "rightItems": [
+          "Media owners",
+          "Screens"
+        ]
+      },
+      "chips": [
+        "Order management",
+        "Auction",
+        "PMP",
+        "Preferred",
+        "Open auction"
+      ],
+      "art": {
+        "type": "lanes",
+        "label": "Deal types",
+        "lanes": [
+          {
+            "name": "PMP",
+            "x": 6,
+            "w": 44
+          },
+          {
+            "name": "Preferred",
+            "x": 28,
+            "w": 50,
+            "on": true
+          },
+          {
+            "name": "Open auction",
+            "x": 12,
+            "w": 72
+          }
+        ]
+      },
+      "area": "AdTech product management"
+    },
+    {
+      "id": "dooh-platform",
+      "kind": "team",
+      "featured": false,
+      "title": "Programmatic DOOH platform",
+      "subtitle": "Roadmap ownership and a discovery practice that cut rework",
+      "org": "Moving Walls",
+      "period": "April 2024 — 2026",
+      "summary": "End-to-end roadmap for an enterprise DOOH programmatic platform serving advertisers across Asia, with discovery built into the process before engineering starts.",
+      "problem": "Late changes are expensive on a platform that runs live advertiser campaigns. Platform investment also has to be weighed against market trends, competitors and what users actually need.",
+      "users": "Enterprise advertisers across Asia, plus the engineering, design, business and client-facing teams who build, sell and support the platform.",
+      "role": "I owned the roadmap and prioritised features against market trends, competitive analysis and user research. I defined go-to-market plans for new features and ran the executive and stakeholder forums where priorities were agreed.",
+      "decisions": [
+        "Made discovery routine: focus groups, user interviews and usability testing happen before engineering commitment, not after launch.",
+        "Weighed every roadmap item against market trends, competitive analysis and user research, so platform investment lines up with commercial outcomes.",
+        "Aligned launch readiness across engineering, design, business and client teams spread over Latin America and Asia."
+      ],
+      "outcome": "Development rework fell by about 30%, and costly late-stage changes to live advertiser campaigns were avoided.",
+      "metric": {
+        "value": "~30%",
+        "label": "less development rework"
+      },
+      "diagram": {
+        "type": "flow",
+        "steps": [
+          "Market and user evidence",
+          "Discovery",
+          "Prioritised roadmap",
+          "Build",
+          "Go to market"
+        ]
+      },
+      "chips": [
+        "Roadmap",
+        "Discovery",
+        "Go-to-market"
+      ],
+      "art": {
+        "type": "roadmap",
+        "label": "Roadmap",
+        "cols": [
+          {
+            "name": "Now",
+            "blocks": 3,
+            "on": 1
+          },
+          {
+            "name": "Next",
+            "blocks": 2
+          },
+          {
+            "name": "Later",
+            "blocks": 2
+          }
+        ]
+      },
+      "area": "AdTech product management, B2B SaaS"
+    },
+    {
+      "id": "erp-integration",
+      "kind": "team",
+      "featured": false,
+      "title": "Salesforce and ERP integration",
+      "subtitle": "Automated invoicing and payment visibility between platform, CRM and finance",
+      "org": "Moving Walls",
+      "period": "April 2024 — 2026",
+      "summary": "Connected the platform to Salesforce and to Zoho Books and NetSuite so invoices generate automatically and payment status is visible end to end.",
+      "problem": "Finance and operations were reconciling invoices and payment status by hand between separate systems.",
+      "users": "Finance, operations and account teams.",
+      "role": "I led the Salesforce integration and the ERP integration with the Zoho suite, including Zoho Books, and NetSuite.",
+      "decisions": [
+        "Automated invoice generation from platform activity.",
+        "Payment status flows back so every team sees the same picture."
+      ],
+      "tools": [
+        "Salesforce",
+        "Zoho Books",
+        "NetSuite",
+        "APIs"
+      ],
+      "outcome": "Manual reconciliation between finance and operations was eliminated.",
+      "diagram": {
+        "type": "flow",
+        "steps": [
+          "Platform activity",
+          "Salesforce",
+          "Zoho Books / NetSuite",
+          "Invoice",
+          "Payment status"
+        ]
+      },
+      "chips": [
+        "Salesforce",
+        "Zoho Books",
+        "NetSuite"
+      ],
+      "art": {
+        "type": "nodes",
+        "label": "Invoice flow",
+        "nodes": [
+          "Platform",
+          "CRM",
+          "ERP",
+          "Invoice"
+        ]
+      },
+      "area": "Enterprise applications, workflow automation"
+    },
+    {
+      "id": "inventory-viewer",
+      "kind": "solo",
+      "featured": true,
+      "title": "Inventory Availability Viewer",
+      "subtitle": "A customer-facing, self-serve view of billboard inventory",
+      "org": "Commissioned by the CEO of Moving Walls",
+      "period": "Shipped to production",
+      "summary": "A self-serve platform that shows external customers real-time billboard availability, pricing and format, and lets them request inventory without waiting on a sales cycle.",
+      "problem": "Customers and stakeholders around the world had no direct way to see which billboards were available, at what price, or in which format.",
+      "users": "External customers and global stakeholders looking for OOH inventory.",
+      "role": "I owned it single-handedly: UX design, build and launch, with no dedicated engineering team.",
+      "decisions": [
+        "Surface availability, pricing and format (static or digital) in real time.",
+        "Put the request inside the product, so interest turns into an enquiry in one step.",
+        "Concept to production in 15 days."
+      ],
+      "tools": [
+        "Claude Code",
+        "Replit"
+      ],
+      "outcome": "A direct self-serve channel for global customers that supports inbound demand. It went live and into use.",
+      "metric": {
+        "value": "15 days",
+        "label": "concept to production"
+      },
+      "diagram": {
+        "type": "flow",
+        "steps": [
+          "Inventory data",
+          "Availability, price, format",
+          "Customer browses",
+          "Request in platform"
+        ]
+      },
+      "chips": [
+        "Claude Code",
+        "Replit",
+        "UX",
+        "Self-serve"
+      ],
+      "art": {
+        "type": "slots",
+        "label": "Availability",
+        "cols": 12,
+        "rows": 5,
+        "on": [
+          3,
+          8,
+          14,
+          15,
+          22,
+          27,
+          31,
+          36,
+          41,
+          46,
+          50,
+          57
+        ],
+        "mid": [
+          1,
+          10,
+          19,
+          25,
+          33,
+          39,
+          44,
+          53,
+          59
+        ]
+      },
+      "area": "AI platform development"
+    },
+    {
+      "id": "performance-mirror",
+      "kind": "solo",
+      "featured": true,
+      "title": "AI Performance Mirror",
+      "subtitle": "An HR productivity analytics platform, built and shipped solo",
+      "org": "Internal product, built for HR",
+      "period": "Shipped, with two follow-on modules",
+      "summary": "Replaced a long-running manual reporting cycle with AI-generated daily productivity and KRA-progress reporting, drawn directly from task and time data.",
+      "problem": "Productivity reporting depended on managers reporting on their own teams, in a manual cycle that had run for years.",
+      "users": "The HR head and HR team, and the managers whose teams appear in the reports.",
+      "role": "I ran the whole product lifecycle alone: requirements discovery with the HR head, workflow and data-model design, build and production deployment, with no engineering resources allocated.",
+      "decisions": [
+        "Integrated the Zoho Sprint API so task and time data arrives automatically instead of being typed in.",
+        "Used AI to write daily productivity and KRA-progress reports for HR review.",
+        "Let post-launch usage decide what came next: Calendar Insight for meeting load and time management, and Activity Insight for planned versus unplanned work."
+      ],
+      "tools": [
+        "Claude Code",
+        "Replit",
+        "Zoho Sprint API",
+        "Generative AI"
+      ],
+      "outcome": "HR gained standardised, always-current productivity visibility across the organisation, without depending on manager self-reporting.",
+      "diagram": {
+        "type": "flow",
+        "steps": [
+          "Zoho Sprint API",
+          "Task and time data",
+          "AI reporting",
+          "HR review"
+        ],
+        "modules": [
+          "Calendar Insight",
+          "Activity Insight"
+        ]
+      },
+      "chips": [
+        "Claude Code",
+        "Replit",
+        "Zoho Sprint API",
+        "Generative AI"
+      ],
+      "art": {
+        "type": "bars",
+        "label": "Daily report",
+        "bars": [
+          38,
+          58,
+          46,
+          74,
+          52,
+          92,
+          64,
+          70,
+          44
+        ],
+        "on": 5
+      },
+      "area": "AI platform development, enterprise applications"
+    }
+  ],
+  "earlier": [
+    {
+      "role": "Senior Business Analyst, Innovation",
+      "period": "Jul 2023 to Mar 2024",
+      "body": "Strategic planning and business-process optimisation for innovation initiatives across Latin American and Asian markets, using business and data analysis to rank initiatives by measurable impact."
+    },
+    {
+      "role": "Business Analyst, Change Management",
+      "period": "Jan 2023 to 2024",
+      "body": "Led the organisation-wide Zoho CRM implementation and designed an employee reward system on XOXO Day."
+    },
+    {
+      "role": "Business Analyst, Client Onboarding",
+      "period": "Feb 2021 to Jan 2023",
+      "body": "End-to-end client onboarding in Mexico, Brazil, Colombia, Chile and across Asia. Turned recurring client friction into product improvement recommendations."
+    },
+    {
+      "role": "Business Analyst, Retail",
+      "period": "Mar 2020 to Feb 2021",
+      "body": "Built dashboards in Tableau and AWS QuickSight for retail decision-making and performance tracking."
+    }
+  ],
+  "homeOrder": [
+    "performance-mirror",
+    "dsp-revamp",
+    "inventory-viewer",
+    "dooh-platform",
+    "erp-integration"
+  ]
+}

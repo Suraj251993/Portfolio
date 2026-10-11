@@ -1,0 +1,57 @@
+# Checks the live site from the outside: domain and DNS, the HTTPS certificate,
+# redirects, security headers, every page and file, the 404 page, sitemap,
+# PDFs, the contact form and the content manager. Runs every Monday, and
+# whenever you start it by hand (Actions → Check the live site → Run workflow).
+# A failed check marks the run red, and GitHub emails you.
+#
+# Setup (once): GitHub → Settings → Secrets and variables → Actions →
+# Variables → New repository variable: SITE_URL = your address, for example
+# https://www.example.com
+#
+# Run by hand, you can also tick "send a test message" to post one real message
+# through the contact form (it arrives in your inbox like any other).
+
+name: Check the live site
+
+on:
+  schedule:
+    - cron: "30 0 * * 1" # Mondays, 08:30 in Kuala Lumpur
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Address to check (leave empty to use the SITE_URL variable)"
+        required: false
+      external:
+        description: "Also check links to other websites"
+        type: boolean
+        default: true
+      send_test_message:
+        description: "Also send one test message through the contact form"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Check the site
+        env:
+          URL: ${{ inputs.url || vars.SITE_URL }}
+          EXTERNAL: ${{ github.event_name == 'schedule' || inputs.external }}
+          SEND: ${{ inputs.send_test_message }}
+        run: |
+          if [ -z "$URL" ]; then
+            echo "No address to check. Set the SITE_URL variable (see the comment at the top of this file)."
+            exit 0
+          fi
+          FLAGS=""
+          [ "$EXTERNAL" = "true" ] && FLAGS="$FLAGS --external"
+          [ "$SEND" = "true" ] && FLAGS="$FLAGS --send-test-message"
+          node scripts/check-live.mjs "$URL" $FLAGS

@@ -1,0 +1,273 @@
+{
+ "slug": "ooh-retail-media-convergence",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 2976,
+ "figures": 3,
+ "tables": 0,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "Out-of-home (OOH) advertising and retail media developed, for most of the past decade, as two largely separate disciplines built on different sources of competitive advantage. Retail media's advantage rested on first-party shopper data, purchase history, loyalty programs, e-commerce infrastructure, sponsored-product placement, and closed-loop measurement. OOH's advantage rested on physical presence, location, reach, audience mobility, and, increasingly, digital and programmatic inventory. This article argues that these two disciplines are converging into a single physical-commerce media category, and that this convergence is no longer speculative: it is documented in published industry standards work and in a growing set of concrete commercial partnerships through late 2025 and into 2026."
+  },
+  {
+   "t": "p",
+   "html": "This article proceeds by first establishing the infrastructure evidence for this convergence (Section 2), then examining four concrete commercial deployments in detail (Sections 3 through 6), before proposing a four-layer value-chain model for the resulting ecosystem (Section 7) and evaluating the full set of companies referenced in the underlying source material against that model (Section 8). Sections 9 through 12 examine the specific case of Walmart as the most consequential unresolved player, the measurement challenges this convergence introduces, and the strategic risks facing OOH companies that do not adapt. Sections 13 and 14 propose practical responses and a phased adoption roadmap, and the article closes with its central thesis in Section 15."
+  },
+  {
+   "t": "h2",
+   "text": "2. Why the Convergence Makes Sense, and the Infrastructure Evidence",
+   "id": "2-why-the-convergence-makes-sense-and-the-infrastructure-evi"
+  },
+  {
+   "t": "p",
+   "html": "The economic logic connecting retail media and OOH is straightforward. Retailers own the transaction, and with it, knowledge of what consumers search for, which categories and products they purchase, how frequently they shop, their loyalty behaviour, and their store-visit patterns. OOH owns the physical journey: it can reach a consumer before they reach a store, while commuting, around shopping districts, near a specific retailer, inside a shopping centre, inside a store, or at the point of purchase itself. Combined, these two capabilities create a considerably more complete picture than either can offer independently, moving from retail data, to audience intelligence, to physical-world exposure, to store visit, to purchase, to measurement, to optimization."
+  },
+  {
+   "t": "p",
+   "html": "This logic is now reflected in published industry infrastructure rather than existing only as commercial rhetoric. The IAB's Digital Out-of-Home and In-Store Retail Media Playbook explicitly addresses how brands and retailers can partner to connect DOOH and in-store retail media around the shopper journey and closed-loop measurement (IAB, 2024). Separately, the World Out of Home Organization launched Version 2.0 of its Global OOH Audience Measurement Guidelines at its London Congress in June 2026, drawing on the expertise of measurement bodies across 28 territories, more than double the participation in the first edition, and including case studies from 20 individual measurement organizations addressing standardized measurement, mobility data, and evolving audience-modelling methodologies (World Out of Home Organization, 2026). Together, these developments indicate that both the commercial and the measurement infrastructure required for this convergence are actively being built, not merely discussed."
+  },
+  {
+   "t": "h2",
+   "text": "3. The First Concrete Threshold: Albertsons Media Collective and Perion",
+   "id": "3-the-first-concrete-threshold-albertsons-media-collective-a"
+  },
+  {
+   "t": "p",
+   "html": "The first phase of retail-media and OOH convergence, retailers simply purchasing OOH advertising space, is not itself a significant development. The more consequential second phase is the direct activation of retailer first-party data against OOH audiences, and this is already occurring commercially. In September 2025, Albertsons Media Collective, the retail-media arm of Albertsons Companies, announced a partnership with Perion Network giving advertisers the ability to activate campaigns against Albertsons' purchase-based first-party audiences across Perion's high-impact display and DOOH formats. The partnership was described as enabling advertisers to reach more than 100 million verified shoppers across more than 2,200 Albertsons store locations, drawing on more than 37 million weekly shoppers and over 100 million addressable digital identifiers, connecting on-the-go awareness near stores with online conversion and measurement (Perion Network, 2025). The underlying model, retail purchase data informing DOOH targeting within a measurable commerce journey, is precisely the convergence this article examines."
+  },
+  {
+   "t": "h2",
+   "text": "4. A Larger Signal: JCDecaux, Carrefour, Carmila, and Unlimitail",
+   "id": "4-a-larger-signal-jcdecaux-carrefour-carmila-and-unlimitail"
+  },
+  {
+   "t": "p",
+   "html": "A larger and, in this article's assessment, more structurally significant signal followed in December 2025. Carrefour, its shopping-centre real-estate arm Carmila, and its retail-media business Unlimitail selected JCDecaux, following a competitive tender, to develop indoor DOOH within shopping centres and outdoor OOH and DOOH across the access areas leading to those centres, beginning in France and subsequently extending to Spain. The French deployment covers 161 shopping-centre malls and 297 mall access areas, and JCDecaux has subsequently described the resulting ecosystem as encompassing approximately 900 digital screens across these shopping environments (JCDecaux, 2025). In Spain, the agreement additionally provides for an indoor DOOH offer across 91 shopping centres and an outdoor OOH and DOOH offer across 88 further access areas, beginning in 2027 (JCDecaux, 2025)."
+  },
+  {
+   "t": "p",
+   "html": "This deployment integrates with JCDecaux's existing AdTech ecosystem, including VIOOH and Displayce, and is built around aggregated and anonymized Carrefour transactional and loyalty-card data feeding programmatic DOOH activation, audience planning, and measurement (JCDecaux, 2025). This article's assessment is that this represents something structurally different from a retailer simply installing advertising screens in malls: it combines retail data, physical media, programmatic activation, and measurement into a single proposition, and is accordingly treated in this article as the clearest evidence to date of a genuine retail-media/OOH infrastructure layer taking shape."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/ooh-retail-media-convergence-1.webp",
+   "w": 1280,
+   "h": 774,
+   "caption": "<em>Figure 2. Scale of the two flagship convergence deals examined in Sections 3 and 4: the Albertsons Media Collective/Perion partnership (shopper reach and store coverage) and the JCDecaux/Carrefour/Carmila/Unlimitail agreement (French-phase mall and screen coverage).</em>"
+  },
+  {
+   "t": "h2",
+   "text": "5. Target's Roundel: Retail Data Extending Beyond Owned Media",
+   "id": "5-target-s-roundel-retail-data-extending-beyond-owned-media"
+  },
+  {
+   "t": "p",
+   "html": "Target's retail-media business, Roundel, provides a further clear illustration. Target describes its DOOH offering as advertising placed on billboards near Target store locations, connected to Roundel Kiosk for closed-loop measurement and performance optimization (Target, company disclosures). The significance of this offering lies in a philosophical shift it makes visible: retail media no longer needs to mean media that the retailer itself owns. It can instead mean retail data powering media wherever the shopper happens to be, extending the retailer's audience relationship outside its own owned digital ecosystem and into third-party physical media."
+  },
+  {
+   "t": "h2",
+   "text": "6. Broadsign and Mirakl Ads: The Infrastructure Layer Responds",
+   "id": "6-broadsign-and-mirakl-ads-the-infrastructure-layer-responds"
+  },
+  {
+   "t": "p",
+   "html": "In June 2026, Broadsign and Mirakl Ads announced a partnership explicitly framed around bridging digital retail media and in-store advertising. The stated problem the partnership addresses is precisely the fragmentation this article has described throughout: online, offline, and in-store retail media today frequently involve separate vendors, fragmented planning, disconnected activation processes, and siloed reporting. The partnership's stated aim is to let retailers and brands activate, manage, and measure campaigns across the shopper journey through a more unified platform (Broadsign/Mirakl Ads, 2026). This article's assessment is that this development is significant less for its immediate commercial scale than for what it reveals about Broadsign's own strategic direction: Broadsign is not merely selling screens, but positioning itself as part of the retail-media infrastructure layer itself."
+  },
+  {
+   "t": "h2",
+   "text": "7. A Four-Layer Value-Chain Model",
+   "id": "7-a-four-layer-value-chain-model"
+  },
+  {
+   "t": "p",
+   "html": "Synthesizing the evidence in Sections 3 through 6, this article proposes that the converging OOH/retail-media ecosystem is organized around four layers, each owning a distinct component of value: a retailer layer, owning shopper data and the transaction itself; a data and intelligence layer, owning audience, location, and behavioural understanding; an AdTech layer, owning activation, bidding, and optimization; and an OOH layer, owning physical attention and inventory. The central strategic question this model raises is which layer captures the greatest share of the resulting economic value. Historically, OOH owned much of this relationship by default, simply because it controlled the only physical inventory available. Retail media introduces a genuinely different centre of power: the retailer alone knows what happened after the advertisement, which is a considerably more valuable position than knowing only who was exposed to it."
+  },
+  {
+   "t": "h2",
+   "text": "8. Positioning the Full Set of Companies Across This Convergence",
+   "id": "8-positioning-the-full-set-of-companies-across-this-converge"
+  },
+  {
+   "t": "p",
+   "html": "This article's underlying source material references twenty companies across three informal categories: organizations already demonstrating the convergence commercially, retail organizations with substantial strategic potential that have not yet made OOH integration a core capability, and traditional OOH companies whose strategic response to retail media remains an open question. This article emphasizes explicitly that none of the companies in the second and third categories should be characterized as failing or as having missed the trend; the available public evidence is simply less extensive for these organizations than for the first group. Figure 1 positions all twenty companies according to two dimensions: the depth of the organization's demonstrated retail or shopper data assets, and the depth of its demonstrated physical or OOH media integration."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/ooh-retail-media-convergence-2.webp",
+   "w": 1320,
+   "h": 1120,
+   "caption": "<em>Figure 1. Master positioning chart for all twenty companies referenced in the underlying source material, plotted by assessed retail/shopper data depth and assessed physical/OOH media integration depth. Colour reflects the three-category assessment described in Section 8; position and bubble size reflect this article's qualitative synthesis rather than an independently audited index.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Three patterns in Figure 1 support this article's broader argument. First, the companies already demonstrating convergence, JCDecaux, Broadsign, Vistar Media, Perion, Albertsons Media Collective, Target/Roundel, Carrefour/Unlimitail, and Ströer, cluster in the upper-right and upper-middle region of the chart, combining meaningful strength on both axes simultaneously. Second, the retailers and commerce platforms with the largest strategic potential, Walmart Connect, Amazon Ads, Kroger Precision Marketing, and Instacart Ads, cluster in the lower-right, possessing very substantial retail-data depth but comparatively little demonstrated physical-media integration to date, precisely the gap this article identifies as the central open opportunity in Section 9. Third, the traditional OOH companies, Lamar, OUTFRONT, Clear Channel Outdoor, Ocean Outdoor, Global, and oOh!media, cluster in the upper-left, possessing substantial physical-media depth but comparatively little demonstrated retail-data integration, which is the strategic question this article poses directly in Section 12."
+  },
+  {
+   "t": "h2",
+   "text": "9. Walmart: The Most Consequential Open Question",
+   "id": "9-walmart-the-most-consequential-open-question"
+  },
+  {
+   "t": "p",
+   "html": "Walmart is a particularly important case because it already possesses nearly every ingredient this convergence requires: extensive shopper data spanning its website, application, and physical stores; a very large physical store footprint; existing in-store media; a substantial digital commerce business; connected-television reach through its Vizio acquisition; and mature advertising infrastructure through Walmart Connect. Walmart Connect's growth trajectory illustrates the accelerating economic significance of this business: the unit's United States growth rate, excluding Vizio, rose from approximately 31% in the first half of fiscal year 2026 to 41% by the fourth quarter of fiscal year 2026, to 43% in the second quarter of fiscal year 2027, and to 44%, its fastest growth rate since Walmart began separately disclosing the figure in 2023, in the most recently reported quarter (Walmart, company disclosures, as reported in PPC Land, 2026, and Yahoo Finance, 2026)."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/ooh-retail-media-convergence-3.webp",
+   "w": 1260,
+   "h": 770,
+   "caption": "<em>Figure 3. Walmart Connect's United States, ex-Vizio, year-over-year growth rate across five reported quarters, illustrating retail media's accelerating contribution to Walmart's overall business.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Walmart's advertising and membership revenue together accounted for roughly one-third of the company's operating income in the periods examined, despite advertising remaining a low single-digit percentage of total company sales, underscoring the outsized profitability of this business relative to its revenue share (Walmart, company disclosures, as reported in PPC Land, 2026). This article's assessment is that Walmart is not a laggard in retail media; the open question is what happens if Walmart extends its existing data, commerce, and advertising assets into the broader physical-media ecosystem. Were this to occur at scale, Walmart would not need to own physical OOH inventory itself; it could instead own the audience relationship while third-party OOH companies supply the physical infrastructure beneath it, which is precisely the risk this article examines in Section 12."
+  },
+  {
+   "t": "h2",
+   "text": "10. Kroger and Amazon: A Comparable Pattern, Different Risk Profiles",
+   "id": "10-kroger-and-amazon-a-comparable-pattern-different-risk-pro"
+  },
+  {
+   "t": "p",
+   "html": "Kroger Precision Marketing possesses substantial first-party retail data and an established retail-media operation, with a broader company strategy increasingly focused on connecting retail intelligence, loyalty, and media (Kroger, company disclosures). This article classifies Kroger as high strategic potential rather than as a company missing the trend, since its shopper data could plausibly become a considerably stronger physical-world media-targeting asset than it currently is. Amazon presents a different and, in this article's assessment, potentially more consequential case, precisely because Amazon does not need to become an OOH company to participate in this convergence. Amazon already possesses substantial purchase data, e-commerce intent signals, advertising infrastructure, off-site advertising capability, and extensive advertiser relationships. The strategic question this article poses is what occurs once commerce platforms of Amazon's scale begin treating physical media as simply another off-site advertising surface: in such a scenario, Amazon could own the shopper intelligence, an AdTech layer could handle activation, and an OOH company could supply the physical inventory, while the OOH company itself no longer necessarily controls the audience, advertiser, transaction, or measurement relationship."
+  },
+  {
+   "t": "h2",
+   "text": "11. The Real Battle Is Not Between OOH Companies",
+   "id": "11-the-real-battle-is-not-between-ooh-companies"
+  },
+  {
+   "t": "p",
+   "html": "The framework developed in Sections 7 through 10 leads to this article's central structural observation: the more consequential competitive contest is not occurring between individual OOH companies, but between the four layers identified in Section 7, retailer, data and intelligence, AdTech, and OOH, over which layer captures the greatest share of the resulting economic value. Historically, OOH captured much of this value by default, because it alone controlled physical inventory. Retail media's rise introduces a genuinely different centre of power, because the retailer alone possesses direct knowledge of what happened after a given exposure, a materially more valuable position than knowledge of exposure alone."
+  },
+  {
+   "t": "p",
+   "html": "Retailers, however, do not control the entire consumer journey either. A shopper moves through a sequence spanning home, the road, public transport, the workplace, shopping centres, the area near a store, the interior of the store, and the point of checkout, and retailers own only portions of this sequence directly. OOH occupies precisely the spaces between those retailer-owned moments, which is why this article characterizes the underlying relationship between the two disciplines as potentially symbiotic rather than strictly adversarial, provided OOH companies actively participate in building the connecting infrastructure rather than waiting to be commoditized within it."
+  },
+  {
+   "t": "h2",
+   "text": "12. Measurement as the Hidden Battleground",
+   "id": "12-measurement-as-the-hidden-battleground"
+  },
+  {
+   "t": "p",
+   "html": "Traditional OOH measurement asks how many people were exposed to a given placement. Retail media measurement asks whether those people subsequently purchased. The convergence of the two disciplines creates a considerably harder question: did OOH exposure contribute incrementally to sales that would not otherwise have occurred. Retailers hold purchase data; OOH companies hold exposure data; and different organizations across this ecosystem currently apply different audience definitions, attribution models, geographic units, measurement windows, and underlying methodologies. The IAB has specifically identified incrementality, data collaboration, and cross-platform interoperability as significant open challenges within retail media (IAB, 2024), and the World Out of Home Organization's 2026 measurement guidelines represent a meaningful step toward more standardized and comparable OOH measurement specifically, addressing methodologies including AM4DOOH and impression-multiplier standardization that have moved from research concepts toward operational, commercially deployed tools since the first edition of the guidelines in 2022 (World Out of Home Organization, 2026)."
+  },
+  {
+   "t": "h2",
+   "text": "13. Five Practical Responses for the OOH Industry",
+   "id": "13-five-practical-responses-for-the-ooh-industry"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes five practical steps OOH companies and their partners can take to participate in this convergence rather than be commoditized by it."
+  },
+  {
+   "t": "p",
+   "html": "1 Build a common, machine-readable physical-media data layer, in which every inventory unit exposes not merely location and availability, but audience composition, price, context, historical performance, and measured outcome, making OOH inventory considerably easier for retail-media platforms to consume programmatically."
+  },
+  {
+   "t": "p",
+   "html": "2 Connect retailer first-party data without requiring retailers to expose individual customer identities, using privacy-safe collaboration or clean-room environments to translate raw retailer data into anonymized audience segments before OOH activation and aggregated measurement."
+  },
+  {
+   "t": "p",
+   "html": "3 Shift measurement emphasis from exposure alone toward incrementality specifically, building progressively more sophisticated methodology across the sequence from exposure, to store visitation, to conversion, to incremental conversion, to incremental sales, so that a shopper who would have purchased regardless is not counted as an advertising success."
+  },
+  {
+   "t": "p",
+   "html": "4 Avoid requiring retailers to build OOH infrastructure themselves; a retailer does not need to become a supply-side platform, a demand-side platform, a screen operator, or a content-management provider, and a more scalable ecosystem instead has retailers supply audience and commerce intelligence, OOH companies supply physical infrastructure, and AdTech companies supply activation."
+  },
+  {
+   "t": "p",
+   "html": "5 Develop an interoperable commerce-media application programming interface, allowing a brand or demand-side platform to request physical media reaching a defined audience segment near defined locations and receive audience, inventory, availability, pricing, forecast, activation, and measurement in response, effectively turning OOH into a programmable physical-media marketplace."
+  },
+  {
+   "t": "h2",
+   "text": "14. A Phased Adoption Roadmap",
+   "id": "14-a-phased-adoption-roadmap"
+  },
+  {
+   "t": "p",
+   "html": "Rather than attempting to build the full architecture described in Section 13 simultaneously, this article proposes a five-phase adoption roadmap: first, connect existing retail audiences to existing DOOH inventory; second, connect OOH exposure with store-visit data; third, connect exposure with purchase data to establish attribution; fourth, automatically shift media investment toward better-performing locations based on that attribution; and fifth, unify owned digital media, offsite advertising, DOOH, in-store media, and connected television into a single, coherent commerce-media journey."
+  },
+  {
+   "t": "h2",
+   "text": "15. Conclusion: From OOH Versus Retail Media to Commerce Media",
+   "id": "15-conclusion-from-ooh-versus-retail-media-to-commerce-media"
+  },
+  {
+   "t": "p",
+   "html": "This article's central prediction is that the future of this ecosystem will not be characterized as a contest between out-of-home advertising and retail media as separate categories. It will instead be characterized by OOH becoming one of several physical execution layers within a broader commerce-media category, alongside in-store media, connected television, and mobile. The evidence examined throughout this article, the IAB's playbook and the WOO's 2026 measurement guidelines, the Albertsons/Perion and JCDecaux/Carrefour partnerships, Target's Roundel model, Broadsign's partnership with Mirakl Ads, and Walmart Connect's accelerating growth, indicates that the boundaries separating OOH, DOOH, retail media, in-store media, connected television, and mobile advertising are already blurring in practice, even where they remain administratively distinct within individual organizations. Consumers themselves do not experience these categories separately; they experience a single journey toward a purchase decision, and the technology infrastructure examined throughout this article is increasingly being built to plan around that journey directly, rather than around the historical boundaries between the media categories that comprise it."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Broadsign / Mirakl Ads. (2026). <em>Broadsign and Mirakl Ads partnership announcement</em>. <a href=\"https://broadsign.com\">https://broadsign.com</a>",
+    "IAB. (2024). <em>Digital Out of Home (DOOH) &amp; In-Store Retail Media Playbook</em>. Interactive Advertising Bureau. <a href=\"https://www.iab.com/guidelines/digital-out-of-home-in-store-retail-media-playbook/\">https://www.iab.com/guidelines/digital-out-of-home-in-store-retail-media-playbook/</a>",
+    "JCDecaux. (2025). <em>Carrefour, Carmila, Unlimitail and JCDecaux join forces to accelerate the development of retail media across Carrefour and Carmila sites in France and Spain</em> [Press release]. GlobeNewswire. <a href=\"https://www.globenewswire.com/news-release/2025/12/09/3202639/0/en/Carrefour-Carmila-Unlimitail-and-JCDecaux-join-forces-to-accelerate-the-development-of-retail-media-across-Carrefour-and-Carmila-sites-in-France-and-Spain.html\">https://www.globenewswire.com/news-release/2025/12/09/3202639/0/en/Carrefour-Carmila-Unlimitail-and-JCDecaux-join-forces-to-accelerate-the-development-of-retail-media-across-Carrefour-and-Carmila-sites-in-France-and-Spain.html</a>",
+    "Kroger Co. (2026). <em>Kroger Precision Marketing company disclosures</em>. <a href=\"https://www.thekrogerco.com\">https://www.thekrogerco.com</a>",
+    "Perion Network Ltd. (2025). <em>Perion and Albertsons Media Collective to unlock first-party retail audiences through high-impact display and DOOH campaigns</em> [Press release]. Business Wire. <a href=\"https://www.businesswire.com/news/home/20250925773218/en/Perion-and-Albertsons-Media-Collective-to-Unlock-First-Party-Retail-Audiences-Through-High-Impact-Display-and-DOOH-Campaigns\">https://www.businesswire.com/news/home/20250925773218/en/Perion-and-Albertsons-Media-Collective-to-Unlock-First-Party-Retail-Audiences-Through-High-Impact-Display-and-DOOH-Campaigns</a>",
+    "PPC Land. (2026). <em>Walmart ad business gains 38% as Walmart Connect hits 43% in Q2</em>. <a href=\"https://ppc.land/walmart-ad-business-gains-38-as-walmart-connect-hits-43-in-q2/\">https://ppc.land/walmart-ad-business-gains-38-as-walmart-connect-hits-43-in-q2/</a>",
+    "Target Corporation. (2026). <em>Roundel and Target DOOH company disclosures</em>. <a href=\"https://www.roundel.com\">https://www.roundel.com</a>",
+    "World Out of Home Organization. (2026). <em>WOO launches Global OOH Audience Measurement Guidelines 2.0</em>. <a href=\"https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026\">https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026</a>",
+    "Yahoo Finance. (2026). <em>Walmart Leans on Advertising Growth as Retail Sales Momentum Slows</em>. <a href=\"https://finance.yahoo.com/media-advertising/articles/walmart-leans-advertising-growth-retail-104132703.html\">https://finance.yahoo.com/media-advertising/articles/walmart-leans-advertising-growth-retail-104132703.html</a>"
+   ]
+  }
+ ]
+}

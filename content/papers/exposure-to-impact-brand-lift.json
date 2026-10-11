@@ -1,0 +1,457 @@
+{
+ "slug": "exposure-to-impact-brand-lift",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 3544,
+ "figures": 4,
+ "tables": 1,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction: The Question That Comes After Delivery",
+   "id": "1-introduction-the-question-that-comes-after-delivery"
+  },
+  {
+   "t": "p",
+   "html": "The out-of-home (OOH) and digital out-of-home (DOOH) industry has, over the past decade, largely solved the problem of putting digital technology onto physical screens. This article's central argument is that a considerably harder problem remains open: can the industry connect exposure to incremental brand impact, and ultimately to business outcome. This article terms this the 2026-2030 opportunity, and organizes its entire analysis around it."
+  },
+  {
+   "t": "p",
+   "html": "This article proceeds as follows. Section 2 establishes the market foundation, contrasting the scale of global OOH and DOOH expenditure with the still-limited scale of independently measured programmatic DOOH. Section 3 proposes a four-stage progression describing how the industry's central question has evolved. Sections 4 through 8 develop five competitive battlefields underlying this article's benchmark. Section 9 presents the OOH Brand Lift Power Index 2026. Sections 10 through 16 examine seven organizations individually. Section 17 presents the comparison matrix directly. Sections 18 through 20 develop this article's central structural finding, the PowerPlay Gap, and its implications through 2030, and the article closes with six specific propositions and a restated thesis in Sections 21 and 22."
+  },
+  {
+   "t": "h2",
+   "text": "2. The Market Foundation",
+   "id": "2-the-market-foundation"
+  },
+  {
+   "t": "p",
+   "html": "Global OOH expenditure reached 54.2 billion dollars in 2025, representing 5.1% of global advertising expenditure, with the World Out of Home Organization forecasting 56.4 billion dollars for 2026; within that total, DOOH reached 25.5 billion dollars in 2025, 47% of OOH, forecast to reach approximately 28 billion dollars in 2026, approximately 49% of OOH (World Out of Home Organization, 2026a). Separately, the inaugural WOO Global pDOOH Expenditure Study 2026, independently aggregated by PricewaterhouseCoopers LLP from confidential revenue submissions by twelve supply-side platforms across more than 40 markets spanning the Americas, EMEA, and Asia-Pacific, found that global programmatic DOOH expenditure reached 1.339 billion dollars in 2025, representing 7.0% of total global DOOH spend (World Out of Home Organization/PwC, 2026). Figure 1 presents these three figures together."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/exposure-to-impact-brand-lift-1.webp",
+   "w": 1280,
+   "h": 844,
+   "caption": "<em>Figure 1. Global OOH, DOOH, and independently aggregated programmatic DOOH expenditure, 2025 (log scale). Sources: World Out of Home Organization, Global OOH Expenditure Report 2026; WOO/PwC Global pDOOH Expenditure Study 2026.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article treats an important methodological distinction as directly relevant to the analysis that follows. The World Out of Home Organization's broader 2026 expenditure report separately estimates programmatically traded DOOH at approximately 2.1 billion dollars for 2025, a figure this article does not treat as contradicting the WOO/PwC study's 1.339 billion dollar figure; the two derive from different methodologies, with the WOO/PwC study representing the more specific, independently aggregated, supply-side benchmark drawn directly from confidential SSP revenue data (World Out of Home Organization, 2026a; World Out of Home Organization/PwC, 2026). This article's position is that this distinction is itself informative: even the measurement of the programmatic OOH market is still actively evolving, which this article considers directly relevant to its broader argument regarding the immaturity of OOH outcome measurement generally."
+  },
+  {
+   "t": "p",
+   "html": "Regional programmatic penetration varies sharply. The United States is the largest single pDOOH market by volume at 545.5 million dollars, with Americas-wide penetration of 14.1%; Germany leads global penetration at 31.8%, with Western Europe overall at 21.3%; and Eastern Asia, comprising China, Japan, and South Korea, sits on a 7.3 billion dollar DOOH base with only 0.6% programmatic penetration, which the WOO/PwC study identifies as the single largest structural growth opportunity in global programmatic OOH (World Out of Home Organization/PwC, 2026). The same study found that 75.7% of global pDOOH spend transacts through private marketplaces rather than open exchange, and that 65.5% of pDOOH spend flows through OOH-specialist demand-side platforms rather than omnichannel DSPs (World Out of Home Organization/PwC, 2026). Figure 2 presents the regional penetration figures directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/exposure-to-impact-brand-lift-2.webp",
+   "w": 1300,
+   "h": 780,
+   "caption": "<em>Figure 2. Programmatic DOOH penetration of total DOOH spend by region, 2025. Source: WOO/PwC Global pDOOH Expenditure Study 2026.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's reading of Figure 2 is that it corrects a simplistic narrative in circulation, that OOH is simply becoming another digital channel. The evidence instead suggests that OOH retains distinctive, market-specific transaction infrastructure and expertise, and that programmatic penetration is not converging uniformly across geographies even as the underlying category digitizes."
+  },
+  {
+   "t": "h2",
+   "text": "3. From Delivery to Outcome: A Four-Stage Progression",
+   "id": "3-from-delivery-to-outcome-a-four-stage-progression"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that the OOH industry's central operating question has progressed, and continues to progress, through four stages. The earliest question was simply whether the advertisement was delivered. The current, dominant question asks whether the intended audience had the opportunity to see it, at what location, time, and frequency. The next question, still only partially answered across the industry today, asks whether that exposure changed brand perception. And the question this article considers the defining 2028-2030 frontier asks what the system should do next, based on measured incremental impact. This article treats the final stage explicitly as a strategic hypothesis about the industry's likely direction, not a guaranteed forecast."
+  },
+  {
+   "t": "h2",
+   "text": "4. The Five OOH Brand-Lift PowerPlay Battlefields",
+   "id": "4-the-five-ooh-brand-lift-powerplay-battlefields"
+  },
+  {
+   "t": "p",
+   "html": "This article organizes its competitive analysis around five battlefields, extending the battlefield framework this article's author has applied in prior competitive analyses of the broader OOH AdTech landscape, adapted here specifically to brand-lift measurement."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/exposure-to-impact-brand-lift-3.webp",
+   "w": 1260,
+   "h": 876,
+   "caption": "<em>Figure 3. The five OOH Brand-Lift PowerPlay battlefields proposed in this article, each posing a distinct competitive question.</em>"
+  },
+  {
+   "t": "h2",
+   "text": "5. Battlefield 1: Exposure Intelligence",
+   "id": "5-battlefield-1-exposure-intelligence"
+  },
+  {
+   "t": "p",
+   "html": "The first battlefield asks whether an organization can establish who was actually exposed, or had a genuine opportunity to see, a given piece of OOH or DOOH advertising. Relevant capabilities include audience measurement, opportunity-to-see modelling, mobility data, passive exposure detection, impression modelling, impression multipliers, location intelligence, and exposed-versus-control group construction. This article treats exposure intelligence as foundational: if the underlying exposure claim is weak, any brand-lift result built on top of it becomes questionable. The World Out of Home Organization's 2026 Global OOH Audience Measurement Guidelines illustrate how rapidly this layer is evolving, incorporating measurement bodies across 28 territories, the international adoption of the AM4DOOH standardized methodology, and increasing use of passive mobility data and synthetic population modelling (World Out of Home Organization, 2026b)."
+  },
+  {
+   "t": "h2",
+   "text": "6. Battlefield 2: Brand Lift Intelligence",
+   "id": "6-battlefield-2-brand-lift-intelligence"
+  },
+  {
+   "t": "p",
+   "html": "The second battlefield, and the one this article treats as most central to its overall thesis, asks whether a platform can demonstrate that exposure actually changed a brand key performance indicator, spanning awareness, ad recall, brand familiarity, perception, consideration, preference, and purchase intent. Kantar and Global's 2026 joint analysis of 484 OOH/DOOH campaigns, 156,000 consumers, and 4.8 billion advertising contacts, connecting Kantar's LINK AI creative-intelligence scoring with more than seven years of joint effectiveness research, found that high-quality creative generated an average 2.23 percentage-point increase in spontaneous brand awareness compared with 0.16 percentage points for low-warmth creative, a difference of approximately fourteen times (Kantar/Global, 2026). Nielsen's Luxottica case, evaluating localized OOH activity across Los Angeles and New York using consumer survey data and advanced modelling, reported 4.0% unaided awareness lift, 1.9% purchase-intent lift, and 31% improved cost efficiency in that specific campaign comparison (Nielsen, published case study). This article emphasizes explicitly that neither figure should be read as an industry average; both are evidence of the type of measurement now demonstrably possible, not a generalizable benchmark."
+  },
+  {
+   "t": "h2",
+   "text": "7. Battlefield 3: Attribution and Business Impact",
+   "id": "7-battlefield-3-attribution-and-business-impact"
+  },
+  {
+   "t": "p",
+   "html": "The third battlefield extends beyond brand lift to ask whether a campaign changed real-world behaviour, spanning store visits, footfall, website and application activity, conversions, sales, and other incremental business outcomes. Vistar Media explicitly positions its DOOH measurement suite around brand lift, foot-traffic lift, and sales impact (Vistar Media, company disclosures), and Broadsign similarly offers brand metrics alongside foot-traffic studies within its DOOH measurement and attribution ecosystem (Broadsign, company disclosures). This article characterizes the resulting transition as moving from brand lift toward business lift, and treats this transition as the connective layer between Battlefields 2 and 5."
+  },
+  {
+   "t": "h2",
+   "text": "8. Battlefields 4 and 5: Data and Audience Intelligence, and Optimization",
+   "id": "8-battlefields-4-and-5-data-and-audience-intelligence-and-op"
+  },
+  {
+   "t": "p",
+   "html": "The fourth battlefield asks whether an organization can use data to improve who a campaign reaches, where, and when, spanning audience segments, points-of-interest targeting, contextual targeting, mobility data, behavioural data, audience extension, and frequency management; Vistar Media discloses access to more than 17,000 global audience segments and reports stronger awareness and consideration lift in its own analysis of data-targeted programmatic DOOH campaigns, a figure this article treats explicitly as Vistar's own campaign analysis rather than a generalizable industry benchmark (Vistar Media, company disclosures). The fifth battlefield, and the one this article expects to grow most rapidly in strategic importance toward 2030, asks whether measurement produces only a report, or actively changes the next media decision, spanning artificial intelligence, predictive analytics, creative optimization, automated planning, real-time or in-flight optimization, campaign recommendation, and agentic workflows. This article treats Battlefield 5 as the direct connective point between the brand-lift research developed throughout this article and the broader agentic-OOH thesis developed in this article's companion analyses."
+  },
+  {
+   "t": "h2",
+   "text": "9. The OOH Brand Lift Power Index 2026",
+   "id": "9-the-ooh-brand-lift-power-index-2026"
+  },
+  {
+   "t": "p",
+   "html": "This article develops a weighted, seven-dimension qualitative assessment, termed the OOH Brand Lift Power Index 2026, explicitly presented as this article's own analytical framework rather than an official or independently audited industry ranking. Table 1 presents the assessment."
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Company",
+     "Exposur e Intel. (15%)",
+     "Brand Lift (25%)",
+     "Attributi on (10%)",
+     "Data/ A udience (15%)",
+     "OOH/DO OH Depth (15%)",
+     "AdTech Integrat ion (10%)",
+     "AI/ Optim. (10%)",
+     "Key Strength"
+    ],
+    [
+     "Kantar",
+     "★★★★",
+     "★★★★★",
+     "★★★",
+     "★★★★",
+     "★★★★",
+     "★★★★",
+     "★★★★ ★",
+     "Brand effectiveness + creative intelligence"
+    ],
+    [
+     "Nielsen",
+     "★★★★",
+     "★★★★★",
+     "★★★★",
+     "★★★★★",
+     "★★★★",
+     "★★★★",
+     "★★★",
+     "Independent / cross-media measurement"
+    ],
+    [
+     "Happydemics",
+     "★★★★",
+     "★★★★★",
+     "★★★",
+     "★★★★",
+     "★★★★★",
+     "★★★★",
+     "★★★★",
+     "Dedicated global brand-lift measurement"
+    ],
+    [
+     "Vistar Media",
+     "★★★★",
+     "★★★★",
+     "★★★★★",
+     "★★★★★",
+     "★★★★★",
+     "★★★★★",
+     "★★★★",
+     "DOOH activation + measurement + optimization"
+    ],
+    [
+     "Broadsign",
+     "★★★★",
+     "★★★★",
+     "★★★★★",
+     "★★★★",
+     "★★★★★",
+     "★★★★★",
+     "★★★★",
+     "Supply infrastructure + attribution"
+    ],
+    [
+     "On Device",
+     "★★★★★",
+     "★★★★★",
+     "★★★★",
+     "★★★★",
+     "★★★★",
+     "★★★★",
+     "★★★",
+     "Passive exposure fi brand lift"
+    ],
+    [
+     "Quividi",
+     "★★★★★",
+     "★★",
+     "★★",
+     "★★★★★",
+     "★★★★★",
+     "★★★★",
+     "★★★★",
+     "Physical audience intelligence"
+    ]
+   ],
+   "caption": "<em>Table 1. The OOH Brand Lift Power Index 2026. This is this article's own analytical assessment based on documented capabilities, weighted toward brand-lift measurement (25%) as the article's central focus, not an official industry ranking or a claim of universal superiority for any organization.</em>"
+  },
+  {
+   "t": "h2",
+   "text": "10. Kantar: Brand Effectiveness and Creative Intelligence",
+   "id": "10-kantar-brand-effectiveness-and-creative-intelligence"
+  },
+  {
+   "t": "p",
+   "html": "Kantar's documented strengths span brand effectiveness, OOH/DOOH campaign measurement, creative intelligence, brand key performance indicators, large-scale effectiveness research, and AI-powered creative analysis, evidenced directly by the 484-campaign study discussed in Section 6 (Kantar/Global, 2026). This article characterizes Kantar's strategic role as answering whether creative and media exposure actually change the brand, and positions Kantar as particularly relevant at the intersection of creative quality and brand effectiveness specifically."
+  },
+  {
+   "t": "h2",
+   "text": "11. Nielsen: Independent Measurement and Cross-Media Impact",
+   "id": "11-nielsen-independent-measurement-and-cross-media-impact"
+  },
+  {
+   "t": "p",
+   "html": "Nielsen's documented strengths include brand impact measurement, OOH measurement, cross-media measurement, consumer research, and media-channel attribution, evidenced by the Luxottica case discussed in Section 6 (Nielsen, published case study). This article's most significant 2026 finding regarding Nielsen is its announced acquisition of DoubleVerify: on August 6, 2026, Nielsen and DoubleVerify announced a definitive agreement under which Nielsen will acquire DoubleVerify in an all-cash transaction with an enterprise value of approximately 2.15 billion dollars, at 13.60 dollars per share, a 30% premium to DoubleVerify's 60-trading-day volume-weighted average price, with the combined company expected to generate more than 4 billion dollars in pro-forma revenue and to serve clients representing more than 300 billion dollars in advertising spend, subject to closing by the first quarter of 2027 (Nielsen/DoubleVerify, 2026). This article characterizes Nielsen's strategic role as answering what contribution OOH made to a brand's overall media performance, with its principal differentiator being its broader, cross-media measurement infrastructure."
+  },
+  {
+   "t": "h2",
+   "text": "12. Happydemics: Dedicated Global Brand-Lift Measurement",
+   "id": "12-happydemics-dedicated-global-brand-lift-measurement"
+  },
+  {
+   "t": "p",
+   "html": "Happydemics is, in this article's assessment, one of the most directly relevant specialists to this article's central thesis, with a proposition centered specifically on advertising effectiveness and brand lift rather than general market research. Vistar Media describes Happydemics as a global brand-lift provider measuring familiarity, recall, consideration, perception, and purchase intent across EMEA, North America, Latin America, and Asia-Pacific, alongside exposure validation, benchmarking, creative-level insights, and standardized methodology (Vistar Media/Happydemics, company disclosures). This article characterizes Happydemics' strategic role as answering whether exposed audiences actually changed their perception of the brand, positioning it as one of the clearest specialists operating within the brand-lift layer itself."
+  },
+  {
+   "t": "h2",
+   "text": "13. Vistar Media: Activation, Measurement, and Optimization",
+   "id": "13-vistar-media-activation-measurement-and-optimization"
+  },
+  {
+   "t": "p",
+   "html": "Vistar Media occupies a structurally different position from the independent research organizations examined in Sections 10 through 12, sitting considerably closer to the DOOH transaction and activation layer itself, spanning demand-side and supply-side platform functionality, audience targeting, DOOH activation, brand lift, foot traffic, sales lift, and device-ID passback for cross-channel attribution (Vistar Media, company disclosures). This article characterizes Vistar's strategic role as answering whether a campaign can be activated, measured, and optimized within a single DOOH ecosystem, positioning it particularly strongly at the intersection of AdTech, audience data, activation, and measurement simultaneously."
+  },
+  {
+   "t": "h2",
+   "text": "14. Broadsign: Supply Infrastructure and Measurement",
+   "id": "14-broadsign-supply-infrastructure-and-measurement"
+  },
+  {
+   "t": "p",
+   "html": "Broadsign sits close to the supply-side and infrastructure layer of the OOH/DOOH ecosystem, with a measurement proposition spanning brand lift, awareness, perception, purchase intent, foot traffic, and attribution (Broadsign, company disclosures). Broadsign's combined ecosystem with Place Exchange has been described by the company as representing more than 1.7 million programmatically enabled screens and more than 1.5 trillion available impressions per month; this article treats this figure explicitly as a company-reported ecosystem figure rather than an independently audited global market total (Broadsign, 2026). This article characterizes Broadsign's strategic role as answering whether the infrastructure connecting screens and transactions can also connect measurement and outcomes, positioning it strongly at the intersection of supply, programmatic transaction, measurement, and attribution."
+  },
+  {
+   "t": "h2",
+   "text": "15. On Device: Passive Exposure to Brand Lift",
+   "id": "15-on-device-passive-exposure-to-brand-lift"
+  },
+  {
+   "t": "p",
+   "html": "On Device addresses what this article considers the single most technically demanding constraint in OOH measurement: the absence of a login-based identity signal available to digital platforms. Vistar Media describes its partnership with On Device as identifying audiences actually exposed to DOOH campaigns using passive location data, compared against a verified control group, with brand-lift metrics spanning awareness, recall, consideration, and purchase intent (Vistar Media/On Device, company disclosures). This article characterizes On Device's strategic role as answering whether actual real-world exposure can be established before brand response is measured, positioning it particularly strongly in the specific link between exposure and brand lift."
+  },
+  {
+   "t": "h2",
+   "text": "16. Quividi: Physical Audience Intelligence",
+   "id": "16-quividi-physical-audience-intelligence"
+  },
+  {
+   "t": "p",
+   "html": "Quividi's core capability sits closest to the physical screen itself, spanning computer-vision-based audience measurement, audience impressions, engagement detection, and DOOH audience intelligence, addressing the foundational problem of determining who is physically present around a given digital screen and how that audience interacts with it (Quividi, company disclosures). This article characterizes Quividi's strategic role as answering who is physically present around a screen, positioning it as strong specifically at the physical audience-intelligence layer rather than as a direct brand-lift measurement provider in its own right."
+  },
+  {
+   "t": "h2",
+   "text": "17. The Comparison Matrix, Read Directly",
+   "id": "17-the-comparison-matrix-read-directly"
+  },
+  {
+   "t": "p",
+   "html": "Table 1, presented in Section 9, allows several direct comparative observations. Vistar Media and Broadsign present the most consistently strong ratings across attribution, data and audience intelligence, OOH/DOOH depth, and AdTech integration, reflecting their position as transaction and activation infrastructure providers; Kantar, Nielsen, and Happydemics present the strongest ratings specifically within the brand-lift battlefield, reflecting their identity as dedicated or independent measurement and research organizations; and On Device and Quividi present the strongest ratings in exposure intelligence specifically, reflecting their shared focus on the foundational problem of establishing genuine physical-world exposure. No organization examined in this article rates strongly across all seven dimensions simultaneously, a pattern this article treats as directly supporting the structural argument developed in Section 18."
+  },
+  {
+   "t": "h2",
+   "text": "18. The OOH Brand-Lift Stack and the PowerPlay Gap",
+   "id": "18-the-ooh-brand-lift-stack-and-the-powerplay-gap"
+  },
+  {
+   "t": "p",
+   "html": "Synthesizing the evidence in Sections 10 through 17, this article proposes a seven-layer OOH Brand-Lift Stack, moving from activation, through inventory, audience intelligence, exposure, brand lift, and attribution, to business outcome. Figure 4 presents this stack directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/exposure-to-impact-brand-lift-4.webp",
+   "w": 1220,
+   "h": 1342,
+   "caption": "<em>Figure 4. The OOH Brand-Lift Stack proposed in this article. Different organizations examined in this article occupy different layers of this stack today; this article's central finding is that no organization currently spans the full stack end to end. The 17,000+ segment figure is Vistar Media's own disclosed count, shown as an illustrative example rather than a market-wide statistic.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's central structural finding is that the existing OOH/DOOH brand-lift ecosystem is genuinely fragmented rather than consolidated. An advertiser does not experience these layers as separate systems in their own decision-making; an advertiser wants a single answer to a single question, whether a given OOH investment created incremental impact. Today, that answer may require combining an audience provider, an OOH measurement provider, a demand-side platform, a supply-side platform, a brand-lift provider, an attribution provider, and a separate analytics layer. This article terms this fragmentation the PowerPlay Gap, and treats it as the single most important strategic finding in this article: not which organization currently leads, but the fact that the connective layer between these specialized capabilities remains largely unbuilt, which this article considers the central 2026-2030 opportunity in this category."
+  },
+  {
+   "t": "h2",
+   "text": "19. Two Independent Views of 2025-2030",
+   "id": "19-two-independent-views-of-2025-2030"
+  },
+  {
+   "t": "p",
+   "html": "WPP Media's December 2025 This Year Next Year forecast projects global DOOH expenditure growing from 22.2 billion dollars in 2025 to 31.4 billion dollars by 2030, with DOOH reaching approximately 43.9% of total OOH revenue by that year (WPP Media, 2025); this article notes explicitly that this figure should not be directly combined with the World Out of Home Organization's separate 25.5 billion dollar 2025 DOOH estimate discussed in Section 2, since the two organizations apply different market definitions and methodologies. This article's position is that the specific numerical trajectory matters less than the shared underlying direction both forecasts support: continued DOOH growth alongside a still structurally immature programmatic and measurement ecosystem, evidenced directly by the regional penetration disparities presented in Figure 2."
+  },
+  {
+   "t": "h2",
+   "text": "20. Geographic Focus",
+   "id": "20-geographic-focus"
+  },
+  {
+   "t": "p",
+   "html": "This article deliberately concentrates its geographic analysis on three tiers rather than attempting comprehensive global coverage. The United States represents programmatic scale and commercial maturity, as the largest single pDOOH market by volume at 545.5 million dollars in 2025. Western Europe, and Germany specifically at 31.8% penetration, represents programmatic and measurement maturity. Eastern Asia, comprising China, Japan, and South Korea, represents the most significant programmatic transformation opportunity, given its 7.3 billion dollar DOOH base against only 0.6% programmatic penetration (World Out of Home Organization/PwC, 2026). This article treats Southeast Asia as a secondary expansion region worth monitoring, rather than as the center of this article's global thesis."
+  },
+  {
+   "t": "h2",
+   "text": "21. Six Propositions for 2030",
+   "id": "21-six-propositions-for-2030"
+  },
+  {
+   "t": "p",
+   "html": "1 Brand lift will move from a post-campaign report toward a real-time optimization signal feeding directly back into an active campaign."
+  },
+  {
+   "t": "p",
+   "html": "2 Exposure quality will become as strategically important as raw impression volume in how OOH inventory is evaluated and priced."
+  },
+  {
+   "t": "p",
+   "html": "3 Advertisers will increasingly demand a demonstrated connection between brand lift and downstream business outcomes, rather than treating brand lift as a standalone metric."
+  },
+  {
+   "t": "p",
+   "html": "4 Competitive advantage will shift from individual, standalone measurement products toward interoperable intelligence systems spanning multiple layers of the stack presented in Figure 4."
+  },
+  {
+   "t": "p",
+   "html": "5 Artificial intelligence will increasingly connect planning, creative, measurement, and optimization, while this article maintains, consistent with its companion analyses, that deterministic measurement and optimization systems must remain the operational foundation beneath that AI layer."
+  },
+  {
+   "t": "p",
+   "html": "6 The next major OOH AdTech product category will be outcome intelligence connecting the layers in Figure 4, rather than another standalone demand-side platform."
+  },
+  {
+   "t": "h2",
+   "text": "22. Limitations",
+   "id": "22-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article is a strategic and competitive analysis rather than an empirical study, and explicitly does not present Table 1 or any comparison in this article as an official, independently audited industry ranking; the star ratings reflect this article's own qualitative assessment of documented public capability, weighted toward the brand-lift battlefield consistent with this article's stated focus. The market-scale figures in Sections 2, 19, and 20 are drawn from named, dated primary sources, principally the World Out of Home Organization, its joint study with PricewaterhouseCoopers, and WPP Media, each applying its own stated methodology; this article has deliberately avoided combining figures from methodologically distinct sources into a single composite statistic. Campaign-specific results attributed to Kantar/Global, Nielsen/Luxottica, and Vistar Media's own data-targeting and audience-segment analyses are presented explicitly as campaign- or company-specific evidence rather than as generalizable, cross-industry benchmarks. This article's scope was deliberately narrowed, at the request underlying this research, to organizations with a documented, specific role in OOH/DOOH exposure, brand-lift, attribution, or measurement technology; broader digital brand-lift and market-research organizations, and the major global OOH media owners, are accordingly outside this article's comparative scope. Given the pace of consolidation evident throughout 2026, including the pending Nielsen-DoubleVerify transaction, this article's competitive assessment should be verified against current primary sources before being relied upon for a strategic or investment decision."
+  },
+  {
+   "t": "h2",
+   "text": "23. Conclusion: The Race to Own the Outcome-Intelligence Layer",
+   "id": "23-conclusion-the-race-to-own-the-outcome-intelligence-layer"
+  },
+  {
+   "t": "p",
+   "html": "This article's earlier work on the broader OOH AdTech landscape asked which organization controls the OOH AdTech stack. This article's central conclusion is that the more precise and more consequential question for 2026 through 2030 is which organization controls the OOH outcome-intelligence loop, the connective layer running from activation, through inventory, audience intelligence, exposure, brand lift, and attribution, to business outcome, and back into the next campaign's optimization. The organizations examined in this article each occupy genuine, well-documented strength in specific layers of that loop, Kantar and Nielsen in brand effectiveness and independent measurement, Happydemics and On Device in dedicated and passive brand-lift measurement, and Vistar Media and Broadsign in DOOH activation and attribution infrastructure, but this article's evidence indicates that the loop itself, connecting these specialized capabilities end to end, remains substantially unbuilt. That connective whitespace, this article concludes, rather than incremental improvement to any single existing measurement product, is the real OOH Brand Lift PowerPlay of 2026."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Broadsign. (2026). <em>2026 Programmatic DOOH Trends Report</em>. <a href=\"https://billboardinsider.com/broadsign-issues-2026-programmatic-report/\">https://billboardinsider.com/broadsign-issues-2026-programmatic-report/</a>",
+    "Kantar / Global. (2026). <em>Top-tier (D)OOH ads deliver 14x stronger results</em>. <a href=\"https://www.kantar.com/nl/kantar-nieuws/top-tier-d-ooh-ads-deliver-14x-stronger-results\">https://www.kantar.com/nl/kantar-nieuws/top-tier-d-ooh-ads-deliver-14x-stronger-results</a>",
+    "Nielsen / DoubleVerify. (2026). <em>Nielsen to acquire DoubleVerify, creating a leading, independent media intelligence platform</em> [Press release, SEC Form 8-K exhibit]. <a href=\"https://www.sec.gov/Archives/edgar/data/1819928/000110465926092753/tm2621904d8_ex99-1.htm\">https://www.sec.gov/Archives/edgar/data/1819928/000110465926092753/tm2621904d8_ex99-1.htm</a>",
+    "Vistar Media. (2026). <em>Measurement suite and Happydemics / On Device partnerships</em> [Company disclosures]. <a href=\"https://www.vistarmedia.com\">https://www.vistarmedia.com</a>",
+    "World Out of Home Organization. (2026a). <em>Global Out of Home Expenditure Report 2026</em>. <a href=\"https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026\">https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026</a>",
+    "World Out of Home Organization. (2026b). <em>WOO launches Global OOH Audience Measurement Guidelines 2.0</em>. <a href=\"https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026\">https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026</a>",
+    "World Out of Home Organization / PwC. (2026). <em>WOO Global pDOOH Expenditure Study 2026</em>. <a href=\"https://worldooh.org/global-pdooh-market\">https://worldooh.org/global-pdooh-market</a>",
+    "WPP Media. (2025). <em>This Year Next Year: December 2025 global advertising forecast</em>. <a href=\"https://www.wppmedia.com\">https://www.wppmedia.com</a>"
+   ]
+  },
+  {
+   "t": "note",
+   "html": "<em>Figures attributed to Quividi are drawn from company disclosures reviewed for this article and should be verified against the provider's current primary documentation before further citation.</em>"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+  "caption": "Six years at Moving Walls, and what comes next.",
+  "seconds": 5,
+  "slides": [
+    {
+      "layout": "portrait",
+      "kicker": "Portfolio introduction",
+      "title": "Suraj Prakash",
+      "text": "Product manager, AI platform builder and AdTech writer."
+    },
+    {
+      "layout": "text",
+      "kicker": "2020 — 2026 · Moving Walls",
+      "title": "Six years, five roles",
+      "text": "From business analyst to Senior Executive Product Manager on a programmatic DOOH platform.",
+      "badge": "Tenure complete"
+    },
+    {
+      "layout": "list",
+      "kicker": "Product work",
+      "title": "What I built",
+      "items": [
+        "A DSP revamp: order management and auctions",
+        "Salesforce, Zoho Books and NetSuite integrations",
+        "Two AI-powered products built solo, one in 15 days"
+      ]
+    },
+    {
+      "layout": "number",
+      "kicker": "Independent research",
+      "number": "20",
+      "title": "research papers in 2026",
+      "text": "Sixteen collected in Media Intelligence, Edition 01, and all of them on ResearchGate"
+    },
+    {
+      "layout": "text",
+      "kicker": "Now",
+      "title": "Open to what's next",
+      "text": "Writing research, building with AI, and open to product roles, advisory work and research collaborations."
+    }
+  ]
+}

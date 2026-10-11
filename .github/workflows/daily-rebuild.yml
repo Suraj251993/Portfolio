@@ -1,0 +1,56 @@
+# Checks once a day whether the live site needs rebuilding, and only then asks
+# Netlify for a new deploy. A rebuild is needed when:
+#   - a blog post with a future date has reached its day, or
+#   - a LinkedIn feed address is set in the content manager and the feed has
+#     new posts.
+# On other days nothing is deployed, which matters on Netlify's free plan:
+# every production deploy uses 15 of its 300 monthly credits.
+#
+# Setup (once, after the site is live):
+#   1. Netlify: Project configuration → Build & deploy → Build hooks → Add build
+#      hook. Copy its URL.
+#   2. GitHub: Settings → Secrets and variables → Actions.
+#      - Secrets tab → New repository secret: NETLIFY_BUILD_HOOK = the hook URL.
+#      - Variables tab → New repository variable: SITE_URL = your address,
+#        for example https://www.example.com (no slash at the end).
+# Without the secret this workflow does nothing.
+
+name: Daily rebuild
+
+on:
+  schedule:
+    - cron: "5 22 * * *" # 06:05 in Kuala Lumpur
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild even if nothing is due"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Is anything due?
+        id: check
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node scripts/rebuild-needed.mjs
+      - name: Ask Netlify to rebuild the site
+        if: steps.check.outputs.rebuild == 'true' || inputs.force
+        env:
+          HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "NETLIFY_BUILD_HOOK isn't set, so there is nothing to do. See the comment at the top of this file."
+            exit 0
+          fi
+          curl --fail --silent --show-error -X POST -d '{}' "$HOOK"
+          echo "Rebuild requested."

@@ -1,0 +1,92 @@
+# Netlify: build settings, security and caching headers.
+# Netlify serves /about from about.html automatically, stores and emails the
+# contact form's messages (Netlify Forms: switch on form detection once, see
+# docs/CONTACT-FORM.md), and rebuilds the site whenever the content manager at
+# /admin saves a change to GitHub. Going live: docs/GOING-LIVE.md.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+  # Skip builds for changes that can't show on the site (draft or scheduled
+  # posts, docs), so they don't use Netlify credits. See the script.
+  ignore = "node scripts/netlify-ignore.mjs"
+
+[build.environment]
+  NODE_VERSION = "24"
+  # The build needs no packages. NODE_ENV=production stops Netlify installing
+  # the devDependencies (sharp, playwright), which are only for preparing
+  # images on your own computer, so builds stay fast and small.
+  NODE_ENV = "production"
+  # The site's address (for canonical links, social cards, the sitemap and the
+  # RSS feed) is taken from Netlify's URL variable, which becomes your own
+  # domain once it is set as the primary domain. Redeploy once after adding the
+  # domain. To pin it yourself, set SITE_URL under Project configuration →
+  # Environment variables, e.g. https://www.example.com.
+
+# The Content-Security-Policy is set by each page itself (a meta tag written by
+# the build), so the content manager at /admin can load its editor. See
+# contentSecurityPolicy() in src/lib/layout.mjs.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    X-Frame-Options = "SAMEORIGIN"
+    # Browsers remember to use HTTPS for a year. No includeSubDomains or
+    # preload, so other subdomains (for example for email) aren't affected.
+    Strict-Transport-Security = "max-age=31536000"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/editions/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# Page images, figures and previews of the papers, and social cards. They only
+# change when a paper is re-extracted, so a week of browser caching is safe and
+# saves bandwidth (which uses Netlify credits).
+[[headers]]
+  for = "/papers/pages/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/papers/figures/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/papers/previews/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/og/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/papers/*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+    X-Robots-Tag = "noindex"

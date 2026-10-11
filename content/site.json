@@ -1,0 +1,78 @@
+{
+  "name": "Suraj Prakash",
+  "shortName": "Suraj Prakash",
+  "jobTitle": "Product manager",
+  "employer": "Moving Walls",
+  "employerUrl": "https://www.movingwalls.com",
+  "location": "Kuala Lumpur, Malaysia",
+  "timezone": "UTC+8",
+  "email": "surajprakash251993@gmail.com",
+  "phone": "",
+  "linkedin": "https://www.linkedin.com/in/suraj-prakash-8460bb147/",
+  "linkedinArticles": "https://www.linkedin.com/in/suraj-prakash-8460bb147/recent-activity/articles/",
+  "siteUrl": "",
+  "language": "en",
+  "locale": "en_GB",
+  "themeColor": "#A4471F",
+  "description": "Suraj Prakash is a product manager, AI platform builder and AdTech and MarTech researcher based in Kuala Lumpur. Six years building B2B SaaS at Moving Walls, AI-powered applications designed and deployed hands-on, and independent research on AdTech, MarTech, OOH and DOOH.",
+  "pillars": [
+    {
+      "title": "Product thinking",
+      "body": "Six years at Moving Walls across five roles, most recently owning strategy, roadmap and delivery for its programmatic DOOH platform.",
+      "href": "work"
+    },
+    {
+      "title": "Industry intelligence",
+      "body": "Sixteen independent research papers on how advertising is bought, measured and proved, collected in the first edition of Media Intelligence.",
+      "href": "research"
+    },
+    {
+      "title": "Technology execution",
+      "body": "Two AI-powered products taken from requirement to live production on my own, one of them in 15 days.",
+      "href": "work#inventory-viewer"
+    }
+  ],
+  "contactForm": {
+    "provider": "netlify",
+    "formspreeEndpoint": "",
+    "topics": [
+      "A product role",
+      "Consulting or advisory",
+      "Research or editorial",
+      "Something else"
+    ]
+  },
+  "nav": [
+    {
+      "label": "Work",
+      "href": "work"
+    },
+    {
+      "label": "Research",
+      "href": "research"
+    },
+    {
+      "label": "Blog",
+      "href": "blog"
+    },
+    {
+      "label": "Magazine",
+      "href": "magazine"
+    },
+    {
+      "label": "Consulting",
+      "href": "consulting"
+    },
+    {
+      "label": "About",
+      "href": "about"
+    }
+  ],
+  "tz": "Asia/Kuala_Lumpur",
+  "cms": {
+    "repo": "Suraj251993/Portfolio",
+    "branch": "main"
+  },
+  "researchgate": "https://www.researchgate.net/profile/Suraj-Prakash-17?ev=hdr_xprf",
+  "headline": "Product manager · AI platform builder · B2B SaaS · AdTech & MarTech researcher"
+}

@@ -1,0 +1,128 @@
+{
+  "lead": "I help AdTech, MarTech and B2B SaaS teams make better product decisions and turn them into working software, drawing on six years inside a programmatic DOOH business, hands-on AI product building, and independent research into where the market is going.",
+  "disclosure": "From 2020 to 2026 I worked at Moving Walls, most recently as Senior Executive Product Manager. I take on a small number of advisory and research engagements.",
+  "services": [
+    {
+      "id": "product-strategy",
+      "title": "Product strategy and roadmap advisory",
+      "body": "A second pair of product eyes on where a platform should go next and in what order.",
+      "problems": [
+        "A roadmap driven by the loudest customer rather than evidence",
+        "Features shipping late because discovery happened after the build",
+        "Teams across regions pulling in different directions"
+      ],
+      "formats": [
+        "Roadmap and prioritisation review",
+        "Discovery plan with interview and usability-testing guides",
+        "PRD or BRD review"
+      ],
+      "grounding": "Owned the end-to-end roadmap for an enterprise programmatic DOOH platform at Moving Walls; a discovery practice there cut rework by about 30%."
+    },
+    {
+      "id": "adtech-product",
+      "title": "AdTech and MarTech product consulting",
+      "body": "Practical help with the mechanics that make advertising platforms hard to build.",
+      "problems": [
+        "Designing order management, auction logic or deal types",
+        "Keeping budgets and inventory consistent across PMP, Preferred and open auction",
+        "Connecting the platform to CRM and ERP systems"
+      ],
+      "formats": [
+        "Architecture and requirements workshop",
+        "Specification review",
+        "Integration plan"
+      ],
+      "grounding": "Led a DSP revamp across six modules, and the Salesforce, Zoho Books and NetSuite integrations."
+    },
+    {
+      "id": "enterprise-apps",
+      "title": "Enterprise applications and workflow automation",
+      "body": "Connecting the systems a business already runs on, so information flows without manual work.",
+      "problems": [
+        "Teams re-keying data between the platform, the CRM and finance",
+        "A CRM rollout that needs requirements, configuration and adoption",
+        "A manual reporting cycle that could run on its own"
+      ],
+      "formats": [
+        "Process and integration map",
+        "Requirements for a CRM or ERP integration",
+        "Working internal tool or automation"
+      ],
+      "grounding": "Led Salesforce, Zoho Books and NetSuite integrations, an organisation-wide Zoho CRM implementation, and built an AI reporting tool that replaced a manual cycle."
+    },
+    {
+      "id": "ooh-intelligence",
+      "title": "Market research, writing and commentary",
+      "body": "Research briefings, articles and commentary on the companies, data providers and measurement systems that shape AdTech, MarTech and out-of-home.",
+      "problems": [
+        "Choosing a data or measurement partner for a specific question",
+        "Understanding a regional market before entering it",
+        "Seeing where competitors and partners actually sit in the stack"
+      ],
+      "formats": [
+        "Landscape or capability map",
+        "Regional ecosystem briefing",
+        "Written research brief or bylined article, with sources labelled"
+      ],
+      "grounding": "Twenty papers in 2026, including regional market studies of the US, Europe, Asia-Pacific and Africa and competitive analyses of the global landscape, plus a 36-page digital magazine."
+    },
+    {
+      "id": "ai-product",
+      "title": "AI product discovery and build",
+      "body": "Turning an AI idea into a scoped product, and where it helps, into a working one.",
+      "problems": [
+        "An AI idea with no clear user or workflow",
+        "Unsure what should be a model and what should be deterministic",
+        "Needing a working prototype before committing a team"
+      ],
+      "formats": [
+        "Discovery sprint and scoped requirements",
+        "Working prototype built with Claude Code",
+        "Review of where AI belongs in an existing product"
+      ],
+      "grounding": "Two AI-powered products taken from requirement to live production without an engineering team, one in 15 days."
+    },
+    {
+      "id": "opportunity",
+      "title": "Opportunity assessment for new products",
+      "body": "For founders and investors weighing a product idea in advertising technology.",
+      "problems": [
+        "Is there a real gap, or is it already crowded?",
+        "Which layer of the stack should a new product own?",
+        "What has to be true for an outcome-based model to work?"
+      ],
+      "formats": [
+        "Opportunity memo",
+        "Competitive and capability map",
+        "Product thesis review"
+      ],
+      "grounding": "Research that maps who holds which layer of the OOH stack, and a proposed Outcome Exchange architecture."
+    }
+  ],
+  "audiences": [
+    "AdTech and MarTech platforms building or rebuilding products",
+    "B2B SaaS companies integrating CRM and ERP systems or automating workflows",
+    "Media owners and DOOH networks adding programmatic or data capability",
+    "Data and measurement companies working out where they fit",
+    "Founders and investors looking at advertising technology",
+    "Agencies building their own technology"
+  ],
+  "process": [
+    {
+      "title": "Conversation",
+      "body": "A short call to understand the problem and whether I'm the right person for it."
+    },
+    {
+      "title": "Scoping note",
+      "body": "A one-page note covering the question, what I'll deliver and what I need from you."
+    },
+    {
+      "title": "The work",
+      "body": "Research, review, workshop or prototype, with check-ins at the points we agree."
+    },
+    {
+      "title": "Handover",
+      "body": "Written findings or working software you can keep using, with sources and assumptions stated."
+    }
+  ]
+}

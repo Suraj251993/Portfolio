@@ -1,0 +1,293 @@
+{
+ "slug": "data-behind-the-billboard-europe",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 2920,
+ "figures": 3,
+ "tables": 0,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction: A Different Kind of Challenge",
+   "id": "1-introduction-a-different-kind-of-challenge"
+  },
+  {
+   "t": "p",
+   "html": "Europe presents a structurally different out-of-home (OOH) and digital out-of-home (DOOH) measurement challenge than a single national market such as the United States. The question is not simply how much OOH inventory across the continent is becoming digital or programmatic. The deeper question this article addresses is how to build a connected measurement and data ecosystem across markets that have each independently developed their own national measurement systems, methodologies, and commercial structures over decades. This article argues that this condition makes Europe one of the more interesting environments for the next phase of OOH/DOOH intelligence, precisely because the fragmentation is not a temporary gap awaiting a single fix, but a structural feature of a continent with genuinely distinct national media markets."
+  },
+  {
+   "t": "p",
+   "html": "This article proceeds as follows. Section 2 establishes Europe's current market scale and programmatic maturity. Section 3 argues that Europe should be understood as multiple measurement markets rather than one. Section 4 examines five national measurement systems individually. Section 5 presents the multinational data and measurement stack operating across these markets, and Section 6 offers a qualitative capability assessment of ten organizations within it. Section 7 connects this ecosystem to the campaign lifecycle. Section 8 develops the specific interoperability challenge a genuinely multinational European campaign encounters. Section 9 proposes a standardize-normalize-connect framework as this article's preferred resolution. Section 10 proposes a five-stage measurement trajectory, Section 11 addresses the role of artificial intelligence, and Section 12 develops this article's 2030 outlook. The article closes with its central thesis in Section 13."
+  },
+  {
+   "t": "h2",
+   "text": "2. Europe's OOH Market Is Already Highly Digital",
+   "id": "2-europe-s-ooh-market-is-already-highly-digital"
+  },
+  {
+   "t": "p",
+   "html": "According to the World Out of Home Organization's Global OOH Expenditure Report, Europe generated approximately 10.2 billion dollars in OOH expenditure in 2025, with DOOH representing 41.3% of European OOH expenditure, making digital formats a substantial component of the regional market already (World Out of Home Organization, 2026a). The programmatic layer is developing as well, though from a considerably smaller base: the WOO Global pDOOH Expenditure Study, independently aggregated by PricewaterhouseCoopers LLP from confidential revenue submissions by twelve supply-side platforms across more than 40 markets, reports 521 million dollars of Europe, Middle East, and Africa (EMEA) pDOOH expenditure in 2025, representing 9.4% penetration of DOOH spend; within that total, Western Europe specifically accounted for 346.7 million dollars and 21.3% penetration (World Out of Home Organization/PwC, 2026). Figure 1 presents this market snapshot directly, alongside country-level penetration figures."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-europe-1.webp",
+   "w": 1340,
+   "h": 622,
+   "caption": "<em>Figure 1. Left panel: Europe total OOH, DOOH, and EMEA programmatic DOOH expenditure, 2025 (log scale). Right panel: pDOOH penetration of DOOH spend by market, showing sharp variation across Western Europe, Germany, Belgium, and France. Sources: World Out of Home Organization, 2026a; World Out of Home Organization/PwC, 2026.</em>"
+  },
+  {
+   "t": "p",
+   "html": "At the country level, Germany recorded 31.8% pDOOH penetration, the highest of any major market in the WOO/PwC study globally, while Belgium reached 25.5% and France 16.7% (World Out of Home Organization/PwC, 2026). This article's position is that these figures reveal something structurally important: European programmatic maturity is not uniform, and a market's absolute programmatic transaction volume does not necessarily correspond to its penetration rate, a pattern this article considers directly relevant to any organization evaluating where in Europe to prioritize programmatic investment."
+  },
+  {
+   "t": "h2",
+   "text": "3. Europe Is Not One Measurement Market",
+   "id": "3-europe-is-not-one-measurement-market"
+  },
+  {
+   "t": "p",
+   "html": "This article treats the following distinction as the most important structural fact in the European story: Europe does not operate under one universal OOH audience-measurement framework. Instead, individual national markets have each developed their own measurement organizations and methodologies over time. The World Out of Home Organization's Global OOH Audience Measurement Guidelines 2.0, launched at the WOO Congress in London in June 2026 and drawing on the contributions of 20 measurement bodies across 28 territories, more than double the 11 national measurement bodies that contributed to the first edition in 2022, explicitly identifies, among others, Route in Great Britain, BAM Out of Home in Germany, CIM in Belgium, Audioutdoor in Italy, and BRO in the Netherlands, alongside measurement bodies in numerous other European and global markets (World Out of Home Organization, 2026b). This article's position is that this fragmentation is not necessarily a weakness in itself; in many cases it reflects genuinely distinct local market structures, mobility patterns, inventory characteristics, and established industry practice built up over years. It does, however, create a genuine interoperability challenge, developed fully in Section 8."
+  },
+  {
+   "t": "h2",
+   "text": "4. How National Measurement Systems Differ",
+   "id": "4-how-national-measurement-systems-differ"
+  },
+  {
+   "t": "h3",
+   "text": "4.1 Great Britain: Route",
+   "id": "4-1-great-britain-route"
+  },
+  {
+   "t": "p",
+   "html": "Route is the Joint Industry Currency responsible for OOH audience measurement in Great Britain. Its core metrics include reach, cover, impacts, frequency, and gross rating points, with a methodology grounded in estimating the likelihood that an individual saw a given advertisement rather than simply counting advertisements broadcast or displayed (Route, company disclosures). This article treats this distinction as fundamental: OOH measurement is structurally different from counting digital ad impressions, since a physical panel does not log an individual exposure event the way a digital platform does."
+  },
+  {
+   "t": "h3",
+   "text": "4.2 Belgium: CIM",
+   "id": "4-2-belgium-cim"
+  },
+  {
+   "t": "p",
+   "html": "CIM's OOH study measures audiences across roadside, station, metro, and retail environments, spanning both traditional and digital panels, and additionally estimates visibility for individual panels specifically; its 2026-1 release incorporates an updated panel network and current mobility data (CIM, company disclosures)."
+  },
+  {
+   "t": "h3",
+   "text": "4.3 Italy: Audioutdoor",
+   "id": "4-3-italy-audioutdoor"
+  },
+  {
+   "t": "p",
+   "html": "Audioutdoor measures multiple OOH environments, including roadside, dynamic, metro, airport, and highway inventory, connecting individual movement patterns with georeferenced advertising locations and providing measures including contacts, coverage, frequency, gross rating points, and exposure duration; Audioutdoor has expanded its audience-data coverage to all 90 Italian provincial capitals containing participating OOH and DOOH inventory (Audioutdoor, company disclosures)."
+  },
+  {
+   "t": "h3",
+   "text": "4.4 Netherlands: BRO Next",
+   "id": "4-4-netherlands-bro-next"
+  },
+  {
+   "t": "p",
+   "html": "BRO Next is the Dutch industry OOH audience-measurement framework operating under JIC BRO, providing reach information for more than 57,500 advertising objects from participating operators, including digital objects measured at an hourly level; this article treats BRO Next as representing an important evolution in measurement granularity specifically, incorporating mobility data, object characteristics, and visibility modelling into a single framework (JIC BRO, company disclosures)."
+  },
+  {
+   "t": "h3",
+   "text": "4.5 Germany: BAM Out of Home",
+   "id": "4-5-germany-bam-out-of-home"
+  },
+  {
+   "t": "p",
+   "html": "Germany's BAM Out of Home is recognized by the World Out of Home Organization as the German national measurement body contributing to the international OOH measurement framework described in Section 3 (World Out of Home Organization, 2026b). Figure 2 presents these five national systems together."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-europe-2.webp",
+   "w": 1280,
+   "h": 936,
+   "caption": "<em>Figure 2. Five national OOH audience-measurement bodies recognized in the WOO Global OOH Audience Measurement Guidelines 2.0, illustrating the structural diversity of Europe's national measurement landscape.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's synthesis of Sections 4.1 through 4.5 is that the industry across these markets is measuring increasingly sophisticated audiences, using increasingly comparable underlying concepts, exposure, visibility, frequency, and reach, but the measurement architecture producing those concepts remains substantially market-specific in implementation."
+  },
+  {
+   "t": "h2",
+   "text": "5. The European Multinational Data and Measurement Stack",
+   "id": "5-the-european-multinational-data-and-measurement-stack"
+  },
+  {
+   "t": "p",
+   "html": "Operating alongside these national measurement systems is a second layer of multinational data and intelligence providers active across European markets. Kantar operates across media effectiveness, exposure, and brand measurement, with its LIFT solutions connecting exposure measurement to outcomes including brand growth, sales, and return on investment across media platforms (Kantar, company disclosures). Adsquare provides audience, location, and measurement capabilities connecting planning, activation, and footfall measurement, with its documented measurement product aggregating location signals and delivering visit data directly into demand-side platform environments (Adsquare, company disclosures). Foursquare connects location intelligence with omnichannel attribution spanning OOH, digital, television, connected television, social, and audio, with documented capabilities including visits, sales impact, and in-flight investment optimization (Foursquare, company disclosures). Unacast provides location intelligence, audience creation, foot-traffic analysis, and offline attribution, including OOH-specific applications (Unacast, company disclosures). Veraset provides large-scale location-data infrastructure across international markets, with current documentation reporting coverage across more than 200 countries and particular density in North America, Europe, and Asia-Pacific, figures this article treats as provider-reported rather than independently audited (Veraset, company disclosures). Precisely incorporates PlaceIQ's location-intelligence capabilities into products including Precisely Audiences and Precisely Visits, documenting real-world audience segments, visitation intelligence, targeting, and measurement across multiple markets (Precisely, company disclosures). Cuebiq provides footfall, offline attribution, and incrementality measurement, including OOH and cross-channel campaign measurement (Cuebiq, company disclosures). Placer.ai uses location intelligence and foot-traffic data for trade-area analysis, audience understanding, and OOH planning applications (Placer.ai, company disclosures). Comscore provides independent audience measurement with documented DOOH measurement capability incorporated into planning and advertising workflows (Comscore, company disclosures). Lumen Research brings the attention layer into the ecosystem, conducting attention research across OOH and other media using eye-tracking and related methodologies (Lumen Research, company disclosures)."
+  },
+  {
+   "t": "h2",
+   "text": "6. A Qualitative Capability Map Across the Ecosystem",
+   "id": "6-a-qualitative-capability-map-across-the-ecosystem"
+  },
+  {
+   "t": "p",
+   "html": "Consistent with this article's position that documented capability across structurally different business types is not reducible to a single comparable score, this article does not rank the ten organizations examined in Section 5 numerically. Figure 3 instead presents a qualitative capability map across five dimensions using categorical assessments of strong, moderate, or emerging documented capability."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-europe-3.webp",
+   "w": 1320,
+   "h": 1056,
+   "caption": "<em>Figure 3. Qualitative capability map across ten multinational organizations examined in this article's European OOH/DOOH data ecosystem review. Categories reflect this article's own synthesis of publicly documented capability and should not be read as a numerical ranking, performance score, or independently audited industry benchmark.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's reading of Figure 3 is consistent with the pattern this article's companion analysis of the United States identified: no organization examined rates strongly across all five dimensions simultaneously. Foursquare, Unacast, and Precisely/PlaceIQ present the broadest documented strength jointly across location data, audience intelligence, and attribution; Veraset and Placer.ai present strong, more narrowly scoped capability in raw location data specifically; and Lumen Research again occupies a structurally distinct position, rating strongly only in attention measurement."
+  },
+  {
+   "t": "h2",
+   "text": "7. Where European Data Enters the Campaign",
+   "id": "7-where-european-data-enters-the-campaign"
+  },
+  {
+   "t": "p",
+   "html": "This article connects the ecosystem described in Sections 4 through 6 to the campaign lifecycle directly, simplified into five stages. Planning uses national audience measurement, location intelligence, and mobility data to identify audiences, locations, and trade areas. Targeting translates those insights into audiences and activation strategies through demand- and supply-side platforms and planning platforms. Execution buys and delivers OOH/DOOH inventory across individual markets, increasingly through programmatic infrastructure. Measurement evaluates reach, frequency, impacts, exposure, visits, attention, brand effects, and business outcomes. Optimization uses the resulting intelligence to improve locations, audiences, creative, and budgets. This article emphasizes that the underlying data need not be delivered directly to the advertiser in raw form; it is increasingly embedded into the systems that planners, agencies, and buying platforms already use."
+  },
+  {
+   "t": "h2",
+   "text": "8. The European Interoperability Challenge",
+   "id": "8-the-european-interoperability-challenge"
+  },
+  {
+   "t": "p",
+   "html": "This article's central illustration of the practical stakes involved concerns a hypothetical multinational campaign spanning London, Paris, Berlin, Milan, Brussels, and Amsterdam. Across these six markets, an advertiser may encounter different audience-measurement bodies, different methodologies, different terminology, different data availability, different inventory structures, different programmatic maturity, and different attribution capabilities, as documented directly in Sections 2 through 6 of this article. The campaign objective, however, remains constant across every market: reach the right audience, deliver the campaign, measure the exposure, understand the outcome, and improve the next decision. This article's position is that this consistent objective, set against genuinely inconsistent underlying measurement infrastructure, creates a compelling opportunity for an interoperability layer capable of normalizing and connecting market-specific signals without pretending that every market measures OOH identically."
+  },
+  {
+   "t": "h2",
+   "text": "9. From National Currencies to Connected Intelligence",
+   "id": "9-from-national-currencies-to-connected-intelligence"
+  },
+  {
+   "t": "p",
+   "html": "This article's position is that the objective should not necessarily be to replace Europe's national measurement systems with a single universal European number; doing so would discard genuine, hard-won local measurement expertise built up over years in markets such as Great Britain, Belgium, Italy, and the Netherlands. This article instead proposes a three-part framework: standardize where possible, normalize where necessary, and connect where valuable. A European campaign-intelligence layer, under this framework, could ingest signal from Route, BAM, CIM, Audioutdoor, and BRO alongside mobility, location, audience, attribution, and attention data from the organizations examined in Section 5, and expose a common planning and analytics layer to agencies and advertisers. This article's position is that this approach would allow the market to preserve local measurement expertise while meaningfully improving cross-market comparability, rather than forcing a false uniformity onto markets that have developed genuinely different, locally appropriate measurement traditions."
+  },
+  {
+   "t": "h2",
+   "text": "10. A Five-Stage Measurement Trajectory",
+   "id": "10-a-five-stage-measurement-trajectory"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that Europe's measurement trajectory can be understood through five stages, closely paralleling the trajectory this article's companion United States analysis identifies, but applied specifically to the cross-market European condition. The first stage, audience measurement, asks who could see the campaign, addressed today primarily through the national systems examined in Section 4. The second, exposure intelligence, asks who was likely exposed. The third, attention intelligence, asks who actually noticed, the specific capability Lumen Research addresses in Figure 3. The fourth, outcome intelligence, asks whether that exposure influenced behaviour. The fifth, optimization intelligence, asks what should change next. This article's position is that the most valuable near-term step in this progression is unlikely to be an entirely new measurement methodology; it is more likely to be connecting the methodologies and data layers that already exist across the markets examined in this article."
+  },
+  {
+   "t": "h2",
+   "text": "11. Where Artificial Intelligence Fits",
+   "id": "11-where-artificial-intelligence-fits"
+  },
+  {
+   "t": "p",
+   "html": "This article takes the same explicit position on artificial intelligence that its companion United States analysis develops: AI can play an important role in resolving the complexity documented throughout this article, but only if the underlying data feeding it remains transparent and methodologically sound. An AI system could, in principle, interpret national audience measurement, mobility signals, location intelligence, inventory data, exposure, attention, and attribution jointly, and answer questions including which markets, audiences, and locations should receive additional investment, which campaign environments are producing the strongest incremental outcomes, and how a subsequent flight should be adjusted based on observed performance. This article's position is that AI should sit above the measurement methodology described throughout this article, rather than replacing it; the credibility of any AI-generated answer remains entirely dependent on the credibility of the underlying national and multinational signals feeding it."
+  },
+  {
+   "t": "h2",
+   "text": "12. The 2030 European Opportunity",
+   "id": "12-the-2030-european-opportunity"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that by 2030, European OOH/DOOH could increasingly operate as an interconnected intelligence ecosystem, moving from local measurement, through cross-market normalization, to audience intelligence, activation, attribution, and optimization. This article's position is that the opportunity is particularly significant precisely because Europe already possesses sophisticated national measurement organizations, documented in Section 4, and a growing programmatic infrastructure, documented in Section 2; the missing layer this article identifies as the central opportunity is specifically interoperability, not additional measurement capability in isolation."
+  },
+  {
+   "t": "h2",
+   "text": "13. Limitations",
+   "id": "13-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article is a strategic and competitive analysis rather than an empirical study, and it deliberately avoids assigning numerical rankings to the ten multinational organizations examined in Sections 5 and 6, consistent with the position that documented capability across structurally different business types is not reducible to a single comparable score. The market-scale figures in Section 2 are drawn from named, dated primary sources, principally the World Out of Home Organization's Global OOH Expenditure Report and its joint pDOOH study with PricewaterhouseCoopers LLP, which itself explicitly classifies its figures as indicative market estimates rather than independently audited financial data. The five national measurement systems examined in Section 4 are described based on each organization's own public disclosures and the World Out of Home Organization's Guidelines 2.0 documentation; this article did not independently audit the underlying methodology of any national measurement body. Provider-reported scale figures, including those attributed to Veraset and comparable organizations, are identified explicitly as provider-reported rather than independently audited. The hypothetical six-market campaign scenario presented in Section 8 is explicitly illustrative rather than a description of any specific, disclosed campaign. Given the pace of change evident throughout 2026, this article's characterization of the European measurement landscape should be verified against current primary sources before being relied upon for a strategic or investment decision."
+  },
+  {
+   "t": "h2",
+   "text": "14. Conclusion: A Connected Network, Not a Single Platform",
+   "id": "14-conclusion-a-connected-network-not-a-single-platform"
+  },
+  {
+   "t": "p",
+   "html": "This article's closing argument is that Europe's OOH opportunity is not about creating one measurement system that renders every market identical. It is about building an ecosystem in which different national measurement systems, location datasets, audience intelligence, attribution platforms, and programmatic infrastructure can work together while each retains its local specificity. The future European OOH stack this article's evidence supports accordingly looks less like a single, unified platform and more like a connected intelligence network, spanning local signals, national measurement, cross-market interoperability, global activation, and measurable outcomes. The billboard, this article concludes, remains local. The intelligence behind it is becoming increasingly connected, and this article treats that specific transition, rather than the replacement of any single national measurement currency, as the defining European OOH/DOOH opportunity through the remainder of the decade."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Adsquare. (2026). <em>Audience, location, and measurement capabilities for planning and activation</em> [Company disclosures]. <a href=\"https://adsquare.com\">https://adsquare.com</a>",
+    "Audioutdoor. (2026). <em>OOH audience measurement across roadside, dynamic, metro, airport, and highway environments</em> [Company disclosures]. <a href=\"https://www.audioutdoor.it\">https://www.audioutdoor.it</a>",
+    "CIM. (2026). <em>OOH audience study: roadside, stations, metros, and retail measurement</em> [Company disclosures]. <a href=\"https://www.cim.be\">https://www.cim.be</a>",
+    "Comscore, Inc. (2026). <em>Independent audience measurement and DOOH capabilities</em> [Company disclosures]. <a href=\"https://www.comscore.com\">https://www.comscore.com</a>",
+    "Cuebiq. (2026). <em>Footfall, offline attribution, and incrementality measurement</em> [Company disclosures]. <a href=\"https://www.cuebiq.com\">https://www.cuebiq.com</a>",
+    "Foursquare. (2026). <em>Omnichannel attribution and location intelligence</em> [Company disclosures]. <a href=\"https://foursquare.com\">https://foursquare.com</a>",
+    "JIC BRO. (2026). <em>BRO Next: Dutch OOH audience measurement framework</em> [Company disclosures]. <a href=\"https://www.bro.nl\">https://www.bro.nl</a>",
+    "Kantar. (2026). <em>LIFT: connecting exposure measurement to brand and sales outcomes</em> [Company disclosures]. <a href=\"https://www.kantar.com\">https://www.kantar.com</a>",
+    "Lumen Research. (2026). <em>Attention measurement methodology across OOH and other media</em> [Company disclosures]. <a href=\"https://www.lumen-research.com\">https://www.lumen-research.com</a>",
+    "Placer.ai. (2026). <em>Foot traffic and trade-area analysis for OOH placement</em> [Company disclosures]. <a href=\"https://www.placer.ai\">https://www.placer.ai</a>",
+    "Precisely. (2026). <em>PlaceIQ location intelligence: Precisely Audiences and Precisely Visits</em> [Company disclosures]. <a href=\"https://www.precisely.com\">https://www.precisely.com</a>",
+    "Route. (2026). <em>The Joint Industry Currency for OOH audience measurement in Great Britain</em> [Company disclosures]. <a href=\"https://www.route.org.uk\">https://www.route.org.uk</a>",
+    "Unacast. (2026). <em>Location intelligence, audience creation, and offline attribution</em> [Company disclosures]. <a href=\"https://www.unacast.com\">https://www.unacast.com</a>",
+    "Veraset. (2026). <em>Global location data infrastructure</em> [Company disclosures]. <a href=\"https://www.veraset.com\">https://www.veraset.com</a>",
+    "World Out of Home Organization. (2026a). <em>Global Out of Home Expenditure Report 2026</em>. <a href=\"https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026\">https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026</a>",
+    "World Out of Home Organization. (2026b). <em>WOO launches Global OOH Audience Measurement Guidelines 2.0</em>. <a href=\"https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026\">https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026</a>",
+    "World Out of Home Organization / PwC. (2026). <em>WOO Global pDOOH Expenditure Study 2026</em>. <a href=\"https://worldooh.org/global-pdooh-market\">https://worldooh.org/global-pdooh-market</a>"
+   ]
+  },
+  {
+   "t": "note",
+   "html": "<em>Provider-reported scale figures (Veraset and comparable organizations) are identified as such throughout this article and should be verified against each provider's current primary documentation before further citation. National measurement body descriptions reflect each organization's own public disclosures and WOO's Guidelines 2.0 documentation; this article did not independently audit any national measurement methodology. Capability descriptions reflect publicly documented offerings; campaign-value statements are this article's own analytical interpretation, not provider guarantees or an official industry ranking.</em>"
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "slug": "screens-to-intelligence",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 2692,
+ "figures": 2,
+ "tables": 0,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "Out-of-home (OOH) advertising has, for most of its history, been organized around a single physical product: the placement, whether a billboard, a transit panel, a roadside screen, a mall display, or a static sign. Over the past decade, the category has undergone a first major transformation, becoming progressively more digital: screens became individually addressable, buying became increasingly programmatic, audience data became more central to planning, and measurement became more sophisticated, drawing the category's language and workflow closer to that of digital advertising generally. This article's central argument is that this digital transformation is not the terminal state of the category, and that a second, distinct transformation is underway between 2026 and 2030, from digital media infrastructure toward intelligent media infrastructure, in which the fundamental unit of the OOH product shifts from the individually purchasable screen toward a continuously evaluated and adjusted decision."
+  },
+  {
+   "t": "p",
+   "html": "This article is organized as follows. Section 2 establishes the market evidence motivating this argument. Sections 3 through 11 develop nine specific product and technology shifts this article considers characteristic of the proposed transition, spanning inventory representation, programmatic transaction, AI decision-making, the nature of the media plan itself, measurement, creative production, cross-channel convergence, optimization cadence, and trust and governance. Section 12 synthesizes these shifts into a five-dimension framework, and the article closes with a deliberately calibrated conclusion distinguishing this article's proposed framework from an empirical prediction."
+  },
+  {
+   "t": "h2",
+   "text": "2. The Market Evidence Motivating This Argument",
+   "id": "2-the-market-evidence-motivating-this-argument"
+  },
+  {
+   "t": "p",
+   "html": "This article's argument rests on a growing and accelerating underlying market rather than a declining one. According to the World Out of Home Organization's 2026 Global Out of Home Expenditure Report, global OOH expenditure reached 54.2 billion dollars in 2025, with DOOH accounting for approximately 25.5 billion dollars, or 47% of total OOH revenue; the organization forecasts global OOH expenditure of 56.4 billion dollars in 2026, with DOOH reaching approximately 28 billion dollars and approaching half of total OOH expenditure (World Out of Home Organization, 2026)."
+  },
+  {
+   "t": "p",
+   "html": "Within the United States specifically, the Out of Home Advertising Association of America (OAAA) reported record full-year 2025 OOH revenue of 9.46 billion dollars, with DOOH accounting for 36.3% of that total and growing 10.5% year over year (OAAA, 2026a). This growth has since accelerated further: first-quarter 2026 US OOH revenue reached 2.12 billion dollars, with DOOH growing 12.9% year over year, and second-quarter 2026 US OOH revenue reached 3.16 billion dollars, up 10.7% year over year and marking the first time quarterly US OOH revenue exceeded 3 billion dollars, with DOOH specifically growing 18.5% year over year and accounting for 38.4% of total quarterly OOH revenue (OAAA, 2026b, 2026c). Figure 1 presents this evidence directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/screens-to-intelligence-1.webp",
+   "w": 1320,
+   "h": 600,
+   "caption": "<em>Figure 1. Left panel: global OOH and DOOH expenditure, 2025 actual and 2026 forecast (World Out of Home Organization, 2026). Right panel: United States DOOH year-over-year revenue growth, showing acceleration from full-year 2025 through second-quarter 2026 (OAAA, 2026a, 2026b, 2026c).</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's reading of Figure 1 is that DOOH growth is not merely continuing but visibly accelerating, and that this acceleration, rather than the category's absolute size alone, is the more important signal for the product argument developed in the remainder of this article. A market growing at an accelerating rate creates both the commercial incentive and the technical necessity for the product transition this article proposes."
+  },
+  {
+   "t": "h2",
+   "text": "3. From Inventory-Centric to Intelligence-Centric Products",
+   "id": "3-from-inventory-centric-to-intelligence-centric-products"
+  },
+  {
+   "t": "p",
+   "html": "Historically, OOH technology has been designed primarily around inventory: identifying where a screen is located, what is currently available, what it costs, and when it can be purchased. This article proposes that the next generation of OOH product design will increasingly organize itself around a different set of questions: who a given piece of inventory will influence, what journey it sits within, what outcome it can plausibly contribute to, and what combination of inventory produces the strongest result. Under this framing, a roadside screen, a retail-adjacent screen, and a screen at a transit or entertainment venue cease to be independent, isolated advertising assets and instead become sequential touchpoints within a single audience journey, shifting the underlying product question from “buy this screen” toward “construct this audience journey.”"
+  },
+  {
+   "t": "h2",
+   "text": "4. From Buying Automation to Decision Automation in Programmatic DOOH",
+   "id": "4-from-buying-automation-to-decision-automation-in-programma"
+  },
+  {
+   "t": "p",
+   "html": "Programmatic DOOH has already changed how inventory is accessed and transacted, but automating the execution of a transaction is a materially different capability from automating the underlying decision of what to buy and why. This article proposes that the next phase of programmatic DOOH development moves from a system that finds available inventory and bids toward a system that understands a stated objective, evaluates the available opportunities against it, constructs a plan, forecasts the likely outcome, activates the plan, and continuously optimizes it thereafter. This transition depends directly on the state of the underlying inventory description: in 2026, updated OpenOOH taxonomy work explicitly targeted improved transparency and consistency in DOOH buying and more scalable transaction infrastructure across the wider omnichannel ecosystem (OAAA, 2026d). This article's position is that this standardization work is a necessary precondition for the remainder of this section's argument, because an artificial intelligence system cannot intelligently transact within an ecosystem it cannot structurally understand; it requires structured inventory, standardized audience definitions, comparable measurement, machine-readable pricing and availability, and trustworthy transaction rules before agentic transaction of the kind described in Section 5 becomes viable at scale."
+  },
+  {
+   "t": "h2",
+   "text": "5. From AI Assistant to AI Decision Layer",
+   "id": "5-from-ai-assistant-to-ai-decision-layer"
+  },
+  {
+   "t": "p",
+   "html": "Artificial intelligence is already used across advertising for forecasting, creative generation, audience analysis, optimization, and reporting, each addressing a discrete task. This article proposes that the more significant subsequent development is agentic AI, in which an advertiser or platform provides a system with an objective, for example reaching a defined high-value urban audience, maximizing incremental reach within a stated budget, prioritizing proximity to retail locations, and optimizing toward store visitation, rather than a specific task, with the system responsible for determining which audiences and locations matter, which inventory combinations are appropriate, how budget and frequency should be allocated, which creative should run, when the campaign should change, and how performance should be evaluated. This article characterizes this shift, from AI assistant to AI decision layer, as qualitatively different from further improvement to existing AI-assisted tools. The IAB Tech Lab's 2026 work on Agentic Advertising Management Protocols (AAMP), developing standards, protocols, agent implementations, and trust mechanisms for agents operating across advertising workflows, is treated in this article as evidence that this shift has moved beyond conceptual discussion into active infrastructure development (IAB Tech Lab, 2026)."
+  },
+  {
+   "t": "h2",
+   "text": "6. The Media Plan as a Living Product",
+   "id": "6-the-media-plan-as-a-living-product"
+  },
+  {
+   "t": "p",
+   "html": "A persistent limitation of traditional media planning is that the plan itself is typically treated as a static artifact, a budget, a spreadsheet, a presentation, or a one-time recommendation. This article proposes that the future media plan instead becomes a living campaign object: a change in stated budget, for example from 500,000 to 700,000 dollars, or a change in stated objective, for example from awareness to store visitation, would cause the underlying system to recalculate reach, frequency, inventory selection, audience composition, geographic distribution, pricing, projected outcomes, creative requirements, and activation requirements immediately, rather than requiring a human planner to manually reconstruct the plan. This article considers the product implication of this shift significant: the opportunity is no longer to build an additional reporting dashboard, but to build what this article terms a decision environment, a structurally different category of product."
+  },
+  {
+   "t": "h2",
+   "text": "7. Measurement as a Product, Not a Reporting Function",
+   "id": "7-measurement-as-a-product-not-a-reporting-function"
+  },
+  {
+   "t": "p",
+   "html": "Measurement fragmentation has historically been one of the more significant barriers to OOH's evolution, and the industry is actively addressing this problem directly. The IAB's DOOH measurement guidance identifies the need for greater consistency in measurement, audience engagement assessment, and attribution as DOOH becomes more deeply integrated into omnichannel campaigns (IAB, 2025). The World Out of Home Organization's 2026 measurement work similarly points toward standardization, updated measurement methodologies, impression multipliers, and greater use of third-party datasets (World Out of Home Organization, 2026). This article proposes that these developments create a further product opportunity: measurement should not only answer how a campaign performed, but increasingly inform what the system should do next, transforming measurement from a retrospective reporting function into a continuous feedback loop moving from plan, to activation, to measurement, to learning, to optimization, and back into planning, with the value of that loop increasing as it approaches real-time operation."
+  },
+  {
+   "t": "h2",
+   "text": "8. Creative as Contextual and Computational, Not Merely Automated",
+   "id": "8-creative-as-contextual-and-computational-not-merely-automa"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that the future of DOOH creative is not primarily about producing a greater volume of creative assets, but about producing the appropriate asset for a specific moment, informed by contextual signals including time, location, weather, traffic, events, audience characteristics, retail proximity, campaign performance to date, and cultural context. This article draws an explicit distinction between AI-generated creative and what it terms intelligent creative: artificial intelligence can meaningfully accelerate the production and adaptation of creative assets, but the more consequential product opportunity is connecting creative decision-making directly to audience, inventory, and contextual intelligence, such that the system determines not only what creative to generate but when, where, and why a specific creative execution should appear."
+  },
+  {
+   "t": "h2",
+   "text": "9. Deeper Convergence With the Broader Media Ecosystem",
+   "id": "9-deeper-convergence-with-the-broader-media-ecosystem"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that OOH will increasingly be planned alongside mobile, connected television, retail media, audio, and social channels, rather than as an isolated medium considered separately from the rest of a media plan. Continued development of common inventory taxonomies, shared measurement standards, and interoperable programmatic infrastructure is making DOOH progressively easier to integrate into broader, cross-channel media planning (OAAA, 2026d). Under this convergence, this article suggests the operative planning question shifts from how to plan an OOH campaign specifically toward how physical-world media should contribute to a customer's overall journey, which this article considers a substantially larger product category than OOH planning has historically represented."
+  },
+  {
+   "t": "h2",
+   "text": "10. From Periodic Review to Continuous Optimization",
+   "id": "10-from-periodic-review-to-continuous-optimization"
+  },
+  {
+   "t": "p",
+   "html": "Traditional campaign optimization typically follows a periodic cycle: a campaign is reviewed, performance is assessed, the plan is adjusted, and the cycle repeats after a delay. This article proposes that artificial intelligence changes the underlying economics of this workflow, enabling continuous evaluation of incoming signals and continuous identification of opportunities to improve a campaign in progress. This article emphasizes, however, that artificial intelligence should not become the sole source of truth within this architecture: language models are well suited to interpretation, reasoning, and orchestration, but deterministic systems should continue to govern pricing, budget constraints, inventory availability, contractual rules, impression calculations, eligibility, and optimization mathematics. This article's position is that the more defensible architecture is therefore not a language model deciding every element of a campaign directly, but a combination of AI reasoning, trusted underlying data, deterministic systems, dedicated optimization engines, and human governance operating together, and that this specific combination, rather than the presence of a language model alone, is what will distinguish credible enterprise products from AI demonstrations."
+  },
+  {
+   "t": "h2",
+   "text": "11. Trust and Explainability as a Competitive Advantage",
+   "id": "11-trust-and-explainability-as-a-competitive-advantage"
+  },
+  {
+   "t": "p",
+   "html": "As artificial intelligence assumes a larger share of campaign decision-making, this article anticipates that the industry will increasingly confront a direct question: why did the system make a given decision. If an AI system recommends a specific inventory mix, reduces spend in a particular location, changes creative, or reallocates budget, the underlying advertiser, agency, and publisher will reasonably expect an explanation grounded in evidence rather than an opaque recommendation. This article proposes that explainability, governance, agent identity, permissioning, and auditability accordingly become core product capabilities rather than secondary compliance features, an emphasis already visible in the IAB Tech Lab's AAMP initiative, which explicitly incorporates trust and transparency as a pillar alongside agentic foundations and agentic protocols (IAB Tech Lab, 2026). Under this view, competitive advantage in this category may ultimately belong less to the platform with the most capable underlying model, and more to the platform capable of stating plainly what its AI decided, why it decided it, what evidence supported the decision, and at what threshold human approval is required."
+  },
+  {
+   "t": "h2",
+   "text": "12. Synthesis: Five Proposed Paradigm Shifts, 2026-2030",
+   "id": "12-synthesis-five-proposed-paradigm-shifts-2026-2030"
+  },
+  {
+   "t": "p",
+   "html": "This article synthesizes the nine product and technology developments discussed in Sections 3 through 11 into five paradigm shifts that this article proposes as an organizing framework for OOH and DOOH product strategy through 2030."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/screens-to-intelligence-2.webp",
+   "w": 1300,
+   "h": 838,
+   "caption": "<em>Figure 2. Five paradigm shifts proposed in this article as an organizing framework for OOH/DOOH product design between 2026 and 2030. This is a conceptual framework advanced by this article, not an empirically measured or independently validated transition.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article does not propose that artificial intelligence alone produces the shifts summarized in Figure 2. Rather, it proposes that the combination of structured inventory representation, audience intelligence, contextual data, standardized measurement, optimization engines, cross-platform interoperability, artificial intelligence, and human governance, operating together, constitutes the actual product opportunity, and that artificial intelligence functions as an accelerant of a transition already visible in the market evidence presented in Section 2, rather than as its sole cause."
+  },
+  {
+   "t": "h2",
+   "text": "13. The Opportunity May Sit Above Existing Buying Infrastructure",
+   "id": "13-the-opportunity-may-sit-above-existing-buying-infrastruct"
+  },
+  {
+   "t": "p",
+   "html": "The industry has already constructed substantial infrastructure for buying and selling media. This article proposes that the more significant remaining product opportunity may not be a further demand-side platform, supply-side platform, or planning tool, but an intelligence layer operating above that existing infrastructure, one capable of understanding a stated campaign objective, connecting otherwise fragmented data sources, reasoning across inventory, audience, and context simultaneously, orchestrating the specialized systems described throughout this article, and continuously learning from observed outcomes. Under this framing, this article proposes that the eventual winning product in this category is unlikely to be defined by the largest inventory footprint, the largest dataset, or even the most capable underlying AI model in isolation, but by the platform most able to make the best available decision from the most trustworthy information, and to execute that decision safely and at scale, which this article considers a substantially different definition of an advertising platform than the one the industry has organized itself around historically."
+  },
+  {
+   "t": "h2",
+   "text": "14. Limitations",
+   "id": "14-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article is a conceptual and strategic proposal rather than an empirical study, and it does not claim to predict the specific pace, sequencing, or ultimate outcome of the transition it describes. The market evidence presented in Section 2 is independently sourced from the World Out of Home Organization and the Out of Home Advertising Association of America and is verifiable against their published reporting; the nine product and technology developments discussed in Sections 3 through 11, and the five-shift synthesis presented in Section 12, are this article's own proposed framework rather than an empirically observed industry consensus. Consistent with this article's own methodological caution, no specific company is named as a likely winner of this transition, and no illustrative figure, timeline, or capability described in Sections 3 through 13 should be read as an established fact about any named organization's current or future product. Given the pace of standards development and product announcement activity evident throughout 2026, particularly in relation to the IAB Tech Lab's AAMP initiative and OpenOOH taxonomy work, this article's specific characterizations of the current state of that infrastructure should be verified against current primary sources before being relied upon for a strategic or investment decision."
+  },
+  {
+   "t": "h2",
+   "text": "15. Conclusion",
+   "id": "15-conclusion"
+  },
+  {
+   "t": "p",
+   "html": "Between 2026 and 2030, this article has argued, the most consequential change in out-of-home advertising is unlikely to be simply a greater number of screens, a larger share of programmatic transaction, or a greater volume of AI-generated creative, considered individually. It is more likely to be a change in the nature of the product itself: a shift from inventory toward intelligence, from discrete campaigns toward continuous systems, from human planning toward autonomous decisioning, from impressions toward outcomes, and from isolated media toward connected customer journeys. The screen, the location, and the audience will each continue to matter under this transition; what this article proposes will increasingly determine competitive advantage is the intelligence connecting them. Artificial intelligence will not replace the fundamentals of advertising practice, strategy, creativity, quality inventory, measurement, privacy, brand safety, and commercial judgment, but it will materially change how those fundamentals are connected and executed, and the organizations that recognize this distinction are, in this article's assessment, more likely to redesign the underlying workflow of OOH and DOOH advertising than simply to automate its existing form."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "IAB. (2025). <em>DOOH measurement guide</em>. Interactive Advertising Bureau. <a href=\"https://www.iab.com\">https://www.iab.com</a>",
+    "IAB Tech Lab. (2026). <em>AAMP: Agentic Advertising Management Protocols</em>. <a href=\"https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/\">https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/</a>",
+    "Out of Home Advertising Association of America. (2026a). <em>Out of home advertising revenue reaches record $9.46 billion</em> [Press release]. <a href=\"https://oaaa.org/news/out-of-home-advertising-revenue-reaches-record-9-46-billion/\">https://oaaa.org/news/out-of-home-advertising-revenue-reaches-record-9-46-billion/</a>",
+    "Out of Home Advertising Association of America. (2026b). <em>US OOH revenues up 7% in Q2 2026</em> [Q1 2026 data release]. <a href=\"https://oaaa.org\">https://oaaa.org</a>",
+    "Out of Home Advertising Association of America. (2026c). <em>From Coca-Cola to OpenAI, brands are betting bigger on OOH: OOH revenue surges 10.7% to $3.16 billion</em> [Press release]. <a href=\"https://oaaa.org/news/from-coca-cola-to-openai-brands-are-betting-bigger-on-ooh/\">https://oaaa.org/news/from-coca-cola-to-openai-brands-are-betting-bigger-on-ooh/</a>",
+    "Out of Home Advertising Association of America. (2026d). <em>OpenOOH venue taxonomy update</em>. <a href=\"https://oaaa.org\">https://oaaa.org</a>",
+    "World Out of Home Organization. (2026). <em>Global Out of Home Expenditure Report 2026</em>. <a href=\"https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026\">https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026</a>"
+   ]
+  }
+ ]
+}

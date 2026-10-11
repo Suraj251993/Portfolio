@@ -1,0 +1,131 @@
+{
+  "intro": "Most of my papers end in a model that can be argued with. These four come up again and again across the research.",
+  "frameworks": [
+    {
+      "id": "unit",
+      "name": "The unit of commerce",
+      "lede": "The unit of advertising is moving from the screen, to the audience, to the decision and, if the industry can prove it, to the outcome. Each step moves value towards whoever understands inventory best.",
+      "stages": [
+        {
+          "name": "Screen",
+          "detail": "Sell a location, priced by panel."
+        },
+        {
+          "name": "Audience",
+          "detail": "Sell reachable people, priced by CPM."
+        },
+        {
+          "name": "Decision",
+          "detail": "Sell the best choice, made continuously."
+        },
+        {
+          "name": "Outcome",
+          "detail": "Sell verified incremental impact."
+        }
+      ],
+      "source": null,
+      "sourceLabel": "Media Intelligence, chapter 02",
+      "sourceHref": "magazine#contents"
+    },
+    {
+      "id": "proof",
+      "name": "The seven-stage proof chain",
+      "lede": "The old chain stopped at brand lift. Buyers now ask whether anyone noticed, whether the ad caused the change, and whether the evidence can steer a live campaign.",
+      "stages": [
+        {
+          "name": "Delivery",
+          "detail": "Did it run?"
+        },
+        {
+          "name": "Exposure",
+          "detail": "Could they see it?"
+        },
+        {
+          "name": "Attention",
+          "detail": "Did they notice?"
+        },
+        {
+          "name": "Brand lift",
+          "detail": "Did perception move?"
+        },
+        {
+          "name": "Causality",
+          "detail": "Did the ad cause it?"
+        },
+        {
+          "name": "Business outcome",
+          "detail": "Did behaviour change?"
+        },
+        {
+          "name": "Optimisation",
+          "detail": "What should happen next?"
+        }
+      ],
+      "source": "brand-lift-to-incremental-impact",
+      "sourceLabel": "From Brand Lift to Incremental Impact"
+    },
+    {
+      "id": "outcomes",
+      "name": "Five kinds of outcome",
+      "lede": "An outcome-based market only stays credible if these five are never blurred. Guarantees without validated causal measurement would collapse trust.",
+      "stages": [
+        {
+          "name": "Forecast",
+          "detail": "Predicted."
+        },
+        {
+          "name": "Observed",
+          "detail": "Happened."
+        },
+        {
+          "name": "Attributed",
+          "detail": "Followed exposure."
+        },
+        {
+          "name": "Incremental",
+          "detail": "Caused by exposure."
+        },
+        {
+          "name": "Guaranteed",
+          "detail": "Contracted."
+        }
+      ],
+      "source": "outcome-exchange-ooh",
+      "sourceLabel": "From Media Buying to Outcome Engineering"
+    },
+    {
+      "id": "autonomy",
+      "name": "Graduated autonomy",
+      "lede": "Remove manual work, keep accountability. Autonomy cannot scale without identity, permissions and audit, so it is granted one level at a time.",
+      "stages": [
+        {
+          "name": "Recommend",
+          "detail": "People decide; the system suggests."
+        },
+        {
+          "name": "Plan for review",
+          "detail": "A plan is drafted for review."
+        },
+        {
+          "name": "Execute on approval",
+          "detail": "Actions run once approved."
+        },
+        {
+          "name": "Optimise within limits",
+          "detail": "Adjustments stay inside set limits."
+        },
+        {
+          "name": "Transact within guardrails",
+          "detail": "Deals happen within guardrails."
+        },
+        {
+          "name": "Highly autonomous",
+          "detail": "The system acts with minimal oversight."
+        }
+      ],
+      "startAt": 0,
+      "source": "outcome-exchange-ooh",
+      "sourceLabel": "From Media Buying to Outcome Engineering"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "title": "Media Intelligence",
+  "editions": [
+    {
+      "id": "edition-01",
+      "number": "01",
+      "name": "The Intelligence Layer",
+      "date": "October 2026",
+      "isoDate": "2026-10",
+      "pages": 36,
+      "pdf": "editions/01/the-intelligence-layer-edition-01.pdf",
+      "pdfSize": "1.8 MB",
+      "cover": "images/media-intelligence-01-cover",
+      "pageDir": "editions/01/pages",
+      "thumbDir": "editions/01/thumbs",
+      "linkedin": "",
+      "strap": "Who decides where the money goes: advertising technology, out-of-home and the shift from owning inventory to owning intelligence.",
+      "coverLine": "The screen was the product. Then the audience. Next comes the decision.",
+      "finding": "Sixteen research papers, one finding: nobody yet owns the layer that connects inventory, data, proof and action.",
+      "intro": [
+        "Media Intelligence is an industry publication on the technology that plans, buys, measures and proves advertising, with particular attention to out-of-home and digital out-of-home media, where the physical and the programmatic now meet.",
+        "This first edition is built from sixteen independent research papers written through 2026. They were not written as a series. Read together, they tell one story, and the edition is organised around it."
+      ],
+      "editorsNote": "Reading the sixteen papers side by side, one finding kept surfacing from very different starting points: no organisation spans the full chain from inventory, to audience, to proof, to action. Seven papers said it in almost the same words. That gap is the subject of this magazine. We call it the intelligence layer.",
+      "closing": "The future of OOH isn't about owning more screens. It's about owning the intelligence that decides what happens on them.",
+      "audience": "CMOs, CPOs, CTOs, agency and media-owner leaders, platform executives, founders, investors and researchers.",
+      "cutoff": "Research cut-off: September 2026.",
+      "labels": [
+        {
+          "name": "Source-based",
+          "body": "Directly supported by a named source in the original papers: industry bodies, filings, company disclosures or trade press. Company figures are company-reported unless stated."
+        },
+        {
+          "name": "Editorial synthesis",
+          "body": "The editor's interpretation, connecting two or more papers. Reasoned, but not an independently verified market fact."
+        },
+        {
+          "name": "Outlook",
+          "body": "Forward-looking scenarios and hypotheses, labelled as scenarios and never presented as forecasts."
+        }
+      ],
+      "standards": [
+        "No rankings without defensible sourcing. Star scores are replaced by documented-capability maps.",
+        "Vendor results stay vendor results. Campaign lifts and industry firsts are reported as companies reported them, not as benchmarks.",
+        "Where sources disagree, the edition says so. Page 31 lists every material inconsistency, including two corrections to the original papers."
+      ],
+      "parts": [
+        {
+          "part": "I",
+          "name": "The state of play",
+          "chapters": [
+            {
+              "n": "01",
+              "title": "Editor's note",
+              "dek": "Why a magazine, and why now",
+              "page": 4
+            },
+            {
+              "n": "02",
+              "title": "The state of the industry",
+              "dek": "A growing market that measures itself poorly",
+              "page": 5
+            },
+            {
+              "n": "03",
+              "title": "Seven big themes",
+              "dek": "And one finding that keeps repeating",
+              "page": 7
+            }
+          ]
+        },
+        {
+          "part": "II",
+          "name": "The transaction layer",
+          "chapters": [
+            {
+              "n": "04",
+              "title": "The interface is moving",
+              "dek": "DSPs, Buyer Direct and machine-facing infrastructure",
+              "page": 8
+            },
+            {
+              "n": "05",
+              "title": "Fewer companies, bigger ecosystems",
+              "dek": "OOH technology after consolidation",
+              "page": 11
+            }
+          ]
+        },
+        {
+          "part": "III",
+          "name": "The data layer",
+          "chapters": [
+            {
+              "n": "06",
+              "title": "The data behind the billboard",
+              "dek": "Five businesses, not one commodity",
+              "page": 13
+            },
+            {
+              "n": "07",
+              "title": "Four regions, four maturity curves",
+              "dek": "US, Europe, Asia-Pacific and Africa",
+              "page": 15
+            }
+          ]
+        },
+        {
+          "part": "IV",
+          "name": "The proof layer",
+          "chapters": [
+            {
+              "n": "08",
+              "title": "From exposure to proof",
+              "dek": "Brand lift, attention and causality",
+              "page": 17
+            }
+          ]
+        },
+        {
+          "part": "V",
+          "name": "Convergence",
+          "chapters": [
+            {
+              "n": "09",
+              "title": "Commerce media steps outside",
+              "dek": "Retail data meets physical attention",
+              "page": 20
+            },
+            {
+              "n": "10",
+              "title": "From feed to street",
+              "dek": "TikTok's Out of Phone and the social-to-physical loop",
+              "page": 22
+            }
+          ]
+        },
+        {
+          "part": "VI",
+          "name": "The agentic turn",
+          "chapters": [
+            {
+              "n": "11",
+              "title": "Four AI races, not one",
+              "dek": "Capability is not monetisation",
+              "page": 23
+            },
+            {
+              "n": "12",
+              "title": "Selling outcomes, not impressions",
+              "dek": "A proposed Outcome Exchange",
+              "page": 25
+            }
+          ]
+        },
+        {
+          "part": "VII",
+          "name": "Intelligence",
+          "chapters": [
+            {
+              "n": "13",
+              "title": "PowerPlay: the ecosystem map",
+              "dek": "Who holds which layer",
+              "page": 27
+            },
+            {
+              "n": "14",
+              "title": "The product lens",
+              "dek": "Gaps a product leader should notice",
+              "page": 29
+            },
+            {
+              "n": "15",
+              "title": "Outlook 2026–2030",
+              "dek": "Scenarios, not forecasts",
+              "page": 30
+            }
+          ]
+        },
+        {
+          "part": "Back",
+          "name": "Reference",
+          "chapters": [
+            {
+              "n": "16",
+              "title": "A note on the numbers",
+              "dek": "Inconsistencies and corrections",
+              "page": 31
+            },
+            {
+              "n": "",
+              "title": "About the author",
+              "dek": "",
+              "page": 32
+            },
+            {
+              "n": "",
+              "title": "Sources and references",
+              "dek": "",
+              "page": 33
+            },
+            {
+              "n": "",
+              "title": "Closing perspective",
+              "dek": "",
+              "page": 35
+            }
+          ]
+        }
+      ],
+      "pageOffset": 1,
+      "pageTitles": [
+        "Cover: Media Intelligence, edition 01",
+        "Title page: The Intelligence Layer",
+        "About this publication",
+        "Contents: the story in seven parts",
+        "Editor's note: Nobody owns the layer that matters most. Yet.",
+        "The state of the industry: a growing market that still measures itself poorly",
+        "Most digital is not most programmatic",
+        "Seven themes, one repeating finding",
+        "The DSP is not dying. Its monopoly on the buying interface is.",
+        "The 2026 evidence: production evidence of the shift",
+        "Buyer Direct: proof that a DSP need not sit in every deal",
+        "The OOH technology market consolidated. The contest moved up a layer.",
+        "Five battlefields, three moats",
+        "Third-party data is five different businesses",
+        "Match the provider to the question",
+        "One billboard, four different measurement problems",
+        "Region by region",
+        "Do not just measure the impression. Prove the impact.",
+        "Causality: the stage that changes everything",
+        "When measurement becomes a decision",
+        "The retailer knows what happened after the ad",
+        "Why Walmart matters",
+        "TikTok is not becoming a media owner. It is becoming a distribution layer.",
+        "The rabbit didn't lose the race. He changed the story.",
+        "What does it mean to win? Eight layers, no leaderboard",
+        "The AI media planner is already a commodity. The outcome layer is not.",
+        "Designing an outcome market that stays credible",
+        "PowerPlay: who holds which layer",
+        "The ecosystem map, continued",
+        "The product lens: eight gaps a product leader should notice",
+        "Outlook 2026–2030: scenarios, not forecasts",
+        "A note on the numbers: where the sources disagree",
+        "About the author",
+        "Sources and references",
+        "Sources and references, continued",
+        "Closing perspective: who decides where the money goes?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+ "slug": "hidden-data-infrastructure-ooh",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 3773,
+ "figures": 3,
+ "tables": 1,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "Discussion of out-of-home (OOH) and digital out-of-home (DOOH) advertising increasingly references a category termed third-party data, frequently without specifying which of several structurally distinct businesses that phrase is meant to describe. This article's central claim is that no single, authoritative registry of third-party advertising data providers exists; Google's current Display and Video 360 documentation states that advertisers have access to tens of thousands of audience lists from dozens of third-party data providers, a figure that itself indicates the scale and fragmentation of this market rather than offering a bounded list that could be exhaustively ranked. This article therefore does not attempt to enumerate every provider in the category. It instead constructs a benchmark universe of providers with publicly documented products, partnerships, or measurement methodologies specifically relevant to OOH and DOOH, organizes that universe around a five-layer structural model, and evaluates each provider's qualitative strategic relevance to specific planning and measurement questions rather than producing a single, undifferentiated ranking."
+  },
+  {
+   "t": "p",
+   "html": "This article proceeds as follows. Section 2 establishes the industry-standards context motivating this analysis. Section 3 introduces the five-layer structural model. Sections 4 through 17 examine fourteen benchmark providers individually, organized by their primary structural position. Section 18 extends the analysis briefly to general audience-data providers relevant to broader MarTech activation. Section 19 consolidates the benchmark into a capability-by-requirement matrix, and Section 20 presents this article's qualitative overall assessment, explicitly labeled as such. Section 21 develops a seven-layer advertising data stack model, and Section 22 discusses the most significant industry-wide development motivating this entire analysis: the 2025-2026 standardization of OOH measurement. Section 23 states this article's methodological position on avoiding superlative claims, and the article closes with a structural conclusion in Section 24."
+  },
+  {
+   "t": "h2",
+   "text": "2. The Standards Context: Why 2026 Is a Meaningful Moment for This Analysis",
+   "id": "2-the-standards-context-why-2026-is-a-meaningful-moment-for-"
+  },
+  {
+   "t": "p",
+   "html": "Two developments make 2026 a particularly appropriate moment to map this ecosystem carefully. First, the Media Rating Council (MRC) published its final, combined Phase 1 and Phase 2 Out-of-Home Measurement Standards on December 4, 2025, establishing a formal, U.S.-recognized benchmark for OOH audience measurement, including standardized definitions of exposure zone presence, traffic measurement, and impressions at varying levels of qualification, from gross impressions through viewable and likelihood-to-see impressions to audience-level measurement (Media Rating Council, 2025). Second, the World Out of Home Organization (WOO) launched Version 2.0 of its Global OOH Audience Measurement Guidelines in June 2026, explicitly identifying the increasing use of third-party datasets, continuously collected mobility data, and synthetic population modelling as major developments in OOH measurement, and drawing on measurement bodies covering 28 territories (World Out of Home Organization, 2026). Together, these developments indicate that the industry is moving from proprietary, unverified footfall claims toward a documented methodology, source data, exposure definition, calibration approach, and audience model, a shift this article treats as the appropriate lens through which to evaluate the providers discussed in the sections that follow."
+  },
+  {
+   "t": "h2",
+   "text": "3. The Ecosystem Is Five Different Businesses, Not One",
+   "id": "3-the-ecosystem-is-five-different-businesses-not-one"
+  },
+  {
+   "t": "p",
+   "html": "This article's foundational structural claim is that the category loosely termed third-party data spans five distinct business types: raw location and mobility data, providing device movement, GPS signals, and journey data; points-of-interest and geospatial intelligence, providing stores, venues, billboard locations, and geographic boundaries; audience and activation data, providing demographic, interest, and behavioural segments; measurement and attribution, providing reach, exposure, footfall, and incrementality analysis; and attention, verification, and delivery, providing attention measurement, viewability, proof-of-play, and advertising-quality verification. Figure 1 presents this structure directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/hidden-data-infrastructure-ooh-1.webp",
+   "w": 1300,
+   "h": 888,
+   "caption": "<em>Figure 1. The third-party data ecosystem organized as five structurally distinct businesses. Example companies are illustrative; several providers span more than one layer simultaneously.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This distinction carries direct practical consequences. A raw mobility-data supplier such as Quadrant is not equivalent to an independent measurement company such as Nielsen: Quadrant can supply the location and mobility signals that another platform subsequently uses to construct a measurement product, while Nielsen is fundamentally in the business of measurement itself. A provider such as Adsquare occupies an intermediate position, aggregating and operationalizing multiple underlying data sources into audience, planning, and measurement products simultaneously. Evaluating any of these organizations against a single, undifferentiated standard of who is best would obscure this structural reality."
+  },
+  {
+   "t": "h2",
+   "text": "4. Adsquare: An Audience-and-Location Orchestration Layer",
+   "id": "4-adsquare-an-audience-and-location-orchestration-layer"
+  },
+  {
+   "t": "p",
+   "html": "Adsquare's platform combines audience data, location signals, audience scoring, targeting, and measurement within a single product suite, positioning it unusually close to the full chain running from data, to audience, to location, to planning, to activation, to measurement. Adsquare has publicly documented its partnership with Yahoo, announced in 2022 and subsequently expanded, bringing digital out-of-home audience-scoring and footfall-measurement capability into the omnichannel Yahoo demand-side platform across EMEA markets (Adsquare, 2022; The Drum, 2022). Adsquare has also documented a partnership with billups covering privacy-compliant OOH planning and measurement across the United States, Europe, and Asia, an integration with Displayce enabling European advertisers to activate audience segments and measure footfall for DOOH campaigns, and a privacy-partner disclosure identifying 41 third-party partners receiving data for interest- and location-based advertising, effectiveness measurement, and OOH planning and measurement (Adsquare, company disclosures). This article's assessment is that Adsquare's position spanning data orchestration, audience construction, and measurement, rather than any single capability in isolation, is what distinguishes it from a pure-play data vendor."
+  },
+  {
+   "t": "h2",
+   "text": "5. Quadrant: A Flexible Location-Data Supplier With a Documented Moving Walls Relationship",
+   "id": "5-quadrant-a-flexible-location-data-supplier-with-a-document"
+  },
+  {
+   "t": "p",
+   "html": "Quadrant provides mobile location and points-of-interest data explicitly marketed for advertising, marketing, and OOH applications. This article's research identified specific, independently verifiable public evidence of a commercial relationship between Quadrant and Moving Walls, first announced in 2020 and reflected in an ongoing customer case study published by Quadrant, in which Moving Walls describes using Quadrant's location intelligence to expand market coverage and support media planning, audience measurement, and campaign analytics (Quadrant, company case study; Media4Growth, 2020). Quadrant's published materials describe this relationship as enabling Moving Walls to measure OOH campaign return on investment through billboard exposure, footfall, and mobility analysis, and to support digital, static, indoor, and outdoor media globally (Quadrant, company disclosures). This documented example illustrates a structural pattern this article considers broadly representative of the category: raw location data supplied by a specialist vendor, integrated into a downstream platform's own location-intelligence layer, which in turn supports OOH planning, measurement, and reporting to the advertiser."
+  },
+  {
+   "t": "h2",
+   "text": "6. Foursquare: An Outcome-and-Attribution Proposition",
+   "id": "6-foursquare-an-outcome-and-attribution-proposition"
+  },
+  {
+   "t": "p",
+   "html": "Foursquare's proposition is oriented less toward the question of who passed a given billboard and more toward whether that exposure contributed to a subsequent real-world outcome. Foursquare's attribution product connects advertising exposure across digital, television, connected television, OOH, social, and audio channels with real-world outcomes including store visits and sales, joining device movement data with billboard locations and proof-of-play logs to assess how OOH exposure relates to subsequent store visitation, incorporating impression capture, movement data, point-of-interest intelligence, visit detection, control groups, panel normalization, and multi-touch attribution (Foursquare, company disclosures). Foursquare states that its place-visit measurement carries MRC accreditation in the United States. This article distinguishes Foursquare's proposition from a raw-data supplier such as Quadrant on the basis that Foursquare's core product is the answer to what happened after exposure, rather than the underlying location signal itself."
+  },
+  {
+   "t": "h2",
+   "text": "7. Precisely / PlaceIQ: An Enterprise Geospatial Heavyweight",
+   "id": "7-precisely-placeiq-an-enterprise-geospatial-heavyweight"
+  },
+  {
+   "t": "p",
+   "html": "Precisely acquired PlaceIQ in 2022, and PlaceIQ's underlying location data now powers Precisely's audience and visitation products. Precisely's advertising solution describes more than 1,500 pre-built audience segments, real-world visitation signals, audience activation, campaign measurement, store-visit tracking, and sales-outcome measurement, supporting consumer and location data across more than 140 countries and geographic boundary data across more than 250 countries (Precisely, company disclosures). This article assesses Precisely as particularly relevant to enterprise AdTech platforms requiring location data, demographic data, geospatial boundary data, and audience enrichment within a single, large-scale vendor relationship."
+  },
+  {
+   "t": "h2",
+   "text": "8. Veraset: Raw Mobility-Data Infrastructure Rather Than Finished Measurement",
+   "id": "8-veraset-raw-mobility-data-infrastructure-rather-than-finis"
+  },
+  {
+   "t": "p",
+   "html": "Veraset positions itself as a supplier of underlying mobility data on which other companies build downstream products, describing more than 10 billion daily location observations, coverage across more than 200 countries, home-and-work inference, point-of-interest visitation, device linking, and audience-building capability, with its Home and Work dataset covering more than 150 million devices and its Visits product covering more than 4 million points of interest in the United States (Veraset, company disclosures). This article's structural assessment is that Veraset is properly categorized as data infrastructure rather than as a finished OOH measurement currency, a distinction this article considers important for any organization evaluating Veraset against a company such as Route or Geopath, which occupy a fundamentally different position in the five-layer model presented in Section 3."
+  },
+  {
+   "t": "h2",
+   "text": "9. Unacast: Large-Scale Mobility Data With a Packaged Attribution Layer",
+   "id": "9-unacast-large-scale-mobility-data-with-a-packaged-attribut"
+  },
+  {
+   "t": "p",
+   "html": "Unacast states that its location-data product covers more than 1 billion monthly devices across more than 180 countries, sourced from more than 15 underlying suppliers, with advertising use cases spanning OOH effectiveness, offline attribution, foot traffic, location demographics, and retail performance (Unacast, company disclosures). This article places Unacast in a similar strategic category to Quadrant and Veraset, while noting that Unacast's proposition includes a more heavily packaged mobility-and-analytics layer than a purely raw data feed."
+  },
+  {
+   "t": "h2",
+   "text": "10. Cuebiq: A Specialist in Offline Measurement, Documented With Clear Channel Outdoor",
+   "id": "10-cuebiq-a-specialist-in-offline-measurement-documented-wit"
+  },
+  {
+   "t": "p",
+   "html": "Cuebiq's measurement product explicitly supports digital, television, OOH, and streaming audio channels, measuring incremental visits, return on ad spend, and offline outcomes (Cuebiq, company disclosures). This article identified a specific, documented relationship between Cuebiq and Clear Channel Outdoor, in which Cuebiq's location intelligence was integrated into Clear Channel Outdoor's RADAR solution to evaluate OOH impact on store visits and other outcomes, an example this article treats as representative of the broader pattern connecting an OOH media owner to third-party location measurement to advertiser return on investment."
+  },
+  {
+   "t": "h2",
+   "text": "11. Placer.ai: Physical-World and Billboard-Specific Intelligence",
+   "id": "11-placer-ai-physical-world-and-billboard-specific-intellige"
+  },
+  {
+   "t": "p",
+   "html": "Placer.ai's application programming interface explicitly defines a billboard or traffic pin as an OOH advertising unit and uses estimated foot traffic passing that point to analyze impressions, marketing its location intelligence specifically for OOH reach, billboard performance, audience segmentation, foot traffic, offline engagement, and return on investment (Placer.ai, company disclosures). This article assesses Placer.ai's particular strength as arising when an advertiser or platform requires detailed understanding of the physical context surrounding a specific piece of media inventory."
+  },
+  {
+   "t": "h2",
+   "text": "12. Tamoco: Exposure and Geospatial Attribution, Also Documented With Clear Channel Outdoor",
+   "id": "12-tamoco-exposure-and-geospatial-attribution-also-documente"
+  },
+  {
+   "t": "p",
+   "html": "Tamoco's methodology maps mobile geospatial data to OOH viewsheds and incorporates movement direction to estimate the likelihood that an individual was exposed to a given billboard, with its measurement product supporting OOH impressions, visit uplift, attribution, venue insights, activation, and offline-to-offline measurement (Tamoco, company disclosures). This article notes a publicly documented partnership between Tamoco and Clear Channel Outdoor, situating Tamoco, alongside Cuebiq discussed in Section 10, as a specialist location-measurement provider serving a shared major OOH media owner, an arrangement that itself illustrates the multi-provider architecture discussed further in Section 20."
+  },
+  {
+   "t": "h2",
+   "text": "13. Ipsos / Route: A Currency-Grade Measurement Ecosystem, Not a Data Feed",
+   "id": "13-ipsos-route-a-currency-grade-measurement-ecosystem-not-a-"
+  },
+  {
+   "t": "p",
+   "html": "Route occupies a structurally distinct position from the mobility-data suppliers discussed in Sections 5, 8, and 9. Route describes itself as the joint industry currency for out-of-home advertising in Great Britain, providing audience data for posters and digital screens through a combined methodology incorporating GPS tracking, demographic and lifestyle research, eye tracking, and volumetric data modelling, producing audience data for approximately 400,000 posters and screens across Great Britain, with research partners including Ipsos, Adwanted, and Lumen Research (Route, company disclosures). This article emphasizes that Route represents a currency-grade measurement ecosystem, jointly governed and industry-recognized, rather than a commercial data feed available for independent licensing, a distinction this article considers essential when comparing Route against any of the data-supplier organizations discussed elsewhere in this article."
+  },
+  {
+   "t": "h2",
+   "text": "14. Comscore: Independent Third-Party Audience Measurement",
+   "id": "14-comscore-independent-third-party-audience-measurement"
+  },
+  {
+   "t": "p",
+   "html": "Comscore has publicly documented digital-out-of-home measurement agreements with Lightbox, GSTV, and Captivate, providing metrics including impressions, reach, frequency, and demographic reporting (Comscore, company disclosures). This article assesses Comscore's particular relevance as arising specifically when an advertiser or media buyer requires an independent, third-party reporting layer, rather than measurement self-reported by the media owner."
+  },
+  {
+   "t": "h2",
+   "text": "15. Lumen Research: The Attention Layer",
+   "id": "15-lumen-research-the-attention-layer"
+  },
+  {
+   "t": "p",
+   "html": "Lumen Research addresses a question distinct from whether an individual was exposed to a given placement, namely whether that individual actually paid attention to it, using eye-tracking and attention-modelling methodology across OOH and DOOH. Lumen's documented work with JCDecaux examined the relationship between DOOH exposure and subsequent online attention, and its documented work with Ocean Outdoor examined attention generated by premium large-format DOOH (Lumen Research, company disclosures). Route separately identifies Lumen as its eye-tracking partner for incorporating the likelihood that individuals notice OOH advertising into its broader currency methodology, discussed in Section 13. This article considers the progression from exposure to attention, developed further in the data stack presented in Section 21, to be among the more significant emerging directions in OOH measurement."
+  },
+  {
+   "t": "h2",
+   "text": "16. Nielsen: Cross-Media Measurement Credibility, Carefully Scoped",
+   "id": "16-nielsen-cross-media-measurement-credibility-carefully-sco"
+  },
+  {
+   "t": "p",
+   "html": "Nielsen remains among the most widely recognized measurement organizations globally, but this article emphasizes that its OOH-related terminology often refers to out-of-home viewing of television content rather than OOH advertising specifically. Nielsen expanded its United States television out-of-home measurement to cover 100% of the contiguous United States television population in 2025, and has documented an OOH campaign-impact study for Luxottica using its Brand Impact measurement methodology (Nielsen, company disclosures). This article accordingly classifies Nielsen as a cross-media measurement organization with documented OOH-adjacent capability, rather than as a pure-play DOOH location-data supplier comparable to the providers discussed in Sections 5, 8, and 9."
+  },
+  {
+   "t": "h2",
+   "text": "17. Geopath: A U.S. OOH Measurement Reference Point",
+   "id": "17-geopath-a-u-s-ooh-measurement-reference-point"
+  },
+  {
+   "t": "p",
+   "html": "Geopath is not a commercial mobile-data vendor in the sense of the organizations discussed in Sections 5, 8, and 9; its stated objective is to provide a common OOH data foundation covering inventory, viewsheds, opportunity-to-see, audience impressions, exposure dwell time, and demographics, integrated with first- and third-party data, and it explicitly describes itself as a potential ground truth for the calibration of first- and third-party data (Geopath, company disclosures). This article treats this calibration function as conceptually important: third-party location data does not necessarily substitute for an industry measurement currency, and can instead serve to calibrate or enrich it."
+  },
+  {
+   "t": "h2",
+   "text": "18. Beyond OOH: General Audience-Data Providers",
+   "id": "18-beyond-ooh-general-audience-data-providers"
+  },
+  {
+   "t": "p",
+   "html": "Extending beyond OOH-specific applications into general AdTech and MarTech activation considerably widens the relevant competitive landscape, encompassing organizations including Experian, Acxiom, LiveRamp, TransUnion, YouGov, Epsilon, Oracle, Zeotap, InfoSum, and Tealium. Google's current documentation confirms that its advertising ecosystem supports third-party data providers, listing organizations including Acxiom, Epsilon, LiveRamp, TransUnion, Zeotap, and InfoSum as integrated third parties for Customer Match workflows (Google, company disclosures). YouGov provides research-based audience segments constructed from its consumer research data for addressable advertising, and Adsquare has a documented partnership with Experian using Experian household data for OOH planning and programmatic buying (Adsquare, company disclosures). This article's position is that these organizations are highly relevant to broader MarTech audience activation, but are not typically the first organizations this article would benchmark when the specific question concerns location and mobility data underlying DOOH measurement."
+  },
+  {
+   "t": "h2",
+   "text": "19. A Requirement-Based Benchmark",
+   "id": "19-a-requirement-based-benchmark"
+  },
+  {
+   "t": "p",
+   "html": "Rather than producing a single ranking from strongest to weakest, this article proposes evaluating providers against the specific requirement they are best positioned to serve."
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Requirement",
+     "Leading Candidates Identified in This Review"
+    ],
+    [
+     "Raw global location data",
+     "Veraset, Quadrant, Unacast"
+    ],
+    [
+     "Location + POI data",
+     "Precisely/PlaceIQ, Foursquare, Quadrant"
+    ],
+    [
+     "Audience + location intelligence",
+     "Adsquare, Precisely"
+    ],
+    [
+     "OOH audience planning",
+     "Adsquare, Route, Geopath"
+    ],
+    [
+     "DOOH audience measurement",
+     "Route, Comscore, Geopath"
+    ],
+    [
+     "Footfall measurement",
+     "Foursquare, Cuebiq, Placer.ai, Adsquare"
+    ],
+    [
+     "OOH attribution",
+     "Foursquare, Cuebiq, Tamoco"
+    ],
+    [
+     "Offline incrementality",
+     "Foursquare, Cuebiq, Tamoco"
+    ],
+    [
+     "Billboard analytics",
+     "Placer.ai, Quadrant, Foursquare"
+    ],
+    [
+     "Attention measurement",
+     "Lumen Research"
+    ],
+    [
+     "Independent media measurement",
+     "Nielsen, Comscore, Ipsos"
+    ],
+    [
+     "Cross-channel measurement",
+     "Nielsen, Comscore, Foursquare"
+    ],
+    [
+     "Global emerging-market coverage",
+     "Quadrant, Veraset, Unacast"
+    ],
+    [
+     "AdTech data orchestration",
+     "Adsquare"
+    ]
+   ],
+   "caption": "<em>Table 1. Requirement-based benchmark of providers reviewed in this article. Inclusion reflects publicly documented capability relevant to the stated requirement, not a claim of market leadership.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Figure 2 translates this qualitative benchmark into a comparative capability matrix across five dimensions for the fourteen providers examined in Sections 4 through 17, allowing direct visual comparison of relative strengths."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/hidden-data-infrastructure-ooh-2.webp",
+   "w": 1320,
+   "h": 1116,
+   "caption": "<em>Figure 2. Benchmark capability matrix across five dimensions for fourteen providers reviewed in this article. Scores reflect this article's own qualitative synthesis of the publicly documented capabilities discussed in Sections 4 through 17, on a 1-to-5 scale, and should be read as a structured summary of this review rather than as an independently audited industry benchmark.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Two patterns in Figure 2 merit direct comment. First, no provider scores near the maximum across all five dimensions simultaneously, reinforcing this article's central argument in Section 3 that the category comprises structurally distinct specializations rather than a single commoditized service. Second, providers whose primary business is a national or regional measurement currency, Ipsos/Route and Geopath in particular, score comparatively low on raw location data and global coverage precisely because their business model is built around a jointly governed, geographically bounded currency rather than a globally licensable data feed, a pattern consistent with the structural distinction developed in Section 13."
+  },
+  {
+   "t": "h2",
+   "text": "20. This Article's Overall Qualitative Assessment",
+   "id": "20-this-article-s-overall-qualitative-assessment"
+  },
+  {
+   "t": "p",
+   "html": "If compelled to synthesize the fourteen providers reviewed into a single ordered list specifically for an OOH/DOOH technology organization evaluating third-party data partnerships, rather than ranking providers by corporate revenue or headcount, this article's qualitative assessment, developed from the evidence presented in Sections 4 through 19, would order the providers approximately as follows: Adsquare, for overall ecosystem fit across audience, location, activation, and measurement; Foursquare, for real-world attribution and outcome measurement; Quadrant, for flexible, licensable location-data supply, particularly for platforms building their own intelligence layer; Precisely/PlaceIQ, for enterprise geospatial and data-enrichment capability; Veraset, for high-scale raw mobility-data infrastructure; Unacast, for combined global mobility data and offline attribution; Cuebiq, as a strong specialist in offline measurement and incrementality; Placer.ai, for physical-world and billboard-specific analytics; Tamoco, as a specialist in OOH exposure and geospatial attribution; Ipsos/Route, as an exceptionally strong currency-grade measurement ecosystem operating under a different business model than a data vendor; Comscore, for independent cross-media and DOOH measurement; Lumen Research, as the leading specialist identified in this review for attention measurement; Nielsen, for substantial cross-media measurement credibility scoped carefully as described in Section 16; and Geopath, as a critical United States OOH measurement reference and calibration point."
+  },
+  {
+   "t": "p",
+   "html": "This article explicitly frames this ordering as its own qualitative synthesis of the evidence reviewed, not as an audited industry ranking, and emphasizes, consistent with the caution developed in Section 23, that a provider's position in this list reflects strategic relevance to OOH/DOOH third-party data questions specifically, not overall corporate scale, financial performance, or suitability for every possible use case."
+  },
+  {
+   "t": "h2",
+   "text": "21. The Advertising Data Stack: A Seven-Layer Model",
+   "id": "21-the-advertising-data-stack-a-seven-layer-model"
+  },
+  {
+   "t": "p",
+   "html": "This article's broader structural contribution is to situate the fourteen providers reviewed within a seven-layer model describing the progression from raw, real-world signals to a measurable business outcome: real-world signals, comprising devices, points of interest, and geography; mobility data, comprising GPS, software development kit, telecom, and movement signals; audience data, comprising demographic and behavioural information; exposure, comprising viewshed, likelihood-to-see, and proof-of-play measurement; attention, comprising eyes-on measurement, dwell time, and engagement; attribution, comprising incrementality and store-visit measurement; and, at the top of the stack, business outcome, comprising sales, revenue, return on advertising spend, and lifetime value. Figure 3 presents this model directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/hidden-data-infrastructure-ooh-3.webp",
+   "w": 1200,
+   "h": 1276,
+   "caption": "<em>Figure 3. The advertising data stack, moving from real-world signals through mobility data, audience data, exposure, attention, and attribution to business outcome. Each layer is typically served by different specialist providers, several of which are reviewed in Sections 4 through 17 of this article.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's interpretation of Figure 3 is that it explains why organizations positioned at structurally different layers, for example Quadrant and Veraset at the mobility-data layer, alongside Adsquare, Foursquare, Comscore, Nielsen, Ipsos, and Lumen Research operating at higher layers, coexist within the same broader ecosystem rather than competing directly: each is addressing a different layer of the same underlying measurement problem, moving the industry's central question from how many people passed a given piece of inventory toward who was likely exposed, toward who actually noticed, toward what they did afterward, and ultimately toward whether the advertising created incremental business value."
+  },
+  {
+   "t": "h2",
+   "text": "22. The Larger 2026 Development: Standardization Itself",
+   "id": "22-the-larger-2026-development-standardization-itself"
+  },
+  {
+   "t": "p",
+   "html": "This article's assessment is that the most consequential development for this category in 2026 is not any single vendor announcement, but the standardization of OOH measurement described in Section 2. The World Out of Home Organization's 2026 guidelines point toward standardized DOOH measurement, impression multipliers, continuously collected mobility data, third-party datasets, synthetic populations, and more granular temporal measurement, while the Media Rating Council's finalized standards establish a formal framework incorporating concepts including display exposure zone, likelihood-to-see impressions, and audience measurement (World Out of Home Organization, 2026; Media Rating Council, 2025). This article interprets these developments as evidence that the industry is moving away from an unverified, proprietary footfall claim asserted by an individual vendor, toward a documented methodology, source data, exposure definition, calibration approach, audience model, and independent validation supporting any reported measurement figure, a shift this article considers more significant to the category's long-term credibility than the competitive position of any individual provider reviewed in this article."
+  },
+  {
+   "t": "h2",
+   "text": "23. A Note on Avoiding Unsupported Superlative Claims",
+   "id": "23-a-note-on-avoiding-unsupported-superlative-claims"
+  },
+  {
+   "t": "p",
+   "html": "This article deliberately avoids declarative superlative statements about individual providers. It does not assert that any single organization is the best location-data provider, the world's number-one OOH measurement company, or the world's biggest OOH data provider, because such claims are not factually defensible given the absence of any authoritative, independently audited registry or ranking of this category, discussed in Section 1. Where this article characterizes a provider's strength, it does so by reference to specific, publicly documented products, partnerships, or methodologies, for example describing Quadrant as one of several notable global suppliers of location and geospatial data with publicly documented OOH applications, rather than as the leading such supplier in an unqualified sense. This article treats this distinction as essential to maintaining analytical credibility rather than producing promotional content resembling vendor marketing material."
+  },
+  {
+   "t": "h2",
+   "text": "24. Conclusion",
+   "id": "24-conclusion"
+  },
+  {
+   "t": "p",
+   "html": "Discussion of third-party data in OOH and DOOH advertising is more precisely understood as discussion of at least five structurally distinct businesses, raw location and mobility data, points-of-interest and geospatial intelligence, audience and activation data, measurement and attribution, and attention, verification, and delivery, rather than as a single, interchangeable commodity. This article has documented specific, publicly verifiable examples of how these layers connect in practice, including Adsquare's partnership with Yahoo, Quadrant's documented relationship with Moving Walls, and Cuebiq's and Tamoco's respective integrations with Clear Channel Outdoor, and has situated fourteen benchmark providers within a five-layer structural model and a seven-layer measurement stack extending from real-world signal to business outcome. Because the majority of the specialist providers examined in this article are privately held, this article does not offer a revenue-based comparison across the category, since doing so would require relying on estimates this article cannot independently verify. The most significant development shaping this ecosystem heading into the remainder of the decade is not the emergence of any single dominant vendor, but the ongoing standardization of OOH measurement itself, through the Media Rating Council's finalized standards and the World Out of Home Organization's 2026 guidelines, which together are moving the category from a landscape of proprietary, unverified claims toward one of documented, calibrated, and independently validated measurement."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Adsquare. (2022). <em>Yahoo partners with Adsquare to expand targeting and measurement for DOOH</em> [Press release]. <a href=\"https://adsquare.com/yahoo-partners-with-adsquare-for-dooh/\">https://adsquare.com/yahoo-partners-with-adsquare-for-dooh/</a>",
+    "Media4Growth. (2020). <em>Moving Walls in pact with global mobile location data player Quadrant</em>. <a href=\"https://www.media4growth.com/digital-ooh/moving-walls-in-pact-with-global-mobile-location-data-player-quadrant-4980\">https://www.media4growth.com/digital-ooh/moving-walls-in-pact-with-global-mobile-location-data-player-quadrant-4980</a>",
+    "Media Rating Council. (2025). <em>OOH Measurement Standards, Phase 1 and 2 Combined, Final – December 2025</em>. <a href=\"https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf\">https://mediaratingcouncil.org/sites/default/files/Standards/MRC%20OOH%20Standards%20Combined_FINAL.pdf</a>",
+    "Quadrant. (n.d.). <em>Customer success story: Moving Walls</em> [Case study]. <a href=\"https://www.quadrant.io/mobile-location-data-casestudy-moving-walls\">https://www.quadrant.io/mobile-location-data-casestudy-moving-walls</a>",
+    "The Drum. (2022). <em>Yahoo expands Adsquare partnership to deepen DOOH analysis</em>. <a href=\"https://www.thedrum.com/news/2022/09/27/yahoo-expands-adsquare-partnership-deepen-dooh-analysis\">https://www.thedrum.com/news/2022/09/27/yahoo-expands-adsquare-partnership-deepen-dooh-analysis</a>",
+    "World Out of Home Organization. (2026). <em>WOO launches Global OOH Audience Measurement Guidelines 2.0</em>. <a href=\"https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026\">https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026</a>"
+   ]
+  },
+  {
+   "t": "note",
+   "html": "<em>Company-specific product descriptions, partnership details, and technical claims attributed to Foursquare, Precisely/PlaceIQ, Veraset, Unacast, Cuebiq, Placer.ai, Tamoco, Route/Ipsos, Comscore, Lumen Research, Nielsen, Geopath, and general MarTech data providers are drawn from company disclosures and public product documentation reviewed by this article's author; specific figures should be verified against each provider's current primary documentation before citation in further work.</em>"
+  }
+ ]
+}

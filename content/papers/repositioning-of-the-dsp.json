@@ -1,0 +1,307 @@
+{
+ "slug": "repositioning-of-the-dsp",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 4032,
+ "figures": 3,
+ "tables": 0,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "For nearly two decades, the demand-side platform (DSP) has functioned as one of the central control points of programmatic advertising: a marketer defines an audience, the DSP identifies inventory, an algorithm bids, an exchange clears the transaction, and the publisher is paid. This article examines a specific structural question raised by developments through 2026: does an advertiser still need to operate a DSP directly, or can an artificial intelligence agent increasingly interpret an advertiser's objective, discover inventory, evaluate opportunities, configure a campaign, and, under appropriately scoped permissions, execute actions across advertising infrastructure on the advertiser's behalf?"
+  },
+  {
+   "t": "p",
+   "html": "This article argues that the more useful framing is not whether the DSP is disappearing, since the evidence reviewed in Sections 2 through 6 shows the opposite, continued and substantial investment in DSP infrastructure by every major platform examined, but whether the DSP's role as the primary human-facing interface for media buying is being structurally challenged by a shift toward machine-facing infrastructure. The remainder of this article proceeds as follows. Sections 2 through 6 document the 2026 evidence for this shift across Amazon, Adform, The Trade Desk, Magnite, and PubMatic. Section 7 contrasts the traditional and emerging value-chain architectures directly. Section 8 examines the central risk this shift introduces, autonomous decision-making without adequate control, and Section 9 examines the standards infrastructure, principally the IAB Tech Lab's Agentic Advertising Management Protocols, being built in response. Sections 10 through 13 examine the financial evidence, the resulting competitive reframing, the implications for revenue distribution across the value chain, and practical implications for market participants. Section 14 extends the analysis to out-of-home advertising specifically, and the article closes with a deliberately calibrated conclusion in Section 16."
+  },
+  {
+   "t": "h2",
+   "text": "2. The DSP Is Not Dying: The FY2026 Investment Evidence",
+   "id": "2-the-dsp-is-not-dying-the-fy2026-investment-evidence"
+  },
+  {
+   "t": "p",
+   "html": "The evidence available through 2026 does not support a claim that demand-side platforms are being abandoned or are financially failing as a category. The Trade Desk continued to invest heavily in artificial intelligence, decisioning, and measurement capability throughout 2026, reporting first-quarter revenue of 689 million dollars, up 12% year over year, and second-quarter revenue of 715 million dollars, up 3% year over year (The Trade Desk, 2026a, 2026b). Amazon continues to operate and expand Amazon DSP with increasingly sophisticated automation layered on top of it. Adform is actively exposing its advertising infrastructure to external AI systems rather than withdrawing from platform competition. PubMatic is building a dedicated agentic operating system, AgenticOS, on top of its existing supply-side infrastructure. Magnite is building buyer- and seller-agent orchestration infrastructure. This article's position, consistent with the evidence in this section, is that the more accurate framing is that the DSP as a destination for manual human operation may be diminishing in relative importance, while the DSP as underlying infrastructure may be becoming more valuable, a distinction developed further in Section 12."
+  },
+  {
+   "t": "h2",
+   "text": "3. The First Concrete Signal: Amazon Ads",
+   "id": "3-the-first-concrete-signal-amazon-ads"
+  },
+  {
+   "t": "p",
+   "html": "Amazon Ads introduced its Ads MCP Server in February 2026, allowing external AI systems to connect to Amazon Ads application programming interfaces and translate natural-language instructions into structured advertising actions (Amazon Ads, company disclosures). In April 2026, Amazon expanded its Ads Agent capability globally across eighteen languages and twenty-seven dialects, enabling the agent to translate a stated media plan into campaigns and ad groups within Amazon DSP, automating campaign structure, targeting configuration, and data mapping. That same month, Amazon introduced an automatic deal-selection capability allowing Amazon DSP to continuously curate and update eligible deals based on stated campaign objectives and targeting criteria, and by August 2026, Ads Agent could recommend combinations of streaming television, online video, display, and audio inventory using real-time reach projections (Amazon Ads, company disclosures). Amazon reported that multi-format advertisers using this capability achieved 58% year-over-year growth, with an internal analysis reporting approximately three times greater incremental reach at less than 5% audience overlap; this article treats these figures explicitly as Amazon's own internal, US-specific analysis rather than as an independently verified or generalizable industry benchmark, consistent with Amazon's own characterization of the data. This article's interpretation of this progression is that the underlying interaction is shifting from an agent that helps execute an advertiser's media plan toward an agent that helps determine what the media plan should be in the first place."
+  },
+  {
+   "t": "h2",
+   "text": "4. Advertising Infrastructure Begins Talking to AI Agents Directly",
+   "id": "4-advertising-infrastructure-begins-talking-to-ai-agents-dir"
+  },
+  {
+   "t": "p",
+   "html": "In July 2026, Adform stated that its FLOW MCP Server had opened more than 800 discrete capabilities, spanning campaign planning, forecasting, activation, optimization, troubleshooting, and reporting, to external AI agents (Adform, company disclosures). Under this architecture, an advertiser need not navigate a conventional sequence of campaign, line item, audience, deal, bid strategy, frequency, creative, and optimization screens; the interaction can instead take the form of a single natural-language objective, for example specifying a target audience, a maximum acceptable cost per thousand impressions, a channel priority across connected television and digital out-of-home, and an optimization target such as store visitation, with the agent responsible for interpreting that objective and the underlying advertising infrastructure responsible for the deterministic operations required to execute it. This article treats this development as evidence of a genuinely different interface paradigm for advertising technology, rather than as an incremental improvement to an existing one."
+  },
+  {
+   "t": "h2",
+   "text": "5. The Trade Desk's Response: Turning the DSP Itself Into Agentic Infrastructure",
+   "id": "5-the-trade-desk-s-response-turning-the-dsp-itself-into-agen"
+  },
+  {
+   "t": "p",
+   "html": "The Trade Desk introduced Kokai Zuma on August 27, 2026, describing it as a new release of its Kokai platform incorporating agentic AI capability, simplified measurement, and a more intuitive workflow, with its Koa Agents designed to move from conversational queries toward recommended next actions while keeping the human buyer in ultimate control, with some capabilities remaining in closed beta at the time of this article's preparation (The Trade Desk, company disclosures). This article's reading of this development is that The Trade Desk is not responding to agentic AI by abandoning the DSP model, but by attempting to transform the DSP itself into an intelligent, agent-accessible operating environment. Under this reading, the relevant competitive contest may not be a binary contest between the DSP and AI, but rather a contest between a DSP enhanced with agentic capability and an independent AI agent capable of bypassing the traditional DSP interface entirely, developed further in Section 8."
+  },
+  {
+   "t": "h2",
+   "text": "6. The Supply Side Responds: Magnite and PubMatic",
+   "id": "6-the-supply-side-responds-magnite-and-pubmatic"
+  },
+  {
+   "t": "p",
+   "html": "Two developments on the supply side of the market provide the clearest production evidence, as opposed to demonstration evidence, available to this article. In June 2026, Magnite launched Magnite Orchestration, enabling buyer agents to connect with its seller agent to discover, evaluate, and activate premium omnichannel inventory, with Dentsu and DIRECTV Advertising among the partners testing the capability (Magnite, company disclosures). In September 2026, Magnite announced what it describes as its first agentic campaign in the EMEA region, executed with the French programmatic trading desk Amnet France for an unnamed automotive manufacturer client: a buyer agent communicated with Magnite's seller agent through Magnite Orchestration, using natural-language prompts, to identify relevant premium connected-television supply and activate the campaign, with Magnite reporting an approximately 70% reduction in campaign setup time and a video view-through rate of 95% for that specific campaign (Magnite, 2026; PPC Land, 2026a). Two days later, Magnite announced a comparable agentic integration with ITN for local linear television, with the companies stating that a process historically requiring weeks could be reduced to hours."
+  },
+  {
+   "t": "p",
+   "html": "PubMatic's 2026 disclosures provide a second, independent line of production evidence. The company's AgenticOS platform, built around agentic demand- and supply-side infrastructure, supported more than 20 AI agents and over 1,000 AI-powered deals by the first quarter of 2026, and PubMatic reported second-quarter 2026 revenue of 78.6 million dollars, up 11% year over year, with AI customer adoption more than doubling sequentially, agentic campaigns growing from 30 to more than 80 quarter over quarter, AI-powered deals exceeding 4,000, and emerging revenue, which includes AI-related products, growing approximately 100% year over year to represent approximately 15% of total revenue (PubMatic, 2026a, 2026b). PubMatic further reported that the marketing agency Level Agency increased its advertising spend on the platform after AgenticOS delivered more than twice the reach per dollar compared with its incumbent DSP in controlled testing, and that Havas Media and Telefónica used AgenticOS to launch what PubMatic describes as Spain's first fully agentic connected-television campaign (PubMatic, 2026a). This article treats all figures in this section as vendor-reported, campaign- or account-specific results rather than as independently audited or industry-representative benchmarks, and notes that a materially different campaign, also described by an involved party as “France's first agentic campaign,” was separately reported by PubMatic in connection with Amnet and the French livestock trade body Interbev, a distinct engagement from Magnite's automotive client, illustrating that competing, similarly worded claims about industry firsts are already circulating (PPC Land, 2026a)."
+  },
+  {
+   "t": "p",
+   "html": "Figure 3 presents the specific, vendor-reported performance metrics discussed in this section and in Section 3 together."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/repositioning-of-the-dsp-1.webp",
+   "w": 1320,
+   "h": 822,
+   "caption": "<em>Figure 3. Vendor-reported agentic campaign and account performance metrics from Amazon Ads, Magnite, and PubMatic, 2026. These are campaign- or account-specific results reported by the platforms themselves, not independently audited findings, and should not be read as generalizable benchmarks for agentic advertising performance broadly.</em>"
+  },
+  {
+   "t": "h2",
+   "text": "7. Comparing the Traditional and Emerging Value-Chain Architectures",
+   "id": "7-comparing-the-traditional-and-emerging-value-chain-archite"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes the following direct comparison between the established programmatic model and the architecture emerging from the evidence reviewed above."
+  },
+  {
+   "t": "p",
+   "html": "<em>Traditional model: Advertiser</em> fi <em>Agency</em> fi <em>DSP</em> fi <em>Exchange / SSP</em> fi <em>Publisher</em> fi <em>Audience</em>"
+  },
+  {
+   "t": "p",
+   "html": "<em>Emerging model: Advertiser</em> fi <em>Campaign Agent</em> fi <em>[Audience Intelligence, Inventory Intelligence, Pricing, Forecasting, Optimization, Measurement]</em> fi <em>Buyer Agent</em> « <em>Seller Agent</em> fi <em>DSP / SSP / Exchange / Publisher Infrastructure</em> fi <em>Audience</em>"
+  },
+  {
+   "t": "p",
+   "html": "The critical distinction this article draws between these two architectures is that the DSP moves from being the location where the human buyer directly works to becoming one of several systems that an autonomous agent works with and through. This article treats that shift, rather than the literal disappearance of the DSP, as the more accurate description of the disruption underway."
+  },
+  {
+   "t": "h2",
+   "text": "8. The Deeper Threat Is Disintermediation, Not Artificial Intelligence Itself",
+   "id": "8-the-deeper-threat-is-disintermediation-not-artificial-inte"
+  },
+  {
+   "t": "p",
+   "html": "A traditional DSP creates value by aggregating inventory access, audience signal, bidding logic, optimization capability, measurement, workflow, reporting, and third-party integrations within a single interface. This aggregation becomes less structurally necessary once an independent AI agent can access multiple advertising systems directly, evaluating The Trade Desk, Amazon Ads, Adform, Magnite, PubMatic, Google, digital-out-of-home supply-side platforms, connected-television platforms, and retail-media networks, and selecting whichever infrastructure best serves a given objective, rather than being confined to a single platform's aggregated interface. This article's position is that this shift changes the basis of competitive advantage from the quality of a platform's human-facing buying interface toward the depth of unique intelligence, inventory, data, and execution capability a platform can expose to external, independent agents, which this article considers a fundamentally different competitive contest from the one the industry has organized itself around for the past two decades."
+  },
+  {
+   "t": "h2",
+   "text": "9. Governance: The Unresolved Problem Standards Are Beginning to Address",
+   "id": "9-governance-the-unresolved-problem-standards-are-beginning-"
+  },
+  {
+   "t": "p",
+   "html": "Autonomous decision-making introduces risks that traditional, deterministic bidding APIs were not originally designed to address: a campaign budget could be autonomously overspent, an agent could select cheaper but lower-quality inventory, an audience model could be systematically biased, an agent could misinterpret a brief, two cooperating agents could reach conflicting conclusions, a supply-side platform could return fraudulent inventory, a publisher could attempt to manipulate an agent's decision process, or an agent's optimization objective could conflict with an advertiser's brand-safety policy. This article treats the absence of an adequate control layer for these risks as the central unresolved design problem of agentic advertising, rather than a peripheral implementation detail."
+  },
+  {
+   "t": "p",
+   "html": "The IAB Tech Lab's response, its Agentic Advertising Management Protocols (AAMP) initiative, is organized around three pillars, agentic foundations, agentic protocols, and trust and transparency, and includes explicit work on agent identity, verification, and disclosure for buyer and seller agents, building on existing standards including OpenRTB, AdCOM, OpenDirect, and the Deals API (IAB Tech Lab, 2026). Version 2.3 of this framework, released in July 2026, added enterprise deployment guidance, privacy diligence requirements, pricing-integrity provisions, and broader platform support (IAB Tech Lab, 2026). This article's interpretation of AAMP's existence and rapid iteration is that the industry itself recognizes explicitly that autonomous advertising cannot scale safely without standardized identity, permissioning, and trust infrastructure, and that this recognition should be read as evidence against, rather than for, a narrative in which agentic advertising develops without meaningful governance."
+  },
+  {
+   "t": "h2",
+   "text": "10. The Financial Evidence: A Striking Divergence",
+   "id": "10-the-financial-evidence-a-striking-divergence"
+  },
+  {
+   "t": "p",
+   "html": "This article's most direct empirical evidence concerns the divergent 2026 financial trajectories of The Trade Desk and PubMatic, two companies pursuing structurally different responses to the same underlying technological shift. The Trade Desk's year-over-year revenue growth decelerated sharply across three consecutive periods, from 18% for fiscal year 2025, to 12% in the first quarter of 2026, to 3% in the second quarter of 2026, a deceleration accompanied by a subsequent workforce reduction of approximately 15% and the departure of several senior executives, including the chief financial officer, chief marketing officer, chief customer officer, and chief business development officer (The Trade Desk, 2026a, 2026b; Yahoo Finance, 2026). Over the same period, PubMatic's revenue growth reaccelerated to 11% in the second quarter of 2026, with the company's chief executive explicitly attributing part of this reacceleration to AgenticOS adoption, and with AI-attributed emerging revenue growing approximately 100% year over year (PubMatic, 2026a). Figure 1 presents this divergence directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/repositioning-of-the-dsp-2.webp",
+   "w": 1280,
+   "h": 794,
+   "caption": "<em>Figure 1. Year-over-year revenue growth for The Trade Desk (fiscal year 2025 through second-quarter 2026) compared with PubMatic's second-quarter 2026 growth rate. Both companies were investing heavily in agentic AI capability over this period; their financial trajectories nonetheless diverged sharply.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article explicitly cautions against over-interpreting Figure 1 as proof that agentic AI investment alone determined either company's financial trajectory. The Trade Desk's own management attributed its deceleration to a combination of macroeconomic headwinds affecting large consumer-packaged-goods and automotive advertisers and acknowledged execution shortcomings distinct from its AI strategy specifically (The Trade Desk, 2026b). What this article does consider defensible is a narrower claim: the two companies' starkly different trajectories over the same period, while both were investing in agentic capability, demonstrate that agentic AI investment alone is not a sufficient explanation for financial outcomes in this sector, and that other factors, including underlying category exposure, product execution, and customer concentration, remain material."
+  },
+  {
+   "t": "h2",
+   "text": "11. Mapping Agentic Capability Across Major Platforms",
+   "id": "11-mapping-agentic-capability-across-major-platforms"
+  },
+  {
+   "t": "p",
+   "html": "Synthesizing the evidence presented in Sections 3 through 6, Figure 2 maps six major organizations against five dimensions of documented agentic-infrastructure capability: buyer-side agent capability, seller-side agent capability, external agent API access, at least one documented live campaign using that capability, and participation in cross-industry standards work."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/repositioning-of-the-dsp-3.webp",
+   "w": 1320,
+   "h": 834,
+   "caption": "<em>Figure 2. Documented agentic-infrastructure capability across six major organizations, based on public disclosures reviewed for this article. A blank cell indicates the absence of documented evidence available to this article at the time of writing, not necessarily the complete absence of that capability.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Two patterns in Figure 2 are worth noting explicitly. First, Magnite and PubMatic are the only two organizations in this analysis with documented capability across all four platform-level dimensions, including both buyer- and seller-side agent functionality and at least one documented live campaign, which this article treats as consistent with their comparatively stronger 2026 financial momentum discussed in Section 10, while again cautioning against treating this as a proven causal relationship. Second, the IAB Tech Lab occupies a distinct row in this matrix, reflecting its role as a standards body rather than a transacting platform, a distinction this article considers structurally important: no individual platform's proprietary agent architecture can substitute for the shared identity, permissioning, and trust infrastructure described in Section 9."
+  },
+  {
+   "t": "h2",
+   "text": "12. Reframing the Competitive Question",
+   "id": "12-reframing-the-competitive-question"
+  },
+  {
+   "t": "p",
+   "html": "This article's central reframing is that the relevant competitive question for The Trade Desk, Amazon, Adform, Magnite, PubMatic, and comparable organizations is no longer adequately expressed as which company offers the best DSP, but as whose infrastructure becomes the preferred operating environment for autonomous advertising agents. This article characterizes this as a substantially larger and differently structured market than the one the industry has organized itself around historically. A further, independent signal supporting this reframing arrives from outside conventional AdTech entirely: OpenAI stated that ChatGPT Ads reached a one-billion-dollar annualized revenue run rate in fewer than 200 days, with tens of thousands of advertisers, by August 31, 2026 (OpenAI, company disclosures, as reported in industry press). This article treats this development as significant primarily because it demonstrates advertising emerging natively within an AI-mediated decision environment, rather than being layered onto existing advertising infrastructure after the fact, which this article considers a structurally different phenomenon from the platform-level agentic capability discussed in Sections 3 through 6."
+  },
+  {
+   "t": "h2",
+   "text": "13. Where Advertising Economics May Move",
+   "id": "13-where-advertising-economics-may-move"
+  },
+  {
+   "t": "p",
+   "html": "The scale of the underlying market provides useful context for this discussion. The IAB, in partnership with PricewaterhouseCoopers, reported that United States digital advertising revenue reached nearly 300 billion dollars in 2025, growing 13.9% year over year (IAB/PwC, 2026). Separately, Grand View Research has estimated the broader global programmatic advertising market at approximately 1.153 trillion dollars in 2026, projected to reach approximately 2.753 trillion dollars by 2030; this article labels this second figure explicitly as a third-party commercial market-research estimate rather than an audited industry figure, and it should not be conflated with the IAB/PwC figure, which draws on a different, survey-based methodology (Grand View Research, 2026)."
+  },
+  {
+   "t": "p",
+   "html": "This article's more important question concerns not the market's absolute size but the distribution of value within it. Historically, that value has been distributed across agency, DSP, SSP, exchange, data provider, and publisher. This article proposes that agentic advertising could compress portions of this chain, with value concentrating toward four categories of participant: organizations that own superior audience intelligence, intent signals, conversion data, inventory intelligence, and pricing models; infrastructure providers capable of reliably executing autonomous agent instructions at scale; publishers and media owners offering authenticated, high-quality inventory, which becomes more valuable precisely because autonomous agents require reliable inputs; and measurement providers, whose output increasingly functions as the direct feedback mechanism for autonomous optimization rather than merely a retrospective report. Conversely, this article identifies four categories as more exposed: manual campaign operations roles, whose core tasks of setup, trafficking, and repetitive optimization become increasingly automated; fragmented point solutions, which advertisers may need fewer of once a single agent can coordinate across multiple systems; DSPs whose principal competitive advantage is a well-designed graphical interface rather than differentiated data or execution capability; and intermediary arbitrage layers, which become easier to identify and route around once agents can inspect supply paths, pricing, and performance automatically."
+  },
+  {
+   "t": "h2",
+   "text": "14. Practical Implications for Advertising Technology Companies",
+   "id": "14-practical-implications-for-advertising-technology-compani"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes four practical steps for advertising technology organizations responding to the shift documented above. First, rather than attempting to compete with or replace an emerging AI agent layer, a platform should expose its own infrastructure to that layer, turning itself into agent-accessible infrastructure in the manner Adform, Amazon, Magnite, and PubMatic have each done, in different forms, over 2026. Second, an organization should build well-documented, machine-readable application programming interfaces for its core objects, campaign, audience, inventory, deal, creative, budget, bid strategy, measurement, and outcome, before attempting to build autonomous agents on top of undocumented internal workflows, since an agent cannot operate reliably on top of a system it cannot parse. Third, and consistent with the architectural principle discussed further in Section 15, an organization should keep language-model reasoning, planning, recommendation, negotiation, and orchestration, separate from deterministic systems responsible for budget arithmetic, pricing, eligibility, frequency, inventory availability, and billing."
+  },
+  {
+   "t": "h2",
+   "text": "15. A Governing Architectural Principle",
+   "id": "15-a-governing-architectural-principle"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that the specific separation described in Section 14 be treated as a general design principle for agentic advertising infrastructure: language models and agents should be responsible for interpreting intent, planning, generating recommendations, negotiating, and orchestrating workflow, while deterministic systems remain responsible for budget arithmetic, pricing, eligibility, frequency capping, inventory availability, and billing, and a separate optimization engine remains responsible for portfolio allocation, reach, cost, frequency, and incremental-outcome optimization. This article's position, consistent with the argument developed in its companion analysis of a proposed OOH Outcome Exchange, is that a large language model should not itself function as an organization's ad server, and that maintaining this separation is a necessary precondition for the reliability and auditability of any agentic advertising system operating with real budget authority."
+  },
+  {
+   "t": "h2",
+   "text": "16. Implications for Out-of-Home and Digital Out-of-Home Advertising",
+   "id": "16-implications-for-out-of-home-and-digital-out-of-home-adve"
+  },
+  {
+   "t": "p",
+   "html": "This article's final extension concerns out-of-home (OOH) and digital out-of-home (DOOH) advertising specifically. Consider a hypothetical brief in which an advertiser specifies a two-million-dollar budget across several named cities, an objective of reaching an affluent audience during commuting and shopping journeys, a priority on premium DOOH, connected television, and mobile inventory, a maximum acceptable effective cost per thousand impressions, and an optimization target of store visitation. Under the architecture this article has described, that objective could in principle be resolved by a campaign agent coordinating audience, spatial, inventory, pricing, forecasting, and optimization agents, culminating in a negotiation between buyer and seller agents operating across DOOH, connected-television, and mobile infrastructure, rather than beginning with a human operator opening a single DSP interface. This article characterizes the resulting shift in the underlying unit of media buying as moving from inventory toward opportunity, and considers this among the more consequential potential changes to advertising economics over the coming decade, while emphasizing, consistent with Section 9, that this architecture remains dependent on the governance and interoperability infrastructure that is, as of 2026, still being built rather than already complete."
+  },
+  {
+   "t": "h2",
+   "text": "17. Limitations",
+   "id": "17-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article synthesizes company disclosures, earnings materials, and industry trade press current through September 2026, and its conclusions are accordingly time-bound; the competitive and financial evidence presented in Sections 3, 6, 10, and 11 in particular should be verified against current primary sources given the pace of change evident throughout 2026. The performance figures presented in Figure 3 and discussed in Sections 3 and 6 are vendor-reported, campaign- or account-specific results, not independently audited findings, and this article has repeatedly cautioned against generalizing them into industry-wide benchmarks. The capability mapping presented in Figure 2 reflects publicly available disclosures reviewed by this article's author at the time of writing; a blank cell reflects the absence of documented evidence available to this article, not necessarily the absence of the underlying capability at the organization in question. The financial divergence presented in Figure 1 and discussed in Section 10 is presented as a documented pattern rather than as proof of a causal relationship between agentic AI investment and financial performance, and this article has explicitly noted The Trade Desk's own attribution of its deceleration to factors substantially independent of its AI strategy. The market-size estimates discussed in Section 13 draw on two methodologically distinct sources, an audited industry survey and a third-party commercial market-research estimate, and these should not be conflated or averaged together."
+  },
+  {
+   "t": "h2",
+   "text": "18. Conclusion",
+   "id": "18-conclusion"
+  },
+  {
+   "t": "p",
+   "html": "The evidence reviewed in this article does not support the conclusion that demand-side platforms are dying; every major platform examined, The Trade Desk, Amazon, Adform, Magnite, and PubMatic, was investing substantially in its own infrastructure throughout 2026. What this article's evidence does support is a more precise and, in this article's assessment, more consequential claim: the DSP's historical monopoly over the human-facing buying interface is being structurally challenged, as AI agents increasingly occupy that interface position instead, with the DSP repositioning itself as one of several systems an autonomous agent works through rather than as the singular destination a human buyer works within. Under this reframing, the defining competitive question for the remainder of this decade is not which organization offers the best demand-side platform, but whose advertising infrastructure can be most reliably discovered, evaluated, negotiated with, activated, and optimized by autonomous machines, operating within governance structures that this article has argued remain only partially built as of 2026. The demand-side platform, as a category, is unlikely to disappear. The demand-side platform as the industry has understood and built it for the past two decades, as the primary human-operated interface for media buying, is being actively reconstructed around a very different set of assumptions."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Adform. (2026). <em>FLOW platform MCP server and agent-accessible capabilities</em> [Company disclosures]. <a href=\"https://www.adform.com\">https://www.adform.com</a>",
+    "Grand View Research. (2026). <em>Programmatic advertising market size, share &amp; trends analysis report</em>. <a href=\"https://www.grandviewresearch.com\">https://www.grandviewresearch.com</a>",
+    "IAB / PwC. (2026). <em>Internet advertising revenue report: Full-year 2025 results</em>. Interactive Advertising Bureau. <a href=\"https://www.iab.com\">https://www.iab.com</a>",
+    "IAB Tech Lab. (2026). <em>AAMP: Agentic Advertising Management Protocols</em>. <a href=\"https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/\">https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/</a>",
+    "Magnite, Inc. (2026). <em>Magnite launches first agentic campaign in EMEA with Amnet France</em> [Press release]. <a href=\"https://www.magnite.com\">https://www.magnite.com</a>",
+    "PPC Land. (2026a). <em>Magnite's first EMEA agentic test cuts CTV setup time 70%</em>. <a href=\"https://ppc.land/magnites-first-emea-agentic-test-cuts-ctv-setup-time-70\">https://ppc.land/magnites-first-emea-agentic-test-cuts-ctv-setup-time-70</a>",
+    "PubMatic, Inc. (2026a). <em>PubMatic announces second quarter 2026 financial results</em> [Press release]. <a href=\"https://investors.pubmatic.com/news-releases/news-release-details/pubmatic-announces-second-quarter-2026-financial-results\">https://investors.pubmatic.com/news-releases/news-release-details/pubmatic-announces-second-quarter-2026-financial-results</a>",
+    "PubMatic, Inc. (2026b). <em>PubMatic announces first quarter 2026 financial results</em> [Press release, Form 8-K]. U.S. Securities and Exchange Commission. <a href=\"https://www.sec.gov/Archives/edgar/data/0001422930/000142293026000023/q126pressrelease.htm\">https://www.sec.gov/Archives/edgar/data/0001422930/000142293026000023/q126pressrelease.htm</a>",
+    "The Trade Desk. (2026a). <em>The Trade Desk reports first quarter 2026 financial results</em> [Press release, Form 8-K]. U.S. Securities and Exchange Commission. <a href=\"https://www.sec.gov/Archives/edgar/data/0001671933/000167193326000053/ttd-20260507x8kexx991.htm\">https://www.sec.gov/Archives/edgar/data/0001671933/000167193326000053/ttd-20260507x8kexx991.htm</a>",
+    "The Trade Desk. (2026b). <em>The Trade Desk reports second quarter 2026 financial results</em> [Press release]. <a href=\"https://investors.thetradedesk.com\">https://investors.thetradedesk.com</a>",
+    "The Trade Desk. (2026c). <em>The Trade Desk introduces Kokai Zuma, the latest release of Kokai</em> [Press release]. <a href=\"https://www.thetradedesk.com/press-room/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai\">https://www.thetradedesk.com/press-room/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai</a>",
+    "Yahoo Finance. (2026). <em>The Trade Desk plans to cut 15% of its workforce</em>. <a href=\"https://finance.yahoo.com/media-advertising/articles/trade-desk-plans-cut-15-113003059.html\">https://finance.yahoo.com/media-advertising/articles/trade-desk-plans-cut-15-113003059.html</a>"
+   ]
+  }
+ ]
+}

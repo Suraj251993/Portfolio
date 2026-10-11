@@ -1,0 +1,405 @@
+{
+ "slug": "buyer-direct-supply-path",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 3769,
+ "figures": 3,
+ "tables": 1,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "On November 6, 2025, Google announced Buyer Direct, a beta feature within Google Ad Manager (GAM) that allows advertising agencies to book guaranteed publisher inventory directly through Google's ad-serving infrastructure, without a demand-side platform sitting between the buyer and the publisher (Google Ad Manager Help, 2026; tipsheet.ai, 2026). This article argues that Buyer Direct is best understood not as an incremental buying feature, but as a structural signal about where the programmatic advertising supply chain is heading, and as an early, concrete instance of a broader industry shift from media buying toward what this article's companion analysis of out-of-home advertising technology terms media decisioning."
+  },
+  {
+   "t": "p",
+   "html": "This article proceeds as follows. Section 2 defines Buyer Direct precisely and situates it against the traditional programmatic supply chain. Section 3 distinguishes Buyer Direct from Programmatic Guaranteed. Section 4 explains the industry motivation, Supply Path Optimization, driving this and comparable developments. Sections 5 and 6 examine the stakeholder implications for publishers and agencies respectively. Section 7 addresses the countervailing case for why demand-side platforms retain substantial value. Section 8 presents early adopter evidence from three agency case studies. Section 9 maps the resulting winners and losers across the ecosystem. Section 10 examines the revenue evidence for demand-side and supply-side platforms specifically. Section 11 situates Google's position within this shift, including the September 2026 antitrust ruling. Section 12 connects Buyer Direct to the trajectory toward agentic media buying, and Section 13 extends the analysis to out-of-home advertising specifically."
+  },
+  {
+   "t": "h2",
+   "text": "2. What Buyer Direct Actually Is",
+   "id": "2-what-buyer-direct-actually-is"
+  },
+  {
+   "t": "p",
+   "html": "The traditional programmatic supply chain can be represented as a sequence of intermediaries:"
+  },
+  {
+   "t": "p",
+   "html": "<em>Advertiser</em> fi <em>Agency</em> fi <em>DSP/DV360</em> fi <em>SSP/Exchange</em> fi <em>Ad Manager</em> fi <em>Publisher</em>"
+  },
+  {
+   "t": "p",
+   "html": "Under Buyer Direct, that sequence compresses to:"
+  },
+  {
+   "t": "p",
+   "html": "<em>Advertiser</em> fi <em>Agency</em> fi <em>Google Ad Manager</em> fi <em>Publisher</em>"
+  },
+  {
+   "t": "p",
+   "html": "The demand-side platform is removed from the transaction. Google's own documentation states plainly that Buyer Direct allows publishers to sell inventory on a guaranteed basis to agency customers, and that because Buyer Direct does not use a DSP, publishers and buyers have a more direct supply path (Google Ad Manager Help, 2026; Authorized Buyers Help, 2026). Buyers instead work within Google's Agency interface, while publishers manage the proposal through the same Ad Manager environment they already use for direct reservations and Programmatic Guaranteed deals. This is not simply another private marketplace deal; it is closer to a fusion of the traditional insertion-order relationship with the automated workflow of programmatic technology."
+  },
+  {
+   "t": "h2",
+   "text": "3. Buyer Direct Versus Programmatic Guaranteed",
+   "id": "3-buyer-direct-versus-programmatic-guaranteed"
+  },
+  {
+   "t": "p",
+   "html": "The distinction between Buyer Direct and Programmatic Guaranteed is the single most important technical detail for understanding what has actually changed. Table 1 summarizes the comparison."
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Attribute",
+     "Programmatic Guaranteed",
+     "Buyer Direct"
+    ],
+    [
+     "Buyer",
+     "Agency / DSP",
+     "Agency"
+    ],
+    [
+     "DSP required?",
+     "Yes",
+     "No"
+    ],
+    [
+     "Publisher platform",
+     "Google Ad Manager",
+     "Google Ad Manager"
+    ],
+    [
+     "Guaranteed inventory?",
+     "Yes",
+     "Yes"
+    ],
+    [
+     "Negotiation",
+     "Programmatic",
+     "Direct agency relationship"
+    ],
+    [
+     "Buying interface",
+     "DSP",
+     "Agency interface"
+    ],
+    [
+     "Supply path",
+     "Buyer fi DSP fi GAM/Publisher",
+     "Buyer fi GAM/Publisher"
+    ],
+    [
+     "Creative workflow",
+     "DSP-served",
+     "Publisher-managed"
+    ],
+    [
+     "Best use case",
+     "Scaled programmatic buying",
+     "Strategic direct publisher deals"
+    ]
+   ],
+   "caption": "<em>Table 1. Buyer Direct compared with Programmatic Guaranteed. Both are guaranteed, reservation-style transactions; the defining difference is whether a DSP mediates the transaction.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Google's own product documentation describes Buyer Direct as combining concepts from both traditional reservation buying and Programmatic Guaranteed (Authorized Buyers Help, 2026). The simplest accurate mental model, consistent with Google's framing, is that Buyer Direct is programmatic-style direct buying without the DSP."
+  },
+  {
+   "t": "h2",
+   "text": "4. Why Now: Supply Path Optimization",
+   "id": "4-why-now-supply-path-optimization"
+  },
+  {
+   "t": "p",
+   "html": "For much of the past decade, programmatic advertising accumulated intermediary layers: publisher, supply-side platform, exchange, demand-side platform, agency, advertiser. Each additional layer can introduce fees, latency, data loss, technical complexity, opaque supply paths, duplicated auctions, and reconciliation difficulty. Buyers have increasingly pursued Supply Path Optimization (SPO), the practice of identifying shorter, more transparent, and better-value routes to the same inventory, and this pursuit is the direct commercial motivation behind Buyer Direct and comparable direct-connection experiments across the industry. Google's positioning is, in effect, that for qualifying guaranteed campaigns between an agency and a publisher who already have an established relationship, a DSP intermediary is not always necessary to complete the transaction efficiently."
+  },
+  {
+   "t": "h2",
+   "text": "5. What Is In It for Publishers",
+   "id": "5-what-is-in-it-for-publishers"
+  },
+  {
+   "t": "p",
+   "html": "Publishers stand to gain along several dimensions under Buyer Direct. First, direct buyer relationships reduce dependence on SSP- and DSP-routed demand alone. Second, publishers retain greater control over inventory, pricing, availability, deal terms, and campaign delivery than they typically hold in an open programmatic auction. Third, fewer intermediaries create the potential, though not the guarantee, for publishers to retain a larger share of the advertiser's total media investment. Fourth, Buyer Direct allows a publisher to position premium inventory, in categories such as connected television, premium video, news, sports, retail media, gaming, and digital out-of-home, as available for direct purchase on a guaranteed basis. Fifth, and increasingly important as third-party identity and cookie-based targeting continue to decline, a direct relationship gives the publisher first-party knowledge of exactly who the buyer is, which strengthens the commercial relationship independent of any single transaction."
+  },
+  {
+   "t": "h2",
+   "text": "6. What Is In It for Agencies and Buyers",
+   "id": "6-what-is-in-it-for-agencies-and-buyers"
+  },
+  {
+   "t": "p",
+   "html": "For agencies, the core benefit is a cleaner supply path. Rather than routing a transaction through a DSP and an SSP to reach the same publisher inventory, the agency can transact more directly, potentially gaining more transparent economics, lower intermediary costs, direct access to premium inventory, guaranteed delivery, a direct commercial relationship with the publisher, faster deal execution, and less reliance on auction infrastructure that is unnecessary for a guaranteed, pre-negotiated deal. Google has additionally added the ability to group multiple Buyer Direct deals into a single campaign, track campaign-level budgets, and apply frequency optimization across publishers (Authorized Buyers Help, 2026), which indicates that Buyer Direct is intended to make the direct insertion order programmable, not merely to digitize it."
+  },
+  {
+   "t": "h2",
+   "text": "7. Why Buyer Direct Will Not Simply Replace the DSP",
+   "id": "7-why-buyer-direct-will-not-simply-replace-the-dsp"
+  },
+  {
+   "t": "p",
+   "html": "A demand-side platform provides considerably more than access to inventory: audience targeting, cross-publisher buying, frequency management, bid optimization, attribution, measurement, audience activation, budget allocation, algorithmic optimization, and centralized campaign management across potentially hundreds of publishers simultaneously. An advertiser seeking to reach a defined audience segment across video, premium websites, mobile applications, gaming, and out-of-home inventory does not want to negotiate separately with each individual publisher; this is precisely the coordination problem a DSP exists to solve. Consequently, this article's assessment is that Buyer Direct is more likely to complement DSP-based buying for a specific category of transaction than to displace DSP-based buying generally. Google's own documentation is consistent with this framing, positioning Buyer Direct as an alternative supply path alongside Programmatic Guaranteed rather than as a replacement for demand-side platform activity as a whole (Authorized Buyers Help, 2026)."
+  },
+  {
+   "t": "p",
+   "html": "The countervailing risk is fragmentation. An agency managing relationships across a hundred publishers, fifty connected-television providers, thirty digital-out-of-home networks, and twenty gaming companies would face two hundred separate direct relationships if every one of those parties insisted on direct-only transactions, which is considerably less efficient than a DSP's ability to aggregate demand across thousands of transactions simultaneously. Direct connectivity therefore creates efficiency at the level of a single transaction; a DSP creates efficiency across a very large number of transactions. This trade-off, rather than any inherent superiority of one model, is why demand-side platforms are unlikely to disappear even as direct paths expand."
+  },
+  {
+   "t": "h2",
+   "text": "8. Early Adopter Evidence",
+   "id": "8-early-adopter-evidence"
+  },
+  {
+   "t": "p",
+   "html": "Although Buyer Direct remains formally in beta as of this writing, it has moved beyond a purely conceptual product: three agency groups have publicly documented tests or results, indicating that multiple, independent organizations are evaluating the same underlying architecture rather than a single isolated experiment."
+  },
+  {
+   "t": "h3",
+   "text": "8.1 WPP Media, Nestlé, and Prisma Media",
+   "id": "8-1-wpp-media-nestl-and-prisma-media"
+  },
+  {
+   "t": "p",
+   "html": "WPP Media worked with Nestlé and the French publisher group Prisma Media on a San Pellegrino campaign using Buyer Direct, with the explicit objective of Supply Path Optimization: reducing opaque intermediary costs so that more of the advertiser's budget converts into working media. As reported in the underlying case-study material, campaign setup required approximately three clicks and roughly five minutes, compared with more than twenty clicks under DSP-mediated Programmatic Guaranteed, alongside a reported 50% reduction in intermediary fees. WPP's own representative described the approach as balancing data transparency, publisher payout, and frequency control; Prisma Media highlighted unified capping, reporting, and reduced ad-tech fees; and Nestlé framed the effort as a “less is more” Supply Path Optimization strategy. This article treats these as case-study figures reported by the participating organizations rather than as independently audited benchmarks, and notes explicitly that a reduction in intermediary fees is not equivalent to a claim of increased advertiser revenue; the more defensible framing is that the same advertiser budget produced more working media."
+  },
+  {
+   "t": "h3",
+   "text": "8.2 Hakuhodo DY ONE",
+   "id": "8-2-hakuhodo-dy-one"
+  },
+  {
+   "t": "p",
+   "html": "Hakuhodo DY ONE extended the concept further by connecting its AudienceOne data management platform to Google Ad Manager through Buyer Direct. As reported in the underlying case-study material, one proof of concept measured against traditional private-marketplace and DSP-mediated delivery reported a 21.7% increase in click-through rate and a 66.3% decrease in cost per click; a separate proof of concept reported a 12.4% increase in new reach, an 18% improvement in target-audience composition, an 8% increase in click-through rate, and a 34% increase in average engagement. Hakuhodo explicitly describes this work as infrastructure-building for the agentic advertising era, framing the value of a shorter transaction path not solely in terms of cost but in terms of cleaner underlying data and a stronger technical foundation for future automated optimization. This article again treats these figures as single-organization proof-of-concept results rather than results that should be expected to generalize across all Buyer Direct deployments."
+  },
+  {
+   "t": "h3",
+   "text": "8.3 dentsu Singapore and Standard Chartered",
+   "id": "8-3-dentsu-singapore-and-standard-chartered"
+  },
+  {
+   "t": "p",
+   "html": "A third documented case involves Standard Chartered, dentsu Singapore, and Google Buyer Direct, with reported results of 37% incremental reach and a 54% reduction in cost per reach compared with traditional publisher insertion-order buying. Standard Chartered's brand and insights leadership described Buyer Direct as simplifying activation of premium publisher inventory while improving operational efficiency and reach among affluent audience segments, while dentsu highlighted centralized buying, centralized reporting, and AI-assisted optimization as contributing factors. As with the two cases above, this article treats these as reported, single-campaign case-study figures."
+  },
+  {
+   "t": "p",
+   "html": "Figure 1 presents these nine reported metrics from the three case studies together, to make the pattern across early adopters visible at a glance."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/buyer-direct-supply-path-1.webp",
+   "w": 1280,
+   "h": 910,
+   "caption": "<em>Figure 1. Reported outcomes across the three documented Buyer Direct early-adopter cases. All figures are case-study or proof-of-concept results reported by the participating agencies and their partners; none have been independently audited by this article's author, and none should be treated as a benchmark that every Buyer Direct deployment should expect to replicate.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Two observations follow from Figure 1. First, every reported metric across all three case studies moves in a favourable direction, which is unsurprising given that these are the cases the participating organizations chose to publicize, and this article treats that selection effect as a meaningful limitation on how far these results should be generalized. Second, the metrics cluster around two distinct value propositions: cost and workflow efficiency, most visible in the WPP/Nestlé/Prisma Media case and the Hakuhodo cost-per-click result, and audience quality and reach, most visible in the Hakuhodo reach and engagement results and the dentsu/Standard Chartered case. This suggests Buyer Direct is being adopted for at least two distinct reasons simultaneously, rather than a single uniform value proposition."
+  },
+  {
+   "t": "h2",
+   "text": "9. Who Wins and Who Could Lose",
+   "id": "9-who-wins-and-who-could-lose"
+  },
+  {
+   "t": "p",
+   "html": "This article separates the ecosystem into four groups based on the evidence presented in Sections 5 through 8."
+  },
+  {
+   "t": "h3",
+   "text": "9.1 Publishers: Likely Winners",
+   "id": "9-1-publishers-likely-winners"
+  },
+  {
+   "t": "p",
+   "html": "Publishers can potentially retain a larger share of advertiser media value because the transaction does not necessarily route through a full SSP/DSP chain, while retaining greater control over inventory, pricing, availability, campaign delivery, publisher-managed creative, and the buyer relationship itself. Google's own positioning describes Buyer Direct as creating new revenue opportunities for publishers through a more direct path (Authorized Buyers Help, 2026)."
+  },
+  {
+   "t": "h3",
+   "text": "9.2 Agencies: Likely Winners",
+   "id": "9-2-agencies-likely-winners"
+  },
+  {
+   "t": "p",
+   "html": "Agencies gain direct supply, guaranteed inventory, centralized management, frequency control, reporting, and billing, without needing to route every deal through a DSP, while Google's campaign-grouping and cross-publisher frequency optimization features described in Section 6 make the resulting direct insertion order considerably more programmable than a traditional one."
+  },
+  {
+   "t": "h3",
+   "text": "9.3 Advertisers: Indirect Beneficiaries",
+   "id": "9-3-advertisers-indirect-beneficiaries"
+  },
+  {
+   "t": "p",
+   "html": "Advertisers benefit indirectly rather than directly, through more working media, better transparency, better reach, lower cost per reach in the specific cases documented in Section 8, cleaner underlying data, and reduced supply-chain leakage. The case-study evidence in Section 8 is consistent with these effects, though it remains proof-of-concept evidence rather than a demonstrated population-level outcome."
+  },
+  {
+   "t": "h3",
+   "text": "9.4 SSPs and DSPs: Exposed, But Not Necessarily Declining",
+   "id": "9-4-ssps-and-dsps-exposed-but-not-necessarily-declining"
+  },
+  {
+   "t": "p",
+   "html": "Supply-side platforms are potentially exposed if an advertiser can purchase guaranteed inventory directly from the publisher's own ad server without an SSP participating in the transaction. Demand-side platforms are potentially exposed to the extent that a portion of guaranteed transaction volume can now bypass the DSP entirely. This article's position, developed further in Section 10, is that this should not be read as evidence that DSPs are dying; the more precise statement is that DSPs may no longer need to sit inside every transaction, which is a materially different and more limited claim."
+  },
+  {
+   "t": "h2",
+   "text": "10. Revenue Evidence for Demand-Side and Supply-Side Platforms",
+   "id": "10-revenue-evidence-for-demand-side-and-supply-side-platform"
+  },
+  {
+   "t": "p",
+   "html": "If Buyer Direct and comparable direct-supply mechanisms were meaningfully disintermediating demand-side platforms at scale, this article would expect to observe that pressure reflected in DSP revenue growth. The fiscal year 2025 evidence does not support that reading. The Trade Desk reported approximately 2.90 billion dollars in revenue for fiscal year 2025, up from approximately 2.44 billion dollars in fiscal year 2024, an increase of roughly 18.5% (The Trade Desk, 2026). Independent supply-side platforms also continued to post substantial, if more varied, results: Magnite reported fourth-quarter 2025 revenue of 205.4 million dollars, up 6% year over year, with full-year 2025 revenue of 714.0 million dollars, up 7%, and CTV contribution ex-TAC growing 20% in the fourth quarter alone (Magnite, 2026). PubMatic reported fiscal year 2025 revenue of approximately 282.9 million dollars, down from 291.3 million dollars in fiscal year 2024, a decline of roughly 2.9% (PubMatic, 2026; PPC Land, 2026)."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/buyer-direct-supply-path-2.webp",
+   "w": 1300,
+   "h": 774,
+   "caption": "<em>Figure 2. Fiscal year 2025 revenue scale and year-over-year growth for The Trade Desk, Magnite, and PubMatic, all independently disclosed, audited figures. Google's Ad Manager, AdX, and DV360 results are not broken out as standalone, directly comparable figures within Alphabet's consolidated reporting.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Figure 2 indicates a more nuanced picture than a simple narrative of demand-side platform decline: The Trade Desk's growth substantially outpaces both supply-side platforms shown, while Magnite continues to grow, driven particularly by connected television, and PubMatic's revenue declined modestly amid what the company itself has described as headwinds from a large DSP's changed bidding approach (PubMatic, 2026). This article's interpretation is that the current evidence is consistent with substitution occurring at the margin, within specific categories of premium, guaranteed inventory, rather than with a wholesale shift away from DSP- or SSP-mediated transactions across the ecosystem as a whole."
+  },
+  {
+   "t": "h2",
+   "text": "11. Google's Strategic Position and the Antitrust Backdrop",
+   "id": "11-google-s-strategic-position-and-the-antitrust-backdrop"
+  },
+  {
+   "t": "p",
+   "html": "Google occupies an unusual position in this shift: it owns both Google Ad Manager and AdX, the supply-side infrastructure through which Buyer Direct operates, and DV360, a demand-side platform whose activity Buyer Direct can, for a defined category of transaction, bypass. This article's assessment is that Google can afford this apparent tension because it continues to participate economically through its ad-server infrastructure regardless of which supply path a given transaction uses, and because the ad server itself, which holds real-time knowledge of available inventory, existing bookings, pricing, delivery status, and publisher-defined constraints, is a strategically valuable position from which to build future automation. Industry commentary has connected this specifically to agentic advertising, arguing that an ad server with this information is unusually well positioned to automate direct sales relative to a standalone AI agent that must stitch together fragmented publisher inventory and separate negotiations across many disconnected systems (AdExchanger, 2026)."
+  },
+  {
+   "t": "p",
+   "html": "This structural position takes on additional significance against the regulatory backdrop. On September 2, 2026, Judge Leonie M. Brinkema of the United States District Court for the Eastern District of Virginia rejected the Department of Justice's request for structural remedies, including the divestiture of AdX and the open-sourcing of DoubleClick for Publishers' final auction logic, in the government's ad-technology antitrust case against Google, instead accepting most of the parties' proposed behavioral remedies as modified by the court (Brinkema, 2026, as reported in PPC Land, 2026; Courthouse News Service, 2026). The court's reasoning, as widely reported, rested substantially on practical objections to divestiture, including the absence of an identified buyer and the multi-year timeline a structural separation would require, rather than on any softening of the court's earlier April 2025 finding that Google had unlawfully monopolized the publisher ad server and ad exchange markets. The detailed behavioral remedies remained under seal at the time of this article's preparation, pending a redacted public release, but reporting indicates they are expected to address interoperability and practices affecting publisher yield. This article treats the ruling as directly relevant context rather than as evidence that Buyer Direct caused or was motivated by any particular regulatory outcome: Google's continued, unified ownership of Ad Manager, AdX, and DV360 means the strategic tension described above persists exactly as it existed before the ruling, under continued behavioral, rather than structural, constraint."
+  },
+  {
+   "t": "h2",
+   "text": "12. Buyer Direct as a Stepping Stone Toward Agentic Media Buying",
+   "id": "12-buyer-direct-as-a-stepping-stone-toward-agentic-media-buy"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes, as its own strategic interpretation rather than as any stated Google product roadmap, that Buyer Direct plausibly represents one stage in a longer progression: from direct insertion orders, through programmatic direct buying, through Programmatic Guaranteed, to Buyer Direct, toward API-based direct transactions, toward AI- and agent-based direct transactions, and ultimately toward a more autonomous media marketplace. Figure 3 makes the underlying mechanism visible by comparing the approximate number of intermediary hops across five distinct transaction models."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/buyer-direct-supply-path-3.webp",
+   "w": 1260,
+   "h": 758,
+   "caption": "<em>Figure 3. Approximate intermediary hop count across five transaction models, from open programmatic auction through emerging agentic or direct transaction models. This is an illustrative simplification of typical participants in each path, not a measured latency or fee figure.</em>"
+  },
+  {
+   "t": "p",
+   "html": "The pattern in Figure 3 is directional rather than precise: each successive model in this progression removes at least one intermediary layer from the transaction, and Buyer Direct's specific contribution is removing the DSP for a defined category of guaranteed, reservation-style deals. Agentic advertising, as described in this article's companion analysis of the OOH/DOOH competitive landscape, could plausibly remove further manual coordination steps, though this article emphasizes that Path E in Figure 3 remains emergent rather than operating at scale as of this writing."
+  },
+  {
+   "t": "h2",
+   "text": "13. Implications for Out-of-Home Advertising",
+   "id": "13-implications-for-out-of-home-advertising"
+  },
+  {
+   "t": "p",
+   "html": "This article's final observation concerns out-of-home (OOH) and digital out-of-home (DOOH) advertising specifically. OOH has historically maintained a considerably stronger direct-sales and insertion-order culture than web or mobile advertising, where programmatic intermediation became dominant earlier and more completely. This article's assessment is that this makes OOH an unusually well-suited domain for the same structural shift Buyer Direct represents within Google's ecosystem, but applied across a cross-platform, cross-SSP environment spanning organizations such as Broadsign, Vistar, Place Exchange, Hivestack, VIOOH, and JCDecaux, among others. Rather than the linear sequence of advertiser, DSP, DOOH supply-side platform, media owner, and screen, a cross-platform equivalent of Buyer Direct for OOH could plausibly take the form of an AI campaign agent that interprets a stated business objective, such as a target impression volume within a defined geography, budget, and time window, and transacts directly with inventory-holding agents representing individual media owners, evaluating audience quality, price, reach, frequency, geography, availability, historical performance, and inventory quality before constructing the resulting media portfolio. This article treats this OOH-specific extension as a natural, though not yet realized, generalization of the Buyer Direct philosophy: proof, within Google's own ecosystem, that a DSP does not need to be present inside every advertising transaction, extended to a domain where the underlying direct-relationship culture is already stronger than in web advertising generally."
+  },
+  {
+   "t": "h2",
+   "text": "14. Limitations",
+   "id": "14-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article is a strategic and competitive analysis rather than an empirical study. Buyer Direct remains, as of this writing, a beta product not yet generally available across all Google Ad Manager networks, and its ultimate transaction volume, fee structure, and generally available terms have not been disclosed by Google in the sources available to this article; commentary cited in Section 11 estimating Buyer Direct's fee at approximately ten percentage points is explicitly attributed to industry observers rather than to Google, and should be read accordingly. The case-study figures presented in Section 8 and Figure 1, covering WPP Media/Nestlé/Prisma Media, Hakuhodo DY ONE, and dentsu Singapore/Standard Chartered, are drawn from the case-study and proof-of-concept materials referenced in the briefing underlying this article; this article's author was unable to independently locate and verify the original primary publication of each specific figure beyond that briefing, and readers relying on these figures for a business decision should request or locate the underlying primary case-study documentation directly from the companies involved before doing so. The behavioral remedies arising from the September 2026 antitrust ruling discussed in Section 11 remained under seal at the time of this article's preparation, and their eventual public terms may materially affect the competitive dynamics described throughout this article once disclosed. The OOH-specific extension proposed in Section 13 is this article's own strategic proposition and does not describe any currently operating cross-platform system."
+  },
+  {
+   "t": "h2",
+   "text": "15. Conclusion",
+   "id": "15-conclusion"
+  },
+  {
+   "t": "p",
+   "html": "Buyer Direct is a modest product in its current, beta form, confined to guaranteed, reservation-style inventory within Google Ad Manager. Its significance, this article has argued, lies less in its present transaction volume than in the structural principle it demonstrates concretely: that a demand-side platform does not need to be present inside every advertising transaction, and that an ad server holding real-time knowledge of inventory, pricing, and availability is a credible foundation from which to automate direct buying. The early evidence from WPP Media, Hakuhodo DY ONE, and dentsu Singapore indicates that multiple, independent agency groups are testing this principle simultaneously, while fiscal year 2025 revenue for The Trade Desk, Magnite, and PubMatic indicates that demand-side and supply-side platforms are not yet experiencing wholesale disintermediation as a result. Google's unified ownership of Ad Manager, AdX, and DV360, preserved under the September 2026 antitrust ruling's behavioral rather than structural remedies, leaves the company positioned to participate economically in this shift regardless of which supply path a given advertiser chooses. The more consequential long-run question this article has raised is whether the same underlying principle, that no fixed intermediary needs to sit inside every transaction, extends beyond Google's own ecosystem into a genuinely cross-platform, cross-SSP, agentic media marketplace, and whether out-of-home advertising, with its already-strong direct-relationship culture, becomes one of the first domains where that broader transformation is realized."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "AdExchanger. (2026). <em>The opportunity and threat of Google Buyer Direct</em>. <a href=\"https://www.adexchanger.com/the-big-story/the-opportunity-and-threat-of-google-buyer-direct/\">https://www.adexchanger.com/the-big-story/the-opportunity-and-threat-of-google-buyer-direct/</a>",
+    "Authorized Buyers Help. (2026). <em>Get started with Buyer Direct (Beta)</em>. Google. <a href=\"https://support.google.com/authorizedbuyers/answer/16361069\">https://support.google.com/authorizedbuyers/answer/16361069</a>",
+    "Courthouse News Service. (2026). <em>Google dodges antitrust breakup of ad tech business</em>. <a href=\"https://www.courthousenews.com/google-dodges-antitrust-breakup-of-ad-tech-business/\">https://www.courthousenews.com/google-dodges-antitrust-breakup-of-ad-tech-business/</a>",
+    "Google Ad Manager Help. (2026). <em>Buyer Direct for Ad Manager publishers (Beta)</em>. Google. <a href=\"https://support.google.com/admanager/answer/16360567\">https://support.google.com/admanager/answer/16360567</a>",
+    "Magnite, Inc. (2026). <em>Magnite reports fourth quarter and full-year 2025 results</em> [Press release]. GlobeNewswire. <a href=\"https://www.globenewswire.com/news-release/2026/02/25/3244987/0/en/magnite-reports-fourth-quarter-and-full-year-2025-results.html\">https://www.globenewswire.com/news-release/2026/02/25/3244987/0/en/magnite-reports-fourth-quarter-and-full-year-2025-results.html</a>",
+    "PPC Land. (2026). <em>PubMatic bets everything on agentic AI while Magnite just grows</em>. <a href=\"https://ppc.land/pubmatic-bets-everything-on-agentic-ai-while-magnite-just-grows/\">https://ppc.land/pubmatic-bets-everything-on-agentic-ai-while-magnite-just-grows/</a>",
+    "PPC Land. (2026). <em>Judge spares Google's ad exchange and rewrites its auction rules instead</em>. <a href=\"https://ppc.land/judge-spares-googles-ad-exchange-and-rewrites-its-auction-rules-instead\">https://ppc.land/judge-spares-googles-ad-exchange-and-rewrites-its-auction-rules-instead</a>",
+    "PubMatic, Inc. (2026). <em>PubMatic Form DEF 14A, fiscal year 2025</em>. U.S. Securities and Exchange Commission. <a href=\"https://www.sec.gov/Archives/edgar/data/1422930/000114036125014375/ny20044238x1_def14a.htm\">https://www.sec.gov/Archives/edgar/data/1422930/000114036125014375/ny20044238x1_def14a.htm</a>",
+    "The Trade Desk. (2026). <em>The Trade Desk reports fourth quarter and fiscal year 2025 financial results</em> [Press release]. <a href=\"https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results/default.aspx\">https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results/default.aspx</a>",
+    "tipsheet.ai. (2026). <em>Google's Buyer Direct and DSPs</em>. <a href=\"https://tipsheet.ai/news/google-buyer-direct/\">https://tipsheet.ai/news/google-buyer-direct/</a>"
+   ]
+  }
+ ]
+}

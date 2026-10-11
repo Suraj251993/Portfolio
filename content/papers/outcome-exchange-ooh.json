@@ -1,0 +1,448 @@
+{
+ "slug": "outcome-exchange-ooh",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 5225,
+ "figures": 4,
+ "tables": 1,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction",
+   "id": "1-introduction"
+  },
+  {
+   "t": "p",
+   "html": "The core mechanics of advertising have remained comparatively stable across several technological generations: an audience is identified, inventory is selected, a media plan is built, the plan is purchased, exposure occurs, and the results are reported. Automation, programmatic transaction, and increasingly capable optimization have made this sequence faster and more measurable, but the underlying economic unit around which the sequence is organized has remained largely constant: the media impression, priced by cost per thousand, reach, frequency, and share of voice. This article argues that out-of-home (OOH) and digital out-of-home (DOOH) advertising are now positioned for a further transition, from buying media toward buying verified business outcomes, and that this transition, if realized, would represent a change in the fundamental unit of commerce rather than merely a further optimization of the existing one."
+  },
+  {
+   "t": "p",
+   "html": "This article proceeds in four parts. Sections 2 through 4 establish the market evidence for this claim: the scale and structure of the current OOH/DOOH market, the gap between digital and programmatic transaction, and the concrete 2026 evidence that AI-mediated media planning has moved from experimentation to demonstrated infrastructure. Sections 5 through 9 develop this article's central proposal, an Outcome Exchange architecture for OOH, including its intelligence layer, its agentic components, and the standards infrastructure it would depend upon. Sections 10 through 15 address the commercial design of such a system, including outcome contracts, causal measurement, adaptive budget reallocation, and publisher-side yield optimization. Sections 16 through 20 examine the competitive landscape this proposal would enter, the sources of durable defensibility available to it, and its potential revenue architecture, presented explicitly as illustrative scenario mathematics rather than as a market forecast. The article closes, in Sections 21 through 24, with the governance principles, risk, and architectural safeguards this article considers necessary for any outcome-based advertising system to remain credible."
+  },
+  {
+   "t": "h2",
+   "text": "2. The OOH Market Is Not Declining; It Is Becoming Programmable",
+   "id": "2-the-ooh-market-is-not-declining-it-is-becoming-programmabl"
+  },
+  {
+   "t": "p",
+   "html": "This article's first claim is that the underlying market is expanding and digitizing rather than declining, and that this expansion is precisely what creates the conditions for the transition this article describes. According to the World Out of Home Organization's 2026 Global OOH Expenditure Report, global OOH expenditure reached 54.2 billion dollars in 2025, approximately 5.1% of global advertising expenditure, with the organization forecasting growth to 56.4 billion dollars in 2026. Within that total, global DOOH expenditure reached 25.5 billion dollars in 2025, approximately 47% of total OOH spend, forecast to reach 28 billion dollars, approximately 49% of OOH, in 2026, with the Asia-Pacific region representing approximately 55% of global OOH expenditure (World Out of Home Organization, 2026). This article's interpretation of this data is that the physical advertising environment is increasingly becoming addressable as a software problem: individual screens can be identified, classified, connected, targeted, priced, activated, measured, and optimized in ways that were not previously possible, and this addressability is the necessary precondition for everything proposed in the remainder of this article."
+  },
+  {
+   "t": "h2",
+   "text": "3. The Most Informative Number May Be the Gap",
+   "id": "3-the-most-informative-number-may-be-the-gap"
+  },
+  {
+   "t": "p",
+   "html": "Two independent measurements of global programmatic DOOH (pDOOH) expenditure in 2025 illustrate both the scale of remaining opportunity and the state of the market's underlying measurement infrastructure. The World Out of Home Organization's first independently aggregated global pDOOH study, conducted with PricewaterhouseCoopers across submissions from eleven supply-side platforms, reported approximately 1.4 billion dollars of global programmatic DOOH expenditure in 2025, equivalent to roughly 7% of total DOOH spend. WOO's broader 2026 expenditure report separately estimated 2.1 billion dollars of programmatically traded DOOH, or approximately 8.4% of DOOH, while explicitly noting that the two studies applied different measurement methodologies and should not be treated as directly comparable or additive (World Out of Home Organization, 2026). This article's position is that these two figures should not be reconciled into a single number; rather, their divergence is itself informative, indicating that measurement standardization within pDOOH remains an active, unresolved problem. Both figures nonetheless support the same strategic conclusion: the substantial majority of DOOH inventory is not yet programmatically transacted, which this article treats as a meaningful, quantifiable opportunity rather than as a market already saturated by existing programmatic infrastructure."
+  },
+  {
+   "t": "h2",
+   "text": "4. The Market Is Moving Toward Programmatic, AI, and Curation",
+   "id": "4-the-market-is-moving-toward-programmatic-ai-and-curation"
+  },
+  {
+   "t": "p",
+   "html": "VIOOH's 2026 State of the Nation report, based on a survey of 1,050 advertisers and agencies across the United States, United Kingdom, France, and Middle Eastern markets conducted in partnership with the research consultancy MTM, provides the clearest evidence available of the direction of buyer intent. Among recent pDOOH buyers, the format featured in an average of 34% of campaigns over the preceding eighteen months, with respondents expecting this to rise to 48% over the following eighteen months; 99% of recent buyers expected to maintain or increase pDOOH investment, with an average expected increase of 44%; 90% of respondents reported using artificial intelligence somewhere in their campaign process; and 58% indicated they were likely to adopt curated marketplaces (VIOOH, 2026). Figure 1 presents these findings together."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/outcome-exchange-ooh-1.webp",
+   "w": 1280,
+   "h": 798,
+   "caption": "<em>Figure 1. Programmatic DOOH adoption, AI usage, and forward investment intent, drawn from VIOOH's 2026 State of the Nation survey of 1,050 advertisers and agencies conducted with MTM.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article's reading of Figure 1 is that the market's trajectory, from DOOH toward programmatic, toward AI-assisted execution, toward curated and eventually agentic transaction, is well evidenced and already underway. The strategic question this article addresses is not whether this trajectory will continue, but what kind of product built on top of it would be genuinely defensible rather than a further, easily replicated increment along an already-crowded path."
+  },
+  {
+   "t": "h2",
+   "text": "5. The AI Media Planner Is Already Becoming a Commodity",
+   "id": "5-the-ai-media-planner-is-already-becoming-a-commodity"
+  },
+  {
+   "t": "p",
+   "html": "A product positioned simply as an AI system that creates OOH media plans may be useful, but this article does not consider it a defensible basis for a new company, because the industry has already moved concretely beyond AI-assisted planning toward autonomous execution. In May 2026, Broadsign and the digital marketing agency Draft Digital announced what the companies describe as the first fully agentic, end-to-end AI-powered OOH campaign, executed for the Dutch charity lottery Lot of Happiness using premium inventory owned by Global Netherlands. A buy-side agent, built using Claude.ai to construct the campaign brief and drive the planning process, and Broadsign's sell-side agent coordinated audience and venue targeting, media selection, campaign setup, creative workflow, approvals, and execution, communicating through the Ad Context Protocol (AdCP), with human oversight and guardrails retained throughout (Broadsign, 2026; PPC Land, 2026; AV Magazine, 2026). The campaign delivered more than 830,000 impressions across screens inside supermarkets, shopping malls, gas stations, and city streets throughout the Netherlands, and moved from brief to a booked, human-approved plan in under fifteen minutes, a process the companies describe as historically requiring days to weeks of email-based coordination (Broadsign, 2026). Figure 3, presented in Section 9 below, situates this specific result graphically."
+  },
+  {
+   "t": "p",
+   "html": "This article's interpretation of this development is that the question of whether artificial intelligence can construct an OOH media plan has been substantially answered in the affirmative. The more strategically important question this article addresses is what the industry does after the plan has been constructed and the campaign has been booked: specifically, whether the resulting system can also verify, causally, what business outcome that campaign produced."
+  },
+  {
+   "t": "h2",
+   "text": "6. Major Platforms Are Converging on the Same Direction",
+   "id": "6-major-platforms-are-converging-on-the-same-direction"
+  },
+  {
+   "t": "p",
+   "html": "This trajectory is not confined to OOH specialists. The Trade Desk introduced Kokai Zuma on August 27, 2026, adding agentic AI capability and simplified measurement to its Kokai platform, with the company specifically describing the ability to prioritize campaign outcomes and automate campaign changes; The Trade Desk's fiscal year 2025 revenue was approximately 2.896 billion dollars (The Trade Desk, 2026). Separately, Adform has opened its FLOW platform to external AI agents through a Model Context Protocol server exposing more than 800 capabilities spanning campaign planning, forecasting, activation, optimization, troubleshooting, and reporting (Adform, company disclosures). This article's conclusion from this evidence is that a further, generically positioned artificial-intelligence-plus-optimization product would increasingly compete directly against platforms that already possess substantial infrastructure, data, and distribution, and that any new entrant's opportunity must therefore be positioned at a structurally different layer of the value chain, which this article identifies as the outcome layer, developed in Section 7."
+  },
+  {
+   "t": "h2",
+   "text": "7. Where Is the Whitespace: The Outcome Layer",
+   "id": "7-where-is-the-whitespace-the-outcome-layer"
+  },
+  {
+   "t": "p",
+   "html": "The industry has developed increasingly sophisticated systems for discovery, planning, buying, activation, and optimization. What remains comparatively underdeveloped is a systematic, standardized answer to the more fundamental commercial question: what business result did a given advertising expenditure actually cause. This article terms this the outcome layer, and proposes a specific architecture built on top of it, an OOH Outcome Exchange, defined as an autonomous operating system for outcome-based OOH and DOOH advertising, in which a campaign begins with a stated business objective rather than with a specified quantity of inventory."
+  },
+  {
+   "t": "p",
+   "html": "<em>Traditional model: Brief</em> → <em>Plan</em> → <em>Buy</em> → <em>Run</em> → <em>Report</em>"
+  },
+  {
+   "t": "p",
+   "html": "<em>Proposed model: Business Objective</em> → <em>Agents Discover &amp; Simulate</em> → <em>Autonomous Buy &amp; Activation</em> → <em>Real-Time Optimization</em> → <em>Causal Measurement</em> → <em>Verified Business Outcome</em> → <em>Continuous Learning</em>"
+  },
+  {
+   "t": "p",
+   "html": "Under the proposed model, an advertiser would state an objective such as increasing store visits by a defined percentage around specified locations, generating a defined number of incremental purchasers, or generating a defined amount of incremental revenue, and the system would work backward from that objective to construct, execute, and continuously adjust the underlying media plan."
+  },
+  {
+   "t": "h2",
+   "text": "8. An OOH Intelligence Graph as Structural Foundation",
+   "id": "8-an-ooh-intelligence-graph-as-structural-foundation"
+  },
+  {
+   "t": "p",
+   "html": "Realizing this model requires an underlying physical-world intelligence graph integrating six connected components: an inventory graph, covering screens, locations, formats, availability, pricing, share of voice, and historical delivery; an audience graph, covering demographics, mobility, journeys, dwell time, and points of interest; a context graph, covering weather, traffic, events, time, and environment; a commerce graph, covering stores, sales, promotions, and transactions; an outcome graph, covering footfall, conversions, purchases, and historical campaign lift; and a creative graph, covering the relationship between creative content, context, audience, and performance. This article proposes that, over time, these graphs, rather than any individual AI model layered on top of them, become the platform's principal intellectual property, because they encode proprietary, accumulated knowledge of a specific physical market that a general-purpose language model does not independently possess."
+  },
+  {
+   "t": "p",
+   "html": "Building on this intelligence graph, the platform can construct a digital twin of the physical advertising environment, allowing thousands of candidate media plans, for example combinations of central business district, transit, retail, and airport inventory, to be simulated for predicted reach, frequency, audience overlap, cost, incremental visitation, expected conversion, expected sales, and forecast confidence, before any inventory is purchased. Under this architecture, the optimization objective shifts from maximizing impressions to maximizing predicted incremental business value under a defined budget and a defined set of constraints."
+  },
+  {
+   "t": "h2",
+   "text": "9. An Agentic Architecture of Specialist Agents",
+   "id": "9-an-agentic-architecture-of-specialist-agents"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that the resulting system be organized as a set of specialist agents, including a campaign agent that interprets the business brief, an audience agent, a spatial agent that models physical journeys, an inventory agent, a pricing agent, a forecast agent, an optimization agent, a creative agent, a measurement agent responsible for outcome and incrementality assessment, an activation agent, and a finance agent responsible for commercial settlement. Critically, this article does not propose that these agents operate as unconstrained autonomous systems; rather, they should operate within explicit rules, permissions, budget limits, validation checks, and human-approval thresholds, an approach already visible in the one concrete agentic OOH implementation examined in Section 5, where Broadsign's May 2026 campaign retained human oversight and guardrails throughout autonomous execution (Broadsign, 2026)."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/outcome-exchange-ooh-2.webp",
+   "w": 1260,
+   "h": 924,
+   "caption": "<em>Figure 3. Approximate brief-to-booked-plan time for traditional email-based OOH coordination versus the Broadsign/Draft Digital agentic campaign of May 2026. The traditional-process bar uses seven days as an illustrative low-end anchor for the companies' own description of a process “historically requiring days to weeks”; the agentic figure of under fifteen minutes is as reported by Broadsign.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article emphasizes that agentic advertising infrastructure of the kind proposed here cannot scale by placing a language model on top of existing, siloed advertising technology alone. The IAB Tech Lab has organized its own agentic advertising work under the umbrella of Agentic Advertising Management Protocols (AAMP), describing an open, cross-industry roadmap for agentic advertising infrastructure covering identity, permissions, and transaction standards (IAB Tech Lab, 2026), and this article's proposed architecture is designed to build on top of that emerging standards layer rather than to construct a parallel, isolated one."
+  },
+  {
+   "t": "h2",
+   "text": "10. Interoperability Standards as a Precondition, Not an Afterthought",
+   "id": "10-interoperability-standards-as-a-precondition-not-an-after"
+  },
+  {
+   "t": "p",
+   "html": "This article treats interoperability as a structural precondition for the proposed architecture rather than a secondary consideration, because a future in which one company's agents can transact only with that same company's systems would simply recreate the fragmentation that programmatic advertising was originally designed to resolve. Three developments are particularly relevant. First, AAMP, the IAB Tech Lab's broader agentic advertising initiative described in Section 9. Second, the Ad Context Protocol (AdCP), an emerging standard enabling advertising agents to communicate and execute advertising tasks across organizational boundaries, and the specific protocol used by Broadsign and Draft Digital in their May 2026 campaign (Broadsign, 2026). Third, the Out-of-Home Advertising Association of America's OpenOOH venue taxonomy, updated in February 2026 to improve consistency, transparency, and scalability in DOOH buying and measurement (OAAA, 2026). This article's position is that a new outcome-oriented product should be built explicitly on top of this emerging shared vocabulary, rather than attempting to construct a competing, proprietary standard."
+  },
+  {
+   "t": "h2",
+   "text": "11. Outcome Contracts as a Commercial Innovation",
+   "id": "11-outcome-contracts-as-a-commercial-innovation"
+  },
+  {
+   "t": "p",
+   "html": "The dominant transaction unit in advertising remains cost per thousand impressions. This article proposes that a mature outcome-based market would instead support multiple, explicitly defined transaction units, including cost per verified visit, cost per purchase, cost per sale, payment tied to verified incremental revenue, and outcome-based return on advertising spend. This article emphasizes explicitly that these units are not interchangeable and should not be marketed as such, because each requires a different measurement methodology, different data availability, different attribution rules, and a different allocation of commercial risk between buyer and seller. The article therefore proposes a formal Outcome Contract as the underlying commercial instrument, explicitly specifying what is being measured, how it is measured, what constitutes incrementality for that specific outcome, what data sources are accepted as evidence, what statistical confidence level is required, which party bears the risk of an inconclusive result, and what happens contractually if measurement proves inconclusive."
+  },
+  {
+   "t": "h2",
+   "text": "12. Causal Measurement as the Critical Differentiator",
+   "id": "12-causal-measurement-as-the-critical-differentiator"
+  },
+  {
+   "t": "p",
+   "html": "A system that observes that a consumer was exposed to an advertisement and subsequently visited a store has established attribution, not causation. The more valuable and considerably harder question is whether that consumer would have visited the store regardless of the advertising exposure, which is a question of incrementality rather than attribution. OOH measurement is already moving toward methodologies capable of addressing this distinction, including exposed and control population comparisons, matched markets, synthetic controls, and matched-store designs, and existing measurement providers already offer store visitation, performance lift, and incremental-lift studies; Kochava, for example, describes store and footfall visitation and incremental lift as part of its measurement capability (Kochava, company disclosures). This article's proposal is that causal measurement of this kind should function as a continuous feedback loop directly informing optimization, rather than as a retrospective report produced only after a campaign concludes."
+  },
+  {
+   "t": "h2",
+   "text": "13. Continuous, Evidence-Based Budget Reallocation",
+   "id": "13-continuous-evidence-based-budget-reallocation"
+  },
+  {
+   "t": "p",
+   "html": "Under the architecture proposed in this article, a campaign should be capable of reallocating budget while it is still running, based on measured incremental evidence rather than on pre-set delivery targets alone. Table 1 illustrates this mechanism using a hypothetical one-million-dollar campaign."
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Channel",
+     "Initial Budget Allocation",
+     "Reallocated Budget (after evidence)"
+    ],
+    [
+     "Central Business District",
+     "30%",
+     "20%"
+    ],
+    [
+     "Retail",
+     "30%",
+     "50%"
+    ],
+    [
+     "Transit",
+     "20%",
+     "20%"
+    ],
+    [
+     "Airport",
+     "20%",
+     "10%"
+    ]
+   ],
+   "caption": "<em>Table 1. Illustrative budget reallocation for a hypothetical $1M campaign after the system observes that retail inventory is generating stronger measured incremental outcomes than central business district inventory. This is a hypothetical example, not an observed result.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that every such reallocation should be explainable in plain language, for example that retail inventory generated a higher incremental store-visit rate than central business district inventory at a lower effective cost, and that, given the system's current confidence threshold, a specified share of remaining budget is being reallocated accordingly. This article treats explainability of this kind as a necessary enterprise-grade product feature rather than an optional transparency gesture, because a system that reallocates capital autonomously without being able to explain why is unlikely to earn the sustained trust required for continued autonomous authority."
+  },
+  {
+   "t": "h2",
+   "text": "14. The Outcome Wallet as a Capital-Allocation Instrument",
+   "id": "14-the-outcome-wallet-as-a-capital-allocation-instrument"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes a further product construct, termed an Outcome Wallet, under which an advertiser does not simply allocate a media budget, but instead defines an objective, such as incremental purchases; a target audience; a geography; a set of key performance indicators; guardrails, such as a maximum acceptable cost per thousand; a frequency range; a defined level of autonomous authority, for example permission for the system to reallocate up to a specified share of budget automatically; and a threshold above which human approval is required before further action. Structured this way, a campaign functions less like a traditional media plan and more like an autonomous capital-allocation system operating within investor-defined constraints, a framing this article considers closer to financial portfolio management than to conventional media planning."
+  },
+  {
+   "t": "h2",
+   "text": "15. The Publisher-Side Opportunity: An Autonomous Yield Exchange",
+   "id": "15-the-publisher-side-opportunity-an-autonomous-yield-exchan"
+  },
+  {
+   "t": "p",
+   "html": "Most of this article's discussion addresses the advertiser's perspective, but this article treats the publisher's corresponding problem, maximizing the economic value of available inventory, as equally significant. A publisher could expose available screens, historical CPM, audience composition, availability, share of voice, time, environment, and both direct and programmatic demand to a comparable system, which would in turn determine floor pricing, packaging, share-of-voice allocation, private-marketplace opportunities, guaranteed inventory terms, outcome-based packages, and dynamic pricing. Under this model, the publisher is no longer simply selling an individual screen; it is selling a measurable audience opportunity, priced and packaged according to demonstrated outcome potential rather than location alone."
+  },
+  {
+   "t": "h2",
+   "text": "16. The Changing Unit of Commerce",
+   "id": "16-the-changing-unit-of-commerce"
+  },
+  {
+   "t": "p",
+   "html": "This article's deepest claim concerns the underlying unit of commerce itself. Historically, that unit was inventory, expressed as a count of available screens. More recently, it has shifted toward audience, expressed as a number of people reachable. This article proposes that the unit is shifting further, toward outcome, expressed as measurable incremental business impact. This progression, from inventory, to attention, to outcome, is the organizing thesis of this article, and the remaining sections examine the additional product layers, competitive landscape, and governance principles required to support it."
+  },
+  {
+   "t": "h2",
+   "text": "17. Outcome-Adjusted Supply Quality and Creative Intelligence",
+   "id": "17-outcome-adjusted-supply-quality-and-creative-intelligence"
+  },
+  {
+   "t": "p",
+   "html": "This article further proposes that inventory quality be assessed on more dimensions than cost per thousand alone, incorporating audience quality, verified impressions, dwell time, visibility, environment, historical campaign performance, uptime, measured attention, audience overlap with other inventory, conversion history, and measurement quality, producing what this article terms an outcome-adjusted inventory score, allowing a buyer to compare a lower-priced and a higher-priced screen without assuming the lower price necessarily represents better value. Similarly, dynamic creative selection under this architecture should not be limited to simple contextual triggers such as current weather; it should combine audience, location, time, weather, traffic, retail proximity, active promotions, historical creative performance, and outcome data to determine which specific creative execution is most likely to be effective for a given audience, place, moment, and context."
+  },
+  {
+   "t": "h2",
+   "text": "18. A Bridge Into a Broader Martech System",
+   "id": "18-a-bridge-into-a-broader-martech-system"
+  },
+  {
+   "t": "p",
+   "html": "This article's final structural proposal is that the architecture described above need not remain confined to OOH. An advertiser stating a need for a defined number of incremental purchases could, in principle, have that objective satisfied through an optimal combination of DOOH, traditional OOH, retail media, mobile, connected television, digital display, social media, and customer relationship management channels, with OOH functioning as one component within a broader agentic marketing operating system. This article treats OOH as a plausible first physical-world implementation of this broader architecture, given the physical world's directness as a proxy for real consumer journeys, rather than as the architecture's necessary endpoint."
+  },
+  {
+   "t": "h2",
+   "text": "19. The Competitive Landscape and the Unclaimed Position",
+   "id": "19-the-competitive-landscape-and-the-unclaimed-position"
+  },
+  {
+   "t": "p",
+   "html": "This article does not present the proposed Outcome Exchange as a strategy operating in a competitive vacuum. Several organizations already occupy strong positions within different layers of the value chain this article has described. Broadsign combines OOH infrastructure, media-owner technology, supply-side platform capability, and demonstrated agentic execution, evidenced concretely by its May 2026 campaign with Draft Digital. The Trade Desk combines substantial omnichannel demand-side platform scale with increasingly agentic campaign management through Kokai Zuma. Adform combines an integrated advertising platform with agent-accessible architecture through its Model Context Protocol server. VIOOH provides significant global DOOH supply-side platform and marketplace infrastructure, and its own research documents accelerating programmatic DOOH adoption. Measurement providers such as Kochava are building footfall, performance, and incremental-lift capability. Industry standards bodies, including the IAB Tech Lab and the OAAA, are developing the infrastructure required for agentic advertising and machine-readable OOH inventory more broadly."
+  },
+  {
+   "t": "p",
+   "html": "This article maps these organizations against six strategic positions: infrastructure ownership, omnichannel demand, integrated AdTech platforms, the measurement and outcome-verification layer, the agent-interoperability standards layer, and outcome orchestration itself. Figure 2 presents this mapping directly."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/outcome-exchange-ooh-3.webp",
+   "w": 1300,
+   "h": 866,
+   "caption": "<em>Figure 2. Value-chain layer ownership, mapping documented public activity by six representative organizations against the six strategic positions described in Section 19. This is a qualitative mapping of documented activity, not a quantitative performance ranking; a blank cell indicates no activity documented in the sources reviewed for this article, not necessarily the complete absence of activity in that layer.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article deliberately avoids naming any single organization as the prospective winner of this competitive landscape, since such a claim would constitute unsupported speculation rather than an evidence-based conclusion. What Figure 2 does indicate is that the sixth position, outcome orchestration connecting the other five layers into a single, trusted, transacting system, remains substantially unclaimed among the organizations examined in this article, and this article treats that gap as the central strategic opportunity underlying its entire proposal."
+  },
+  {
+   "t": "h2",
+   "text": "20. Why the Outcome Layer Could Be Defensible",
+   "id": "20-why-the-outcome-layer-could-be-defensible"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that the durable defensibility of an Outcome Exchange should not rest on access to any particular language model, since such access is now widely and cheaply available to any well-resourced competitor. It should instead rest on the accumulated intelligence graphs described in Section 8: proprietary knowledge of supply, audience and journeys, business outcomes, clearing prices and yield, creative performance, incrementality, and which agents are authorized to transact with which counterparties. Under this architecture, each completed campaign incrementally improves the system's ability to plan and predict the next one, a self-reinforcing pattern this article terms a data flywheel: more campaigns generate more exposure and outcome data, which improves prediction and inventory selection, which improves results, which attracts more advertisers and publishers, which generates more transactions and more data, continuing the cycle. This article considers this flywheel structurally more durable than a product whose principal capability is orchestrating calls to a third-party language model."
+  },
+  {
+   "t": "h2",
+   "text": "21. A Proposed Revenue Architecture",
+   "id": "21-a-proposed-revenue-architecture"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes that the platform need not depend on software-as-a-service subscription revenue alone, and could instead participate directly in the economic flow of advertising transactions through a transaction fee on media transacted, an optimization fee on managed spend, a measurement fee charged per campaign or market, a data fee for audience and point-of-interest intelligence, an agent-gateway fee charged to publishers and platforms connecting through the system, an outcome fee representing a share of verified outcome value where commercially and legally appropriate, a publisher-facing software subscription, and premium benchmarking and yield-intelligence products. Figure 4 presents an illustrative revenue breakdown under a hypothetical scenario in which the platform facilitates 100 million dollars in annual OOH media spend."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/outcome-exchange-ooh-4.webp",
+   "w": 1280,
+   "h": 804,
+   "caption": "<em>Figure 4. Illustrative platform revenue across proposed revenue streams under a hypothetical $100 million annual managed OOH spend scenario. These figures are scenario assumptions constructed for illustrative purposes only; they are not derived from any specific company's disclosed results and should not be read as a market forecast or a revenue projection for any actual platform.</em>"
+  },
+  {
+   "t": "p",
+   "html": "This article emphasizes, consistent with the scenario labeling in Figure 4, that the specific numerical values shown are illustrative assumptions rather than empirical estimates, and that their purpose is to demonstrate a structural point: a single platform positioned at the outcome-orchestration layer can plausibly monetize multiple distinct economic layers of the advertising ecosystem simultaneously, rather than depending on a single subscription-based revenue line. A comparable logic applies on the publisher side: if an optimization platform genuinely improved a publisher's monetization of a given inventory base by a modest percentage, and participated in a fraction of the resulting incremental value, the resulting economics could plausibly exceed those available from a conventional software subscription fee, though this article again emphasizes that actual results would depend entirely on inventory quality, demand conditions, pricing, measurement rigor, and the specific commercial structure negotiated."
+  },
+  {
+   "t": "h2",
+   "text": "22. What This Architecture Implies Should Not Be Built",
+   "id": "22-what-this-architecture-implies-should-not-be-built"
+  },
+  {
+   "t": "p",
+   "html": "This article's analysis also yields a set of explicit negative recommendations. A new entrant in this space should avoid building another generic AI media planner, another analytics dashboard, another generic audience-segmentation tool, another standalone dynamic-creative-optimization product, or another supply-side platform without genuinely differentiated supply, and should not attempt to become a full-scale demand-side platform immediately. It should not use a language model as the decision engine for deterministic calculations such as pricing or budget arithmetic, addressed further in Section 23. It should not promise guaranteed business outcomes in the absence of reliable, validated causal measurement. And it should not describe a product as agentic without genuine, verifiable transaction capability behind that label, since the term risks becoming a marketing description detached from the underlying technical reality it is meant to convey."
+  },
+  {
+   "t": "h2",
+   "text": "23. Proposed Architecture and the Separation of Reasoning from Computation",
+   "id": "23-proposed-architecture-and-the-separation-of-reasoning-fro"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes a seven-layer reference architecture: a buyer-experience layer accepting a natural-language business brief; a campaign-orchestrator layer converting that brief into a structured campaign object specifying objective, audience, geography, budget, key performance indicators, outcome definition, constraints, frequency, timing, creative requirements, measurement approach, and delegated authority; a specialist-agent layer, as described in Section 9; an OOH intelligence layer, as described in Section 8; a transaction layer incorporating AdCP, AAMP, OpenRTB, OpenOOH, and conventional demand- and supply-side platform connections; an execution layer spanning ad servers, content-management systems, and DOOH screens; and a measurement and learning layer moving from exposure, to outcome, to incrementality, to optimization, to learning, and back into the next campaign."
+  },
+  {
+   "t": "p",
+   "html": "A central architectural principle underlying this proposal is that a large language model should not be responsible for every function within this system. This article proposes that language models be responsible specifically for language, reasoning, interpretation, orchestration, and explanation; that deterministic systems be responsible for pricing, budget arithmetic, inventory availability, billing, and contractual rules; that optimization engines be responsible for portfolio allocation, reach and frequency constraints, and inventory selection; that statistical models be responsible for forecasting, propensity, and conversion prediction; that causal-inference systems be responsible specifically for incrementality estimation; and that agents be responsible for execution, negotiation, coordination, and workflow. This article considers this separation a necessary precondition for the system's trustworthiness, since routing deterministic financial or contractual calculations through a language model would introduce an avoidable source of error into commercial transactions."
+  },
+  {
+   "t": "h2",
+   "text": "24. Governance, the Central Risk, and the Real Moat",
+   "id": "24-governance-the-central-risk-and-the-real-moat"
+  },
+  {
+   "t": "p",
+   "html": "This article proposes a graduated governance model comprising six levels of autonomous authority: Level 0, in which the system may only recommend a course of action; Level 1, in which the system creates a complete plan for human review; Level 2, in which the system executes a plan following explicit human approval; Level 3, in which the system may optimize within predefined limits; Level 4, in which the system may transact within financial and policy guardrails; and Level 5, denoting highly autonomous campaign management. This article's position is that the objective of this progression is not the removal of human involvement as such, but the removal of unnecessary manual work while preserving human accountability, an approach already visible in Broadsign's May 2026 campaign, which retained human approval and guardrails throughout autonomous execution (Broadsign, 2026)."
+  },
+  {
+   "t": "p",
+   "html": "This article identifies overpromising outcomes as the single greatest risk to the credibility of any system built along these lines. A platform that claims a specific media expenditure will guarantee a specific multiple of incremental revenue, without robust, validated causal measurement standing behind that claim, risks a collapse of trust that would be difficult to recover from. This article accordingly proposes that any such system explicitly and consistently distinguish a forecast outcome, an observed outcome, an attributed outcome, an incremental outcome, and a guaranteed outcome, treating this distinction as a source of competitive advantage rather than a limitation, since a system capable of consistently and transparently answering what it predicted, what it purchased, what actually occurred, what portion of that outcome was genuinely incremental, and why it made the decisions it made, is considerably more valuable, and more defensible, than a system that simply presents a persuasive interface."
+  },
+  {
+   "t": "h2",
+   "text": "25. Limitations",
+   "id": "25-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article is a conceptual and strategic proposal rather than an empirical study or a description of an implemented system. The market evidence cited in Sections 2 through 6, drawn from the World Out of Home Organization, VIOOH, Broadsign, The Trade Desk, and the IAB Tech Lab, is independently sourced and referenced, but the architecture, product constructs, governance model, and revenue framework proposed in Sections 7 through 24 are this article's own design proposal and do not describe any currently operating system. The illustrative economics presented in Section 21 and Figure 4, and the illustrative budget-reallocation example in Section 13 and Table 1, are explicitly hypothetical scenario constructions rather than empirical estimates, market forecasts, or projections for any named company, and should not be cited as such. The value-chain mapping in Section 19 and Figure 2 reflects a qualitative reading of public disclosures available to this article's author at the time of writing and should not be read as a comprehensive or independently audited assessment of any named organization's full capability; a blank cell in that mapping indicates the absence of documented evidence available to this article, not necessarily the absence of the underlying capability. Given the pace of product and standards development evident throughout 2025 and 2026, this article's competitive mapping in particular has a limited shelf life and should be verified against current primary sources before being relied upon for a strategic or investment decision."
+  },
+  {
+   "t": "h2",
+   "text": "26. Conclusion",
+   "id": "26-conclusion"
+  },
+  {
+   "t": "p",
+   "html": "For most of its history, the advertising industry has optimized a single, recurring question: how efficiently can attention be purchased. This article has argued that the more consequential question for the coming decade is how efficiently attention can be converted into measurable business outcomes, and that out-of-home advertising, by virtue of its direct embedding within physical consumer journeys, homes, commutes, workplaces, retail environments, and points of purchase, is unusually well positioned to be among the first domains in which this transition is realized. The evidence reviewed in this article, expanding global OOH and DOOH expenditure, a substantial and only partially closed programmatic gap, accelerating buyer adoption of programmatic and AI-assisted execution, and a concrete, publicly documented agentic OOH transaction completed in under fifteen minutes, indicates that the underlying infrastructure for this transition is no longer speculative. What remains largely unclaimed, based on the mapping presented in Section 19, is the orchestration layer capable of connecting inventory, audience, context, commerce, autonomous agents, and causal measurement into a single, trusted economic system. This article's central thesis is that the next contest in out-of-home advertising will not be decided by which organization owns the most physical screens, but by which organization can most credibly answer what business outcome its advertising actually caused, and can build a durable commercial system around that answer."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "Adform. (2026). <em>FLOW platform MCP server and agent-accessible capabilities</em> [Company disclosures]. <a href=\"https://www.adform.com\">https://www.adform.com</a>",
+    "AV Magazine. (2026). <em>Agentic AI delivers its first-ever end-to-end OOH campaign</em>. <a href=\"https://www.avinteractive.com/news/ai/agentic-ai-delivers-its-first-ever-end-to-end-ooh-campaign-28-05-2026/\">https://www.avinteractive.com/news/ai/agentic-ai-delivers-its-first-ever-end-to-end-ooh-campaign-28-05-2026/</a>",
+    "Broadsign. (2026). <em>From brief to activation: Inside the first fully agentic AI-powered OOH campaign</em>. <a href=\"https://broadsign.com/blog/from-brief-to-activation-inside-the-first-fully-agentic-ai-powered-ooh-campaign/\">https://broadsign.com/blog/from-brief-to-activation-inside-the-first-fully-agentic-ai-powered-ooh-campaign/</a>",
+    "IAB Tech Lab. (2026). <em>AAMP: Agentic Advertising Management Protocols</em>. <a href=\"https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/\">https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/</a>",
+    "Kochava, Inc. (2026). <em>Store visitation, footfall, and incremental lift measurement capabilities</em> [Company disclosures]. <a href=\"https://www.kochava.com\">https://www.kochava.com</a>",
+    "Out of Home Advertising Association of America. (2026). <em>OpenOOH venue taxonomy update</em>. <a href=\"https://oaaa.org\">https://oaaa.org</a>",
+    "PPC Land. (2026). <em>Broadsign and Draft Digital's AI agents run first fully agentic OOH campaign</em>. <a href=\"https://ppc.land/broadsign-and-draft-digitals-ai-agents-run-first-fully-agentic-ooh-campaign/\">https://ppc.land/broadsign-and-draft-digitals-ai-agents-run-first-fully-agentic-ooh-campaign/</a>",
+    "The Trade Desk. (2026). <em>The Trade Desk introduces Kokai Zuma, the latest release of Kokai</em> [Press release]. <a href=\"https://www.thetradedesk.com/press-room/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai\">https://www.thetradedesk.com/press-room/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai</a>",
+    "The Trade Desk. (2026). <em>The Trade Desk reports fourth quarter and fiscal year 2025 financial results</em> [Press release]. <a href=\"https://investors.thetradedesk.com\">https://investors.thetradedesk.com</a>",
+    "VIOOH. (2026). <em>2026 State of the Nation report on programmatic DOOH</em>. <a href=\"https://blog.viooh.com/state-of-the-nation-viooh-2026-global-report\">https://blog.viooh.com/state-of-the-nation-viooh-2026-global-report</a>",
+    "World Out of Home Organization. (2026). <em>Global Out of Home Expenditure Report 2026</em>. <a href=\"https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026\">https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026</a>"
+   ]
+  }
+ ]
+}

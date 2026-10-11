@@ -1,0 +1,397 @@
+{
+  "career": [
+    {
+      "org": "Moving Walls",
+      "orgNote": "DOOH and programmatic advertising technology",
+      "period": "Mar 2020 to 2026",
+      "roles": [
+        {
+          "title": "Senior Executive Product Manager",
+          "start": "Apr 2024",
+          "end": "2026",
+          "body": "Product strategy, roadmap and delivery for the DOOH programmatic platform. Led the DSP revamp, including its order management system and auction mechanism, the Salesforce and ERP integrations, and AI-assisted tools built outside the funded roadmap.",
+          "years": "2024 — 2026",
+          "short": "Strategy, roadmap and delivery for the DOOH programmatic platform serving advertisers across Asia. Led the DSP revamp: order management, auction mechanism and deal types, and the Salesforce and ERP integrations.",
+          "tags": [
+            "Roadmap",
+            "DSP",
+            "OMS",
+            "Auctions",
+            "GTM",
+            "Salesforce"
+          ]
+        },
+        {
+          "title": "Senior Business Analyst, Innovation",
+          "start": "Jul 2023",
+          "end": "Mar 2024",
+          "body": "Strategic planning and process optimisation for innovation initiatives across Latin America and Asia.",
+          "years": "2023 — 2024",
+          "short": "Strategic planning and process optimisation for innovation initiatives across Latin America and Asia, ranked by measurable impact.",
+          "tags": [
+            "Strategy",
+            "Analytics",
+            "LatAm",
+            "Asia"
+          ]
+        },
+        {
+          "title": "Business Analyst, Change Management",
+          "start": "Jan 2023",
+          "end": "2024",
+          "body": "Organisation-wide Zoho CRM implementation, and an employee reward system on XOXO Day.",
+          "years": "2023 — 2024",
+          "short": "Led the organisation-wide Zoho CRM implementation and designed an employee reward system on XOXO Day.",
+          "tags": [
+            "Zoho CRM",
+            "XOXO Day",
+            "Change"
+          ]
+        },
+        {
+          "title": "Business Analyst, Client Onboarding",
+          "start": "Feb 2021",
+          "end": "Jan 2023",
+          "body": "Client onboarding across Mexico, Brazil, Colombia, Chile and Asia, and product recommendations drawn from recurring client friction.",
+          "years": "2021 — 2023",
+          "short": "End-to-end onboarding for clients in Mexico, Brazil, Colombia, Chile and Asia, with product recommendations drawn from recurring client friction.",
+          "tags": [
+            "Onboarding",
+            "LatAm",
+            "Asia"
+          ]
+        },
+        {
+          "title": "Business Analyst, Retail",
+          "start": "Mar 2020",
+          "end": "Feb 2021",
+          "body": "Retail dashboards and data visualisation in Tableau and AWS QuickSight.",
+          "years": "2020 — 2021",
+          "short": "Dashboards in Tableau and AWS QuickSight for retail decision-making and performance tracking.",
+          "tags": [
+            "Tableau",
+            "QuickSight"
+          ]
+        }
+      ]
+    },
+    {
+      "org": "PolicyBazaar.com",
+      "orgNote": "Financial services",
+      "period": "Nov 2017 to May 2018",
+      "roles": [
+        {
+          "title": "Associate Sales Consultant",
+          "start": "Nov 2017",
+          "end": "May 2018",
+          "body": "Consultative financial-product sales: customer needs analysis and solution selling.",
+          "years": "2017 — 2018",
+          "short": "Consultative financial-product sales: customer needs analysis and solution selling.",
+          "tags": [
+            "Sales"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Business Administration",
+      "school": "Manipal International University, Malaysia",
+      "period": "2019 to 2020",
+      "note": "Business Analysis, Finance and Marketing"
+    },
+    {
+      "degree": "Bachelor of Business Administration",
+      "school": "Sikkim Manipal Institute of Technology",
+      "period": "2013 to 2017",
+      "note": "Marketing and Human Resources"
+    }
+  ],
+  "certifications": [
+    {
+      "issuer": "Anthropic",
+      "items": [
+        "Building with the Claude API",
+        "Claude on Google Cloud",
+        "Model Context Protocol: Advanced Topics",
+        "Introduction to Agent Skills"
+      ]
+    },
+    {
+      "issuer": "Google Cloud",
+      "items": [
+        "Introduction to Generative AI Studio",
+        "Introduction to Responsible AI",
+        "Introduction to Large Language Models"
+      ]
+    },
+    {
+      "issuer": "Data and cloud",
+      "items": [
+        "SQL for Data Science (Coursera)",
+        "AWS Fundamentals: Going Cloud-Native"
+      ]
+    },
+    {
+      "issuer": "Product and business",
+      "items": [
+        "Scrum Fundamentals Certified",
+        "Supply Market Analysis (Rutgers University)",
+        "UI/UX for Beginners (Great Learning)",
+        "Indian Financial Market (NSE / NCFM)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "group": "Product",
+      "items": [
+        "Roadmapping and prioritisation",
+        "Product discovery and user research",
+        "PRD, BRD and BDD (Gherkin)",
+        "User stories and UAT",
+        "OKRs and KPIs",
+        "A/B testing",
+        "Go-to-market"
+      ]
+    },
+    {
+      "group": "AdTech and MarTech",
+      "items": [
+        "Programmatic DOOH",
+        "DSP and SSP ecosystems",
+        "Order management systems",
+        "Auction mechanisms",
+        "Audience targeting",
+        "Campaign analytics"
+      ]
+    },
+    {
+      "group": "AI product development",
+      "items": [
+        "Claude Code",
+        "Replit",
+        "Generative AI application design",
+        "LLM-assisted development",
+        "API integration",
+        "Ethical AI governance"
+      ]
+    },
+    {
+      "group": "Systems and data",
+      "items": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho suite and Zoho Books",
+        "NetSuite",
+        "Microservice architecture",
+        "SQL",
+        "Tableau",
+        "AWS QuickSight",
+        "Power BI"
+      ]
+    },
+    {
+      "group": "Ways of working",
+      "items": [
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "Jira",
+        "Confluence",
+        "Notion",
+        "Miro",
+        "Figma"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "title": "Validate before building",
+      "body": "Focus groups, user interviews and usability testing come before engineering time is committed. At Moving Walls, that discipline cut development rework by about 30%."
+    },
+    {
+      "title": "Keep reasoning and arithmetic apart",
+      "body": "Language models are good at interpreting, planning and explaining. Budgets, pricing and billing belong to deterministic systems. As I put it in Media Intelligence: a language model should not be your ad server."
+    },
+    {
+      "title": "Report claims as what they are",
+      "body": "In Media Intelligence every claim is labelled as source-based, editorial synthesis or outlook. Vendor results stay vendor results, and where my own papers disagreed with each other, the magazine says so."
+    },
+    {
+      "title": "Stay close to the commercial case",
+      "body": "My MBA was in business analysis and finance, and it keeps me anchored to the commercial side of a product decision as well as the technical one."
+    }
+  ],
+  "skillSets": [
+    {
+      "name": "Product",
+      "items": [
+        "Roadmaps",
+        "Discovery",
+        "PRD / BRD",
+        "BDD (Gherkin)",
+        "UAT",
+        "OKRs",
+        "Go-to-market",
+        "Stakeholder management"
+      ]
+    },
+    {
+      "name": "AdTech and MarTech",
+      "items": [
+        "Programmatic DOOH",
+        "DSP / SSP",
+        "Order management",
+        "Auctions",
+        "PMP and Preferred deals",
+        "Audience targeting",
+        "Campaign analytics"
+      ]
+    },
+    {
+      "name": "AI build",
+      "items": [
+        "Claude Code",
+        "Replit",
+        "LLM-assisted apps",
+        "Generative AI app design",
+        "API integration"
+      ]
+    },
+    {
+      "name": "Enterprise and B2B SaaS",
+      "items": [
+        "Salesforce",
+        "Zoho",
+        "NetSuite",
+        "HubSpot",
+        "CRM integration",
+        "Workflow automation",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Data",
+      "items": [
+        "SQL",
+        "Tableau",
+        "QuickSight",
+        "Power BI"
+      ]
+    }
+  ],
+  "identities": [
+    {
+      "title": "Product manager",
+      "sub": "AdTech, MarTech and B2B SaaS",
+      "body": "Six years at Moving Walls, from 2024 to 2026 owning strategy, roadmap and delivery for a programmatic DOOH platform used by advertisers, agencies and media owners across Asia.",
+      "points": [
+        "Led a DSP revamp across six product modules",
+        "A discovery practice that cut development rework by about 30%",
+        "Ran the executive and stakeholder forums where priorities were agreed"
+      ],
+      "href": "work",
+      "link": "The product work"
+    },
+    {
+      "title": "AI platform builder",
+      "sub": "Hands-on, from requirements to production",
+      "body": "I design, build and deploy AI-powered applications myself, with Claude Code and Replit, daily tools for the past 18 months.",
+      "points": [
+        "AI Performance Mirror: AI-written daily reports from the Zoho Sprint API",
+        "Inventory Availability Viewer: concept to production in 15 days",
+        "Both built without an engineering team"
+      ],
+      "href": "work#performance-mirror",
+      "link": "The two products"
+    },
+    {
+      "title": "Enterprise applications",
+      "sub": "CRM, ERP and workflow automation",
+      "body": "I turn complex business processes into working systems, connecting product strategy, operations and the customer's day-to-day workflow.",
+      "points": [
+        "Salesforce, Zoho Books and NetSuite integrations: invoices generate automatically",
+        "An organisation-wide Zoho CRM implementation",
+        "Client onboarding across Latin America and Asia"
+      ],
+      "href": "work#erp-integration",
+      "link": "The integration work"
+    },
+    {
+      "title": "Writer and researcher",
+      "sub": "AdTech, MarTech, OOH, DOOH and AI",
+      "body": "Independent research and commentary that combines product experience with market analysis: market studies, competitive analyses and product frameworks.",
+      "points": [
+        "20 papers in 2026, 16 of them collected in Media Intelligence",
+        "Media Intelligence, Edition 01: a 36-page digital magazine",
+        "Articles on LinkedIn, and research on ResearchGate"
+      ],
+      "href": "research",
+      "link": "The research"
+    }
+  ],
+  "expertise": [
+    {
+      "letter": "A",
+      "title": "AdTech and MarTech product management",
+      "body": "Strategy, roadmap and delivery for a B2B programmatic DOOH platform, on both the demand and the supply side.",
+      "points": [
+        "Owned the platform roadmap from 2024 to 2026",
+        "Led a DSP revamp: order management, auctions, and PMP, Preferred and open-auction deals",
+        "Prioritised against market trends, competitors and user research"
+      ],
+      "href": "work#dsp-revamp",
+      "link": "The DSP revamp"
+    },
+    {
+      "letter": "B",
+      "title": "AI platform development",
+      "body": "Practical, hands-on building: I design, build and deploy AI-powered applications myself with Claude Code and Replit.",
+      "points": [
+        "From requirements and solution design to build, integrations, testing and launch",
+        "AI Performance Mirror: AI-written daily reports from the Zoho Sprint API",
+        "Inventory Availability Viewer: concept to production in 15 days"
+      ],
+      "href": "work#performance-mirror",
+      "link": "AI Performance Mirror"
+    },
+    {
+      "letter": "C",
+      "title": "Enterprise applications and B2B SaaS",
+      "body": "Turning complex business requirements into practical software for organisations: CRM, ERP and workflow automation.",
+      "points": [
+        "Salesforce, Zoho Books and NetSuite integrations, with manual reconciliation eliminated",
+        "An organisation-wide Zoho CRM implementation",
+        "Discovery before build, which cut development rework by about 30%"
+      ],
+      "href": "work#erp-integration",
+      "link": "Salesforce and ERP"
+    },
+    {
+      "letter": "D",
+      "title": "Writing, research and commentary",
+      "body": "Independent research on AdTech, MarTech, OOH and DOOH, and AI, combining product experience with market analysis.",
+      "points": [
+        "20 papers in 2026: market studies, competitive analyses and product frameworks",
+        "Media Intelligence, Edition 01: a 36-page digital magazine",
+        "Articles on LinkedIn, and research on ResearchGate"
+      ],
+      "href": "research",
+      "link": "Read the research"
+    },
+    {
+      "letter": "E",
+      "title": "Product strategy and digital innovation",
+      "body": "Connecting customer needs, business requirements and technology, including AI, into products that solve real problems.",
+      "points": [
+        "Requirements that engineering can build from: PRDs, BRDs, BDD (Gherkin) and UAT",
+        "Innovation strategy across Latin America and Asia",
+        "Strategy and hands-on execution in the same person"
+      ],
+      "href": "consulting",
+      "link": "How I work with teams"
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+ "slug": "data-behind-the-billboard-apac",
+ "pages": [
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  },
+  {
+   "w": 1100,
+   "h": 1424
+  }
+ ],
+ "words": 3345,
+ "figures": 6,
+ "tables": 1,
+ "blocks": [
+  {
+   "t": "h2",
+   "text": "1. Introduction: Not One Market, but Many",
+   "id": "1-introduction-not-one-market-but-many"
+  },
+  {
+   "t": "p",
+   "html": "This article is the fifth regional edition in a series examining the third-party data and measurement infrastructure beneath OOH and DOOH advertising. The United States edition described a mature ecosystem moving toward optimization; the Europe edition, a set of sophisticated national currencies requiring interoperability; the Africa edition, a market where verification and basic measurement come first. Asia-Pacific presents a fourth condition. It is not a single OOH market but a collection of very different ones moving at different speeds, from Australia's newly unified measurement currency, to Japan's industry-wide measurement association, India's continuously updated measurement system, China's enormous OOH base, and Southeast Asia's expanding programmatic infrastructure."
+  },
+  {
+   "t": "p",
+   "html": "The question this article asks is therefore not how large APAC's OOH market is. It asks how digital it is, how programmatic it is, how measurable it is, how interoperable it is, and how quickly data can turn physical-world exposure into measurable outcomes. Section 2 sets out the region's scale. Section 3 examines the gap between digital and programmatic maturity. Section 4 explains why APAC is not one measurement market, and Sections 5 through 9 examine Australia, Japan, South Korea, India, and China. Sections 10 through 13 examine Southeast Asia. Section 14 maps the data and intelligence stack, and Sections 15 through 18 address the campaign lifecycle, artificial intelligence, three maturity patterns, and the 2030 outlook. The article closes with its limitations and thesis."
+  },
+  {
+   "t": "h2",
+   "text": "2. The World's Largest OOH Region",
+   "id": "2-the-world-s-largest-ooh-region"
+  },
+  {
+   "t": "p",
+   "html": "The World Out of Home Organization reports APAC OOH expenditure of 29.7 billion dollars in 2025, roughly 55% of global OOH spend of 54.2 billion dollars, ahead of North America at 10.3 billion dollars and Europe at 10.2 billion dollars. DOOH represented 55.7% of APAC OOH revenue, the highest digital share of any region, against 41.3% in Europe and 36.9% in North America (World Out of Home Organization, 2026a). More than half of APAC's OOH spend was already digital in 2025."
+  },
+  {
+   "t": "p",
+   "html": "Four APAC markets rank among the world's ten largest. China leads globally at 18.2 billion dollars, ahead of the United States at 9.5 billion dollars, with Japan third at 3.2 billion dollars, South Korea eighth at 1.04 billion dollars, and Australia ninth at 0.91 billion dollars (World Out of Home Organization, 2026a). Figure 2 presents these figures. APAC is not simply a future OOH market; it is already the centre of the global one."
+  },
+  {
+   "t": "h2",
+   "text": "3. The Paradox: Digital Does Not Yet Mean Programmatic",
+   "id": "3-the-paradox-digital-does-not-yet-mean-programmatic"
+  },
+  {
+   "t": "p",
+   "html": "The WOO/PwC Global pDOOH Expenditure Study, based on confidential revenue submissions from twelve supply-side platforms across more than 40 markets and aggregated by PricewaterhouseCoopers, places APAC programmatic DOOH at 151 million dollars in 2025, a penetration of only 1.7% of DOOH, against 14.1% in the Americas and 9.4% in EMEA (World Out of Home Organization/PwC, 2026). APAC is therefore at once the most digital region and the least programmatic. Figure 1 presents the contrast."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-apac-1.webp",
+   "w": 1260,
+   "h": 680,
+   "caption": "<em>Figure 1. DOOH share of OOH (WOO Expenditure Report 2026) against programmatic penetration of DOOH (WOO/PwC study 2026), by region. The two sources use slightly different regional groupings; each pair is indicative.</em>"
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-apac-2.webp",
+   "w": 1120,
+   "h": 620,
+   "caption": "<em>Figure 2. APAC markets among the global top ten by OOH expenditure, 2025. Source: World Out of Home Organization, Global OOH Expenditure Report 2026.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Within APAC, programmatic activity is heavily concentrated. Australia and New Zealand generated 92.3 million dollars, 61% of regional pDOOH spend. Eastern Asia, which the study defines as Mainland China, Japan, and South Korea, generated 42.8 million dollars on a 7.3 billion dollar DOOH base, a penetration of 0.6% that WOO describes as the single largest structural growth opportunity in global programmatic OOH (World Out of Home Organization/PwC, 2026; BestMediaInfo, 2026). The study publishes no standalone figure for India or for individual Southeast Asian markets, and this article does not estimate them. Figure 3 presents the regional distribution."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-apac-3.webp",
+   "w": 1320,
+   "h": 600,
+   "caption": "<em>Figure 3. APAC pDOOH by sub-region (left) and Eastern Asia's DOOH base against its pDOOH spend (right, log scale). 'Rest of APAC' is derived by this article as the regional total minus ANZ and Eastern Asia. Source: WOO/PwC Global pDOOH Expenditure Study 2026.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Two methodological notes apply. The WOO/PwC figures are indicative whole-market estimates: PwC aggregated the SSP submissions but did not audit or independently verify them, and WOO applied scaling factors where coverage was incomplete. And an earlier preliminary release of the same study, presented at the WOO Congress in June 2026, reported APAC at 149 million dollars from eleven SSPs; the final figure of 151 million dollars from twelve SSPs supersedes it."
+  },
+  {
+   "t": "h2",
+   "text": "4. Asia-Pacific Is Not One Measurement Market",
+   "id": "4-asia-pacific-is-not-one-measurement-market"
+  },
+  {
+   "t": "p",
+   "html": "There is no single Asian OOH measurement currency. The region contains established national measurement systems, newly developing frameworks, market-specific research initiatives, mobility and telecommunications datasets, media-owner measurement, programmatic measurement, audience intelligence, and attribution platforms. WOO's Global OOH Audience Measurement Guidelines 2.0, published in June 2026, draw on measurement bodies spanning 28 territories and include separate case studies for markets such as Australia and India (World Out of Home Organization, 2026b). This article's position is that APAC should not be analyzed by forcing every market into one Western measurement model. The more useful approach is local measurement, common principles, and interoperable data. Figure 4 summarizes the landscape."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-apac-4.webp",
+   "w": 1280,
+   "h": 896,
+   "caption": "<em>Figure 4. Documented measurement development by APAC market. This article's categorical synthesis; darker shading indicates a more established framework. It is not a ranking of market quality.</em>"
+  },
+  {
+   "t": "h2",
+   "text": "5. Australia: The Measurement Leader",
+   "id": "5-australia-the-measurement-leader"
+  },
+  {
+   "t": "p",
+   "html": "On 9 March 2026, the Outdoor Media Association launched MOVE (Measurement of Outdoor Visibility and Exposure), and from 16 March 2026 it became Australian OOH's unified currency and the only industry standard for campaign planning, buying, and reporting (LBBOnline, 2026). MOVE was developed over more than six years with more than 20 million dollars of investment, and is backed by its three shareholders, oOh!media, JCDecaux, and QMS, and by the Media Federation of Australia (Mi3, 2026; LBBOnline, 2026). It uses a synthetic population of 2 million people to model more than 20 million Australians aged 14 and over across more than 180 demographic segments, with data updated hourly across five metropolitan and 21 regional areas (Mediaweek, 2026). WOO describes this synthetic population as representing ten per cent of all Australians, calibrated against tens of thousands of real-world count locations (World Out of Home Organization, 2026b)."
+  },
+  {
+   "t": "p",
+   "html": "MOVE also shifts from a traditional opportunity-to-see model to what the OMA terms a realistic opportunity to see, adjusting for factors such as visibility, and reports Viewable Audiences, Filtered Attention, and an Impact measure (Marketing-Interactive, 2026; Daily Research News, 2026). Australia demonstrates how audience measurement can become part of the operating infrastructure of programmatic OOH, combining temporal precision, audience modelling, and a single standard. The concentration of APAC pDOOH in ANZ is consistent with that foundation, though this article does not claim a causal link."
+  },
+  {
+   "t": "h2",
+   "text": "6. Japan: Building a Common Industry Currency",
+   "id": "6-japan-building-a-common-industry-currency"
+  },
+  {
+   "t": "p",
+   "html": "The Japan OOH Audience Measurement Association (JOAA) was established on 18 September 2025 as a cross-industry organization of advertisers, agencies, and media owners, founded by thirteen companies including Dentsu, Hakuhodo, and ADK, following roughly five years of preparatory work that began with a standardization committee in April 2023 (World Out of Home Organization, 2025; JAAA, 2025). Its aim is to provide Joint Industry Currency metrics for OOH based on transparent and rigorous exposure measurement, addressing a market in which each company had historically operated its own data and standards. JOAA was scheduled to begin providing measurement data to members in March 2026 and has since announced the start of measurement under a unified methodology (Live Board, 2025; PR Times, 2026). Japan, the world's third-largest OOH market, is therefore moving from scale toward standardized audience measurement and, in turn, toward better trading infrastructure."
+  },
+  {
+   "t": "h2",
+   "text": "7. South Korea: Aligning Local Measurement with Global Standards",
+   "id": "7-south-korea-aligning-local-measurement-with-global-standar"
+  },
+  {
+   "t": "p",
+   "html": "South Korea is the world's eighth-largest OOH market at 1.04 billion dollars and recorded one of the strongest increases in OOH's share of total media spending in 2025 (World Out of Home Organization, 2026a). It forms part of the WOO/PwC Eastern Asia grouping. Its national measurement body is represented in WOO's measurement framework according to WOO materials reviewed for this article; this article did not independently verify the specific organization's methodology. The strategic significance lies less in Korea adopting the same system as Australia or Japan than in regional measurement organizations moving toward common definitions, transparent methodologies, and international interoperability."
+  },
+  {
+   "t": "h2",
+   "text": "8. India: Continuous, Data-Led Measurement",
+   "id": "8-india-continuous-data-led-measurement"
+  },
+  {
+   "t": "p",
+   "html": "WOO's Guidelines 2.0 include India as a separate case study, describing RoadStar, launched in February 2021 and developed by Relu AI Systems, as measuring 300,000 sites across 2,300 cities from a single continuously collected data stream, modelling consumer movement across entire cities to estimate exposure, reach, and frequency (BestMediaInfo, 2026b). RoadStar was adopted by the Indian Outdoor Advertising Association as the industry's unified OOH audience measurement tool in 2024, at which point it was reported to cover more than 60,000 sites across more than 800 markets (Pitchonnet, 2024). Figure 5 presents the two reported figures."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-apac-5.webp",
+   "w": 1120,
+   "h": 600,
+   "caption": "<em>Figure 5. RoadStar's reported coverage, 2024 and 2026. The figures come from different sources and may use different definitions; they indicate direction rather than a precise growth rate.</em>"
+  },
+  {
+   "t": "p",
+   "html": "Two qualifications matter. RoadStar does not currently apply visibility adjustment: its audience volumes reflect pass-by or opportunity-to-see measurement rather than a formal likelihood-to-see adjustment, and it measures digital screens by location and movement rather than by play-out data (BestMediaInfo, 2026b). And India has a second, distinct measurement layer that must not be conflated with it. BARC India, the television audience measurement body, began measuring out-of-home television viewership in 2018 in Delhi, Mumbai, and Bangalore and expanded it to more than 120 urban towns and cities, integrating it into its Media Workstation (Deccan Chronicle, 2019). That service measures television watched in public venues such as restaurants and bars, not billboard or DOOH audiences. RoadStar measures OOH audiences; BARC measures OOH television viewing."
+  },
+  {
+   "t": "h2",
+   "text": "9. China: Scale First, Programmatic Next",
+   "id": "9-china-scale-first-programmatic-next"
+  },
+  {
+   "t": "p",
+   "html": "China is the world's largest OOH market at 18.2 billion dollars in 2025 (World Out of Home Organization, 2026a) and sits within the Eastern Asia grouping whose programmatic penetration is 0.6%. The implication is that large OOH scale does not imply high programmatic penetration. The opportunity is therefore not simply adding screens but building the infrastructure that connects digital inventory to data, audience, programmatic buying, measurement, and optimization. This article identifies no single definitive Chinese national OOH measurement body in the sources reviewed and does not assign one."
+  },
+  {
+   "t": "h2",
+   "text": "10. Southeast Asia: Programmatic Infrastructure Before a Common Currency",
+   "id": "10-southeast-asia-programmatic-infrastructure-before-a-commo"
+  },
+  {
+   "t": "p",
+   "html": "Southeast Asia, comprising Singapore, Indonesia, Malaysia, Thailand, the Philippines, and Vietnam, has no single regional OOH measurement currency. Its ecosystem is developing through a combination of local media owners, programmatic platforms, audience data, and measurement partnerships. Vistar Media launched both its demand-side and supply-side platforms with audience targeting in Indonesia, Malaysia, the Philippines, and Hong Kong in August 2022, enabling advertisers to plan, buy, and measure data-driven OOH campaigns through open exchange and private marketplace deals (Vistar Media, 2022), and has expanded through media-owner partnerships including Plan B Media in Thailand and Singapore and the Ten Square LED display in Singapore (Media4Growth, 2024; Marketech APAC, 2025). Singapore functions as a regional hub for this infrastructure."
+  },
+  {
+   "t": "p",
+   "html": "On 13 December 2024, Vistar Media and Pureprofile announced a partnership covering Singapore, Thailand, Indonesia, Malaysia, and the Philippines, providing online panel data for pre- and post-campaign studies, with panels reflecting demographics including age, gender, and income (Vistar Media, 2024; Marketech APAC, 2024). This marks a move from asking whether a screen delivered, to who the audience was, how it responded, and what changed after the campaign. This article did not locate a primary source confirming Vietnam in Vistar's programmatic footprint and therefore describes Vietnam only as an emerging market within the region, without a country-specific capability claim or expenditure figure."
+  },
+  {
+   "t": "h2",
+   "text": "11. Malaysia: An Independent Measurement Initiative Still in Progress",
+   "id": "11-malaysia-an-independent-measurement-initiative-still-in-p"
+  },
+  {
+   "t": "p",
+   "html": "The Outdoor Advertising Association of Malaysia (OAAM) has worked with Denmark-based AllUnite on a technology-driven unified OOH audience measurement system. In 2024, the system was reported at proof-of-concept stage, with pilot testing planned, an initial launch in the Klang Valley, and a national rollout targeted for 2025 (The Star, 2024a; The Star, 2024b). AllUnite's documented approach fuses Wi-Fi and lidar sensors, telecommunications insights, and GPS data (AllUnite, company disclosures). As of July 2026, commentary on the initiative, now also involving Perion, still described it in terms of what it would enable once fully implemented (GlobeNewswire, 2026). The accurate characterization is therefore that Malaysia is developing an independent, data-driven OOH audience measurement framework, and that its original timeline has extended; this article does not describe it as an established national currency."
+  },
+  {
+   "t": "h2",
+   "text": "12. Indonesia, Thailand, and the Philippines",
+   "id": "12-indonesia-thailand-and-the-philippines"
+  },
+  {
+   "t": "p",
+   "html": "Indonesia, Thailand, and the Philippines are each included in Vistar Media's Southeast Asian programmatic expansion or its Pureprofile measurement partnership, or both, as described in Section 10. The stronger evidence-based story in these markets is the development of programmatic and measurement infrastructure itself, connecting media inventory, demand-side platforms, audience targeting, programmatic buying, and campaign measurement, rather than any country-specific programmatic expenditure figure, none of which the WOO/PwC study publishes."
+  },
+  {
+   "t": "h2",
+   "text": "13. The Southeast Asian Measurement Model",
+   "id": "13-the-southeast-asian-measurement-model"
+  },
+  {
+   "t": "p",
+   "html": "Taken together, Sections 10 through 12 describe a measurement model that differs from Australia's. Rather than a single national currency built first and programmatic trading built on top of it, Southeast Asia is building programmatic access and campaign-level research in parallel, with industry-wide audience currencies, as in Malaysia, still in development. This article treats that sequencing as a defining feature of the sub-region rather than a deficiency."
+  },
+  {
+   "t": "h2",
+   "text": "14. The Asia-Pacific Data and Intelligence Stack",
+   "id": "14-the-asia-pacific-data-and-intelligence-stack"
+  },
+  {
+   "t": "p",
+   "html": "Across the region, third-party data and measurement providers occupy different layers: OOH measurement (MOVE, JOAA, RoadStar, and BARC India for OOH television); location and mobility intelligence (Veraset, Unacast, Precisely/PlaceIQ, Foursquare); audience and data orchestration (Adsquare, Precisely/PlaceIQ, Foursquare); footfall and attribution (Cuebiq, Foursquare, Unacast, Placer.ai); attention (Lumen Research); independent or panel-based measurement (Comscore, Pureprofile); and programmatic activation (Vistar Media, VIOOH, Broadsign, Hivestack, The Trade Desk, DV360). These organizations are not equivalent and sit at different layers; regional availability of each varies by market and should be confirmed country by country. Figure 6 maps them."
+  },
+  {
+   "t": "fig",
+   "src": "papers/figures/data-behind-the-billboard-apac-6.webp",
+   "w": 1240,
+   "h": 1066,
+   "caption": "<em>Figure 6. The APAC OOH data and intelligence stack by primary documented role. Ecosystem classification, not a ranking.</em>"
+  },
+  {
+   "t": "h2",
+   "text": "15. How Data Enters an APAC Campaign",
+   "id": "15-how-data-enters-an-apac-campaign"
+  },
+  {
+   "t": "p",
+   "html": "The campaign lifecycle runs through six stages. Planning uses audience, mobility, location, and OOH measurement data to identify valuable audiences and locations. Targeting translates those signals into audience and geographic targeting. Buying activates inventory through demand- and supply-side platforms, private marketplaces, or direct media-owner relationships. Delivery executes across roadside, transit, retail, airport, and mall environments. Measurement evaluates exposure, reach, frequency, attention, visits, brand response, and business outcomes. Optimization uses those signals to adjust locations, audiences, creative, timing, and budget. The advertiser does not need raw access to every dataset; the value lies in how the ecosystem converts raw signals into usable campaign intelligence."
+  },
+  {
+   "t": "h2",
+   "text": "16. Artificial Intelligence as the Intelligence Layer",
+   "id": "16-artificial-intelligence-as-the-intelligence-layer"
+  },
+  {
+   "t": "p",
+   "html": "APAC's fragmentation makes it an unusually strong use case for artificial intelligence. A system connecting mobility data, audience intelligence, local OOH measurement, inventory data, programmatic supply, exposure, attention, and attribution could help determine which audiences to target, which locations deserve more budget, which time periods produce stronger exposure, and which markets generate incremental outcomes. AI cannot, however, fix weak measurement. The underlying data requires transparent methodology, reliable inputs, privacy compliance, validation, and market-specific context. AI should sit above the measurement layer, not replace it."
+  },
+  {
+   "t": "h2",
+   "text": "17. Three Asia-Pacific Maturity Patterns",
+   "id": "17-three-asia-pacific-maturity-patterns"
+  },
+  {
+   "t": "table",
+   "rows": [
+    [
+     "Pattern",
+     "Markets",
+     "Characteristics"
+    ],
+    [
+     "1. Measurement maturity",
+     "Australia (with New Zealand)",
+     "Unified currency (MOVE), standardized planning and reporting; 61% of APAC pDOOH in ANZ"
+    ],
+    [
+     "2. Scale and standardization",
+     "Japan, India, South Korea",
+     "Large or strategically important markets building or strengthening standardized measurement"
+    ],
+    [
+     "3. Programmatic build-out",
+     "Singapore, Malaysia, Indonesia, Thailand, Philippines, Vietnam",
+     "Growing programmatic access and panel measurement; no single unified regional currency"
+    ],
+    [
+     "Alongside all three",
+     "China",
+     "Largest market globally; Eastern Asia pDOOH penetration of 0.6%"
+    ]
+   ],
+   "caption": "<em>Table 1. Three maturity patterns across Asia-Pacific. This article's classification.</em>"
+  },
+  {
+   "t": "p",
+   "html": "The 2030 outlook this article considers plausible is not a single regional measurement system. It is local standards, connected by common principles and interoperable data, running on programmatic infrastructure, with AI applied on top of validated measurement. The likely progression runs from local measurement, to audience intelligence, to programmatic activation, to exposure intelligence, to attribution, to outcome intelligence, to AI-supported optimization. This is a strategic scenario, not a forecast."
+  },
+  {
+   "t": "h2",
+   "text": "18. The Structural Opportunity",
+   "id": "18-the-structural-opportunity"
+  },
+  {
+   "t": "p",
+   "html": "APAC's most significant structural gap is the distance between high digitalization and low programmatic penetration: a 55.7% DOOH share against 1.7% programmatic penetration across the region, and a 7.3 billion dollar DOOH base against 0.6% in Eastern Asia. The next phase is not principally about building more screens. It is about making existing digital inventory addressable, measurable, targetable, programmatically accessible, attributable, and optimizable."
+  },
+  {
+   "t": "p",
+   "html": "1 Measurement currencies spread from Australia's model to more markets, adapted locally rather than copied."
+  },
+  {
+   "t": "p",
+   "html": "2 Eastern Asia becomes the region's largest programmatic growth story, given the size of its untapped DOOH base."
+  },
+  {
+   "t": "p",
+   "html": "3 Southeast Asia continues building programmatic access and panel measurement ahead of unified national currencies."
+  },
+  {
+   "t": "p",
+   "html": "4 Global mobility and attribution providers compete on demonstrated country-level coverage, not regional headlines."
+  },
+  {
+   "t": "p",
+   "html": "5 AI-supported planning gains ground, but only where it rests on transparent, validated measurement."
+  },
+  {
+   "t": "h2",
+   "text": "19. Limitations",
+   "id": "19-limitations"
+  },
+  {
+   "t": "p",
+   "html": "This article is a strategic analysis, not an empirical study, and its classifications are ecosystem descriptions, not rankings. It distinguishes three types of evidence: industry data (WOO, WOO/PwC, OMA/MOVE, JOAA, and the WOO Guidelines 2.0); provider-reported figures and capabilities (including Vistar Media, Pureprofile, AllUnite, and RoadStar's coverage figures); and this article's own interpretation. The WOO/PwC programmatic figures are indicative estimates aggregated but not audited by PwC, and the 'Rest of APAC' figure in Figure 3 is derived by subtraction. Figure 1 compares two sources with slightly different regional groupings. RoadStar's 2024 and 2026 coverage figures come from different sources. South Korea's national measurement body, Vietnam's inclusion in Vistar's programmatic footprint, and the regional availability of global data providers were not independently verified. No country-level pDOOH figures are published for India or Southeast Asian markets, and none are estimated here. Figures should be verified against current primary sources before strategic or investment use."
+  },
+  {
+   "t": "h2",
+   "text": "20. Conclusion: Making the Intelligence Scalable",
+   "id": "20-conclusion-making-the-intelligence-scalable"
+  },
+  {
+   "t": "p",
+   "html": "Asia-Pacific's OOH opportunity is not simply its size, though at 29.7 billion dollars it is the world's largest region. It is the gap between digital maturity and programmatic maturity. Measurement infrastructure is moving in parallel, from Australia's MOVE to Japan's JOAA, India's RoadStar, and Southeast Asia's emerging programmatic and panel-measurement partnerships. The region's future is not more screens alone; it is more measurable screens, more addressable inventory, more interoperable data, more intelligent planning, and more measurable outcomes. The billboard in Asia-Pacific is already digital. The next transformation is making the intelligence behind it scalable."
+  },
+  {
+   "t": "h2",
+   "text": "References",
+   "id": "references"
+  },
+  {
+   "t": "refs",
+   "items": [
+    "AllUnite. (2026). <em>Enhancing OOH campaigns with AllUnite's data fusion solution</em> [Company disclosures]. <a href=\"https://allunite.com/allunites-data-fusion-solution/\">https://allunite.com/allunites-data-fusion-solution/</a>",
+    "BestMediaInfo. (2026a). <em>Global pDOOH spend hits $1.34 billion; APAC accounts for just $151 million</em>. <a href=\"https://bestmediainfo.com\">https://bestmediainfo.com</a>",
+    "BestMediaInfo. (2026b). <em>WOO launches new global OOH measurement guidelines, highlights India's RoadStar model</em>. <a href=\"https://bestmediainfo.com\">https://bestmediainfo.com</a>",
+    "Daily Research News Online. (2026, March 10). <em>New Australian OOH measurement system is finally live</em>. <a href=\"https://www.mrweb.com/drno/news39540.htm\">https://www.mrweb.com/drno/news39540.htm</a>",
+    "Deccan Chronicle. (2019, March 25). <em>BARC set to launch integrated TV, OOH TV measurement services</em>. <a href=\"https://www.deccanchronicle.com\">https://www.deccanchronicle.com</a>",
+    "GlobeNewswire. (2026, July 5). <em>A common currency for OOH: Why OAAM's Unified Measurement Initiative is the move Malaysia's OOH industry has been waiting for</em>. <a href=\"https://www.globenewswire.com\">https://www.globenewswire.com</a>",
+    "JAAA. (2025). <em>Establishment of the Japan OOH Audience Measurement Association</em> [In Japanese]. <a href=\"https://www.jaaa.ne.jp/2025/09/ooh_info/\">https://www.jaaa.ne.jp/2025/09/ooh_info/</a>",
+    "LBBOnline. (2026). <em>MOVE goes live for Australian out-of-home industry</em>. <a href=\"https://lbbonline.com/news/move-live-out-of-home-oma\">https://lbbonline.com/news/move-live-out-of-home-oma</a>",
+    "Live Board. (2025). <em>Establishment of the Japan OOH Audience Measurement Association</em> [Press release]. <a href=\"https://liveboard.co.jp\">https://liveboard.co.jp</a>",
+    "Marketech APAC. (2024, December 13). <em>Vistar Media teams up with Pureprofile to elevate programmatic DOOH effectiveness in SEA</em>. <a href=\"https://marketech-apac.com\">https://marketech-apac.com</a>",
+    "Marketech APAC. (2025). <em>Vistar Media strengthens SEA team</em> and <em>Vistar Media partners with Ten Square</em>. <a href=\"https://marketech-apac.com\">https://marketech-apac.com</a>",
+    "Marketing-Interactive. (2026). <em>MOVE goes live, resetting how out of home is measured</em>. <a href=\"https://www.marketing-interactive.com\">https://www.marketing-interactive.com</a>",
+    "Media4Growth. (2024). <em>Plan B Media ties up with Vistar Media for pDOOH solutions in Thailand and Singapore</em>. <a href=\"https://www.media4growth.com\">https://www.media4growth.com</a>",
+    "Mediaweek. (2026, March 13). <em>It's time to MOVE: Why our unified out of home measurement system changes everything</em>. <a href=\"https://www.mediaweek.com.au\">https://www.mediaweek.com.au</a>",
+    "Mi3. (2026, March 8). <em>What it took to build MOVE 2.0</em>. <a href=\"https://www.mi-3.com.au\">https://www.mi-3.com.au</a>",
+    "Pitchonnet. (2024). <em>IOAA's out-of-home measurement tool RoadStar ready to roll</em>. <a href=\"https://www.pitchonnet.com\">https://www.pitchonnet.com</a>",
+    "PR Times. (2026). <em>JOAA begins Japan OOH measurement data under unified methodology</em> [In Japanese]. <a href=\"https://prtimes.jp\">https://prtimes.jp</a>",
+    "The Star. (2024a, June 3). <em>OAAM to launch audience measurement system</em>. <a href=\"https://www.thestar.com.my\">https://www.thestar.com.my</a>",
+    "The Star. (2024b, September 16). <em>Improved advertising measurement imminent</em>. <a href=\"https://www.thestar.com.my\">https://www.thestar.com.my</a>",
+    "Vistar Media. (2022, August 30). <em>Vistar Media launches in Indonesia, Malaysia, Philippines and Hong Kong S.A.R.</em> [Press release]. <a href=\"https://www.aap.com.au\">https://www.aap.com.au</a>",
+    "Vistar Media. (2024). <em>Vistar and Pureprofile partnership</em>. <a href=\"https://www.vistarmedia.com/news/vistar-pureprofile-partnership\">https://www.vistarmedia.com/news/vistar-pureprofile-partnership</a>",
+    "World Out of Home Organization. (2025). <em>Establishment of the Japan OOH Audience Measurement Association</em>. <a href=\"https://www.worldooh.org\">https://www.worldooh.org</a>",
+    "World Out of Home Organization. (2026a). <em>Global Out of Home Expenditure Report 2026</em>. <a href=\"https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026\">https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026</a>",
+    "World Out of Home Organization. (2026b). <em>Global OOH Audience Measurement Guidelines 2.0</em>. <a href=\"https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026\">https://www.worldooh.org/news/woo-audience-measurement-guidelines-2-london-2026</a>",
+    "World Out of Home Organization / PwC. (2026). <em>WOO Global pDOOH Expenditure Study 2026</em>. <a href=\"https://worldooh.org/global-pdooh-market\">https://worldooh.org/global-pdooh-market</a>"
+   ]
+  }
+ ]
+}
