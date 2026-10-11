@@ -394,6 +394,22 @@ async function main() {
     if (res.ok) { const info = JSON.parse(text); report('info', `Deployed version built ${info.built}${info.commit ? ` from commit ${info.commit.slice(0, 7)}` : ''}`); }
   } catch { /* optional */ }
 
+  // Google Analytics: one tag per page, with the ID from content/site.json
+  section('Google Analytics');
+  const gaWant = String(site.analytics?.ga4 || '');
+  if (!gaWant) report('info', 'No Google Analytics ID in content/site.json.');
+  else {
+    const counts = htmlPages.map(([path, p]) => [path, (p.html.match(/googletagmanager\.com\/gtag\/js\?id=G-[A-Z0-9]+/g) || []).length, (p.html.match(/gtag\('config'/g) || []).length, (p.html.match(/gtag\/js\?id=(G-[A-Z0-9]+)/) || [])[1]]);
+    const none = counts.filter(([, n]) => n === 0).map(([p]) => p);
+    const extra = counts.filter(([, n, c]) => n > 1 || c > 1).map(([p]) => p);
+    const wrong = counts.filter(([, n, , id]) => n && id !== gaWant).map(([p]) => p);
+    if (none.length === counts.length) report(LOCAL ? 'info' : 'fail', `The Google tag (${gaWant}) isn't on the pages. It's only added in Netlify production builds${LOCAL ? '' : ': redeploy from Netlify'}.`);
+    else if (none.length) report('fail', `The Google tag is missing on ${none.length} page(s): ${none.slice(0, 5).join(', ')}`);
+    if (extra.length) report('fail', `The Google tag or its config appears more than once on: ${extra.slice(0, 5).join(', ')}. That would double-count page views.`);
+    if (wrong.length) report('fail', `A different measurement ID is used on: ${wrong.slice(0, 5).join(', ')}`);
+    if (!none.length && !extra.length && !wrong.length) report('pass', `The Google tag (${gaWant}) is on all ${counts.length} pages, once each`);
+  }
+
   // Contact form
   section('Contact form');
   const contact = pages.get('/contact');

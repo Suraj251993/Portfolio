@@ -5,7 +5,7 @@ Portfolio, research library, blog and magazine showcase for Suraj Prakash, produ
 - **Static site, no framework, no runtime dependencies.** `npm run build` needs Node 20+ and nothing else.
 - **Content lives in files** under `content/`. Pages are generated from them, so adding a paper, a project or a magazine edition is a content edit, not a code change.
 - **A content manager at `/admin`** for the blog, LinkedIn posts and the homepage TV. Saving publishes the site automatically on Netlify; no build to run. See [docs/CONTENT-MANAGER.md](docs/CONTENT-MANAGER.md).
-- **Fast by default:** self-hosted fonts, WebP images with explicit sizes, no tracking scripts, about 14 KB of JavaScript, no layout shift.
+- **Fast by default:** self-hosted fonts, WebP images with explicit sizes, about 14 KB of JavaScript, no layout shift. The only third-party script is Google Analytics 4, on the live site only.
 
 ## Quick start
 
@@ -103,6 +103,10 @@ Build command `npm run build`, output folder `dist`. `vercel.json` is included. 
 If the form can't reach its backend for any reason, it falls back to the prepared-email view, so a message is never silently lost.
 
 GitHub Pages project sites live in a sub-folder (`user.github.io/repo/`). Every page works there, but the 404 page uses root paths, so it only looks right on a custom domain.
+
+## Analytics
+
+Google Analytics 4 is added to every page by `src/lib/layout.mjs`, with the measurement ID in `content/site.json` (`"analytics": { "ga4": "G-…" }`). It's only included in Netlify production builds (`CONTEXT=production`), so deploy previews, local builds and the claude.ai preview aren't counted; `ANALYTICS=on npm run build` includes it anyway. The page's security policy allows Google's tag through the inline script's hash and Google's domains. Page views, sessions and traffic sources come with the tag; scrolls, outbound clicks and file downloads come from GA4's enhanced measurement. Because the magazine reader updates the address as pages turn, turn off **Page changes based on browser history events** in GA4 (Admin → Data streams → the web stream → Enhanced measurement → Page views → Show advanced settings), or each page turn counts as a page view.
 
 ## Security policy
 

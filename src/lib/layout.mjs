@@ -6,19 +6,35 @@ import { icon } from './components.mjs';
 const JS_FLAG = "document.documentElement.classList.add('js')";
 const JS_FLAG_HASH = `sha256-${createHash('sha256').update(JS_FLAG).digest('base64')}`;
 
+// Google Analytics 4 (gtag.js), the measurement ID from content/site.json.
+// Only in Netlify production builds (CONTEXT=production), so deploy previews,
+// local builds and the claude.ai preview aren't counted. ANALYTICS=on forces it.
+const gaId = (site) => {
+  const id = String(site.analytics?.ga4 || '').trim();
+  return /^G-[A-Z0-9]+$/.test(id) ? id : '';
+};
+const analyticsOn = () => process.env.CONTEXT === 'production' || process.env.ANALYTICS === 'on';
+const gaInline = (id) => `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${id}');`;
+const hash = (s) => `sha256-${createHash('sha256').update(s).digest('base64')}`;
+export const analyticsId = (ctx) => (ctx.mode === 'prod' && analyticsOn() ? gaId(ctx.site) : '');
+
 // Content-Security-Policy, set per page so the content manager at /admin can
 // have its own. (frame-ancestors can't go in a meta tag; X-Frame-Options in
 // netlify.toml and vercel.json covers framing.)
-export function contentSecurityPolicy(site) {
+export function contentSecurityPolicy(site, { ga = '' } = {}) {
   const formspree = site.contactForm?.provider === 'formspree' ? ' https://formspree.io' : '';
+  // Google's recommended sources for Analytics (without Ads features).
+  const gaScript = ga ? ` '${hash(gaInline(ga))}' https://www.googletagmanager.com` : '';
+  const gaImg = ga ? ' https://www.googletagmanager.com https://*.google-analytics.com' : '';
+  const gaConnect = ga ? ' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.google.com' : '';
   return [
     "default-src 'self'",
-    `script-src 'self' '${JS_FLAG_HASH}'`,
+    `script-src 'self' '${JS_FLAG_HASH}'${gaScript}`,
     "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data:",
+    `img-src 'self' data:${gaImg}`,
     "font-src 'self'",
     "media-src 'self'",
-    `connect-src 'self'${formspree}`,
+    `connect-src 'self'${formspree}${gaConnect}`,
     `form-action 'self' mailto:${formspree}`,
     "base-uri 'self'",
     "object-src 'none'",
@@ -51,9 +67,14 @@ function head(ctx, page) {
 <link rel="preload" href="${ctx.asset('fonts/jetbrains-mono.woff2')}" as="font" type="font/woff2" crossorigin>
 <style>${raw(fontFaces(ctx))}</style>`;
 
-  const csp = ctx.mode === 'prod' ? html`<meta http-equiv="Content-Security-Policy" content="${contentSecurityPolicy(site)}">
+  const ga = analyticsId(ctx);
+  const csp = ctx.mode === 'prod' ? html`<meta http-equiv="Content-Security-Policy" content="${contentSecurityPolicy(site, { ga })}">
 ` : '';
-  return html`${csp}<title>${title}</title>
+  const gtag = ga ? html`<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${ga}"></script>
+<script>${raw(gaInline(ga))}</script>
+` : '';
+  return html`${csp}${gtag}<title>${title}</title>
 <meta name="description" content="${description}">
 ${canonical ? html`<link rel="canonical" href="${canonical}">` : ''}
 ${page.noindex ? html`<meta name="robots" content="noindex">` : ''}
@@ -128,7 +149,7 @@ export function siteFooter(ctx) {
     </div>
     <div class="site-footer__base">
       <span>© ${year} ${site.name}</span>
-      <span>No cookies, no tracking.</span>
+      <span>${analyticsId(ctx) ? 'Visits are measured with Google Analytics.' : 'No cookies, no tracking.'}</span>
     </div>
   </div>
 </footer>`;
