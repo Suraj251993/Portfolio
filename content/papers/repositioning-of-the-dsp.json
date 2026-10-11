@@ -142,11 +142,11 @@
   },
   {
    "t": "p",
-   "html": "<em>Traditional model: Advertiser</em> fi <em>Agency</em> fi <em>DSP</em> fi <em>Exchange / SSP</em> fi <em>Publisher</em> fi <em>Audience</em>"
+   "html": "<em>Traditional model: Advertiser</em> → <em>Agency</em> → <em>DSP</em> → <em>Exchange / SSP</em> → <em>Publisher</em> → <em>Audience</em>"
   },
   {
    "t": "p",
-   "html": "<em>Emerging model: Advertiser</em> fi <em>Campaign Agent</em> fi <em>[Audience Intelligence, Inventory Intelligence, Pricing, Forecasting, Optimization, Measurement]</em> fi <em>Buyer Agent</em> « <em>Seller Agent</em> fi <em>DSP / SSP / Exchange / Publisher Infrastructure</em> fi <em>Audience</em>"
+   "html": "<em>Emerging model: Advertiser</em> → <em>Campaign Agent</em> → <em>[Audience Intelligence, Inventory Intelligence, Pricing, Forecasting, Optimization, Measurement]</em> → <em>Buyer Agent</em> ↔ <em>Seller Agent</em> → <em>DSP / SSP / Exchange / Publisher Infrastructure</em> → <em>Audience</em>"
   },
   {
    "t": "p",

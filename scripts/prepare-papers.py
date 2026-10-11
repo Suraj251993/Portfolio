@@ -39,6 +39,10 @@ PAGE_WIDTH = 1100    # width of page images in the Pages view
 TERMINAL = tuple('.?!:;)"”’\'')
 
 
+
+# Symbol-font codes that pdfplumber reads through the standard encoding.
+SYMBOL_FIX = {'\ufb01': '\u2192', '\ufb02': '\u2193', '\u00ab': '\u2194', '\u2039': '\u2190', '\u203a': '\u2191'}
+
 def style_of(chars):
     """Dominant font size, bold and italic for a run of characters."""
     c = Counter()
@@ -155,6 +159,11 @@ def prepare(slug):
         body = sizes.most_common(1)[0][0]
 
         for pno, pg in enumerate(pdf.pages, start=1):
+            # Arrows set in the Symbol font come out as the characters that share
+            # their codes in the standard encoding (the right arrow reads as "fi").
+            for ch in pg.chars:
+                if ch['fontname'].split('+')[-1].startswith('Symbol') and ch['text'] in SYMBOL_FIX:
+                    ch['text'] = SYMBOL_FIX[ch['text']]
             base = os.path.join(tmp, f'p{pno}')
             subprocess.run(['pdftoppm', '-r', str(DPI), '-f', str(pno), '-l', str(pno), '-png', '-singlefile', pdf_path, base], check=True)
             render = Image.open(base + '.png').convert('RGB')

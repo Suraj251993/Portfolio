@@ -82,7 +82,7 @@
   },
   {
    "t": "p",
-   "html": "<em>Advertiser</em> fi <em>Agency</em> fi <em>DSP/DV360</em> fi <em>SSP/Exchange</em> fi <em>Ad Manager</em> fi <em>Publisher</em>"
+   "html": "<em>Advertiser</em> → <em>Agency</em> → <em>DSP/DV360</em> → <em>SSP/Exchange</em> → <em>Ad Manager</em> → <em>Publisher</em>"
   },
   {
    "t": "p",
@@ -90,7 +90,7 @@
   },
   {
    "t": "p",
-   "html": "<em>Advertiser</em> fi <em>Agency</em> fi <em>Google Ad Manager</em> fi <em>Publisher</em>"
+   "html": "<em>Advertiser</em> → <em>Agency</em> → <em>Google Ad Manager</em> → <em>Publisher</em>"
   },
   {
    "t": "p",
@@ -145,8 +145,8 @@
     ],
     [
      "Supply path",
-     "Buyer fi DSP fi GAM/Publisher",
-     "Buyer fi GAM/Publisher"
+     "Buyer → DSP → GAM/Publisher",
+     "Buyer → GAM/Publisher"
     ],
     [
      "Creative workflow",
