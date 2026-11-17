@@ -1,11 +1,13 @@
 ---
-title: "Introducing My New Book: Call Your Mom"
+title: My second book, Call Your Mom, is out now.
 status: published
 date: 2026-11-17
 category: Notes
-summary: A book about a feeling we all understand, but sometimes forget to express.
+summary: Call Your Mom is a new book by Suraj Prakash about the calls we put off
+  and the love we forget to say out loud. Now on Amazon in 13 countries.
 cover: /images/blog/call-your-mom-cover.jpg
-coverAlt: "The Call Your Mom poster: a phone calling Mom beside the book’s cover, under the line “One call can make her whole day.”"
+coverAlt: "The Call Your Mom poster: a phone calling Mom beside the book’s
+  cover, under the line “One call can make her whole day.”"
 book: call-your-mom
 ---
 There’s one phone call most of us keep moving to tomorrow.
