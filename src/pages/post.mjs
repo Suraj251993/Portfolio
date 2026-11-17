@@ -20,6 +20,33 @@ export default function post(ctx, p) {
   };
   const bodyHtml = renderMarkdown(p.body, { url });
   const share = ctx.absolute(`blog/${p.slug}`);
+  const tags = p.tags.length ? html`<ul class="keywords post-tags" role="list" aria-label="Tags">${p.tags.map((t) => html`<li>${t}</li>`)}</ul>` : '';
+
+  // A post that introduces a book (front matter `book: <id>`, details in
+  // content/books.json): the poster beside the words, then where it's sold and
+  // the buy buttons. The poster takes the cover's place.
+  const book = p.book ? (data.books || []).find((b) => b.id === p.book) : null;
+  const main = book ? html`<div class="book">
+        <figure class="book__poster">
+          <picture>
+            <source type="image/webp" srcset="${ctx.asset(`${book.poster}-640.webp`)} 640w, ${ctx.asset(`${book.poster}-1080.webp`)} 1080w" sizes="(max-width: 52rem) min(calc(100vw - 2rem), 30rem), 36vw">
+            <img src="${ctx.asset(`${book.poster}.jpg`)}" width="${book.posterWidth}" height="${book.posterHeight}" alt="${book.posterAlt}" decoding="async" fetchpriority="high">
+          </picture>
+        </figure>
+        <div class="book__text">
+          <div class="prose prose--post book__intro">${raw(bodyHtml)}</div>
+          ${book.marketplaces?.length ? html`<div class="book__where">
+            <h2 class="book__where-title">Now available in ${book.marketplaces.length} Amazon marketplaces</h2>
+            <ul class="book__markets" role="list">${book.marketplaces.map((m) => html`<li>${m}</li>`)}</ul>
+          </div>` : ''}
+          ${book.buy?.length ? html`<div class="actions book__buy">${book.buy.map((b, i) => html`<a class="btn${i ? ' btn--ghost' : ''}" href="${b.url}" target="_blank" rel="noopener">${b.label}${icon('external')}</a>`)}</div>` : ''}
+          ${tags}
+        </div>
+      </div>` : html`<div class="article-main post-main">
+        ${p.cover ? html`<figure class="post-cover">${postCover(ctx, p, { eager: true })}</figure>` : ''}
+        <div class="prose prose--post">${raw(bodyHtml)}</div>
+        ${tags}
+      </div>`;
 
   const body = html`
 <article>
@@ -45,12 +72,8 @@ export default function post(ctx, p) {
 
 <section class="band band--paper" aria-label="Post">
   <div class="wrap">
-    <div class="grid article-body">
-      <div class="article-main post-main">
-        ${p.cover ? html`<figure class="post-cover">${postCover(ctx, p, { eager: true })}</figure>` : ''}
-        <div class="prose prose--post">${raw(bodyHtml)}</div>
-        ${p.tags.length ? html`<ul class="keywords post-tags" role="list" aria-label="Tags">${p.tags.map((t) => html`<li>${t}</li>`)}</ul>` : ''}
-      </div>
+    <div class="grid article-body${book ? ' article-body--book' : ''}">
+      ${main}
       <aside class="article-aside">
         <div class="aside-block">
           <h2>Share</h2>

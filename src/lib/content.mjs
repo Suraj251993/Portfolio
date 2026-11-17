@@ -54,6 +54,7 @@ export function loadBlog(root, { tz } = {}) {
       cover: String(data.cover ?? '').trim(),
       coverAlt: String(data.coverAlt ?? data.cover_alt ?? '').trim(),
       linkedin: String(data.linkedin ?? '').trim(),
+      book: String(data.book ?? '').trim(),
       words,
       minutes: Math.max(1, Math.round(words / 230)),
       body,

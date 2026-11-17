@@ -1,0 +1,31 @@
+{
+  "books": [
+    {
+      "id": "call-your-mom",
+      "title": "Call Your Mom",
+      "poster": "images/books/call-your-mom-poster",
+      "posterWidth": 1080,
+      "posterHeight": 1350,
+      "posterAlt": "Poster for Call Your Mom by Suraj Prakash: a phone calling Mom beside the book’s cover, under the line “One call can make her whole day.”",
+      "marketplaces": [
+        "United States",
+        "United Kingdom",
+        "Germany",
+        "France",
+        "Spain",
+        "Italy",
+        "Netherlands",
+        "Japan",
+        "Brazil",
+        "Canada",
+        "Mexico",
+        "Australia",
+        "India"
+      ],
+      "buy": [
+        { "label": "Explore on Amazon US", "url": "https://www.amazon.com/dp/B0HQGQGRP3" },
+        { "label": "Buy on Amazon India", "url": "https://www.amazon.in/dp/B0HQGQGRP3" }
+      ]
+    }
+  ]
+}
