@@ -31,6 +31,7 @@ content/                 Everything the site says
   consulting.json        Services, audiences, engagement steps
   profile.json           Career, education, certifications, skills, working principles
   blog/*.md              Blog posts (Markdown with a short header), written in /admin or by hand
+  books.json             Books introduced on the blog: poster, Amazon marketplaces and buy links. A post with `book: <id>` shows them
   linkedin.json          Links to LinkedIn posts shown on the home and Blog pages
   tv.json                The slides on the screen in the home page hero
   researchgate.json      Your ResearchGate profile link and the papers listed under Product management and AI

@@ -82,6 +82,7 @@ collections:
       - { label: Cover image, name: cover, widget: image, required: false, hint: "Optional. A landscape JPG or PNG works best (about 1600 × 900, under 1.5 MB); it is also the picture LinkedIn shows when the post is shared." }
       - { label: Cover image description, name: coverAlt, widget: string, required: false, hint: "What the image shows, for people using screen readers." }
       - { label: Same post on LinkedIn, name: linkedin, widget: string, required: false, hint: "Optional link to this post on LinkedIn." }
+      - { label: Book, name: book, widget: string, required: false, hint: "Only for a post that introduces a book: the book's id from content/books.json, for example call-your-mom. The post then shows the book's poster, the Amazon marketplaces and the buy buttons in place of the cover image." }
       - { label: Post, name: body, widget: markdown }
 
   - name: linkedin

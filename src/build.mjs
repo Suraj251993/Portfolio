@@ -43,6 +43,12 @@ for (const a of data.articles) {
 }
 const blog = loadBlog(ROOT, { tz: site.tz });
 data.posts = blog.posts;
+// Books introduced on the blog: a post with `book: <id>` shows that book's
+// poster, where it's sold and its buy buttons (content/books.json).
+data.books = existsSync(join(ROOT, 'content/books.json')) ? readJson('books.json').books || [] : [];
+for (const p of blog.all) {
+  if (p.book && !data.books.some((b) => b.id === p.book)) throw new Error(`${p.file}: book "${p.book}" isn't in content/books.json.`);
+}
 const ownerSlug = (site.linkedin.match(/\/in\/([^/]+?)(?:-\d+[a-z0-9]*)?\/?$/i) || [])[1] || '';
 const linkedin = await loadLinkedIn(ROOT, { ownerSlug, fetchFeed: process.env.SKIP_FEED !== '1' });
 data.linkedin = linkedin;
